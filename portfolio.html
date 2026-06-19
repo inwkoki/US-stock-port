@@ -28,6 +28,7 @@ button{font:inherit;font-size:13px;font-weight:600;padding:8px 14px;border:0;bor
 button.ghost{background:rgba(127,127,127,.14);color:var(--ink)}
 button.theme{background:var(--card);border:1px solid var(--line);color:var(--ink)}
 button.tiny{padding:3px 8px;font-size:12px;background:rgba(127,127,127,.14);color:var(--sell)}
+button.tiny.edit{color:var(--accent)}
 input,select{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
 .login{max-width:340px;margin:8vh auto 0;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
 .login h2{margin:0 0 4px;font-size:18px}.login p{color:var(--mut);font-size:12.5px;margin:0 0 16px}
@@ -46,7 +47,7 @@ input,select{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--
 .fld{display:flex;flex-direction:column;gap:3px}.fld label{font-size:11px;color:var(--mut)}
 .fld input,.fld select{width:104px}.fld.s input{width:74px}
 .tablewrap{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:720px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:740px}
 th,td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
 th:first-child,td:first-child{text-align:left}
 th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;letter-spacing:.3px}
@@ -127,7 +128,7 @@ th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;lett
     <div class="tablewrap"><table>
       <thead><tr><th>Contract</th><th>Side</th><th>Qty</th><th>Premium</th><th>Current</th><th>P/L $</th><th>P/L %</th><th>DTE</th><th>Notes</th><th></th></tr></thead>
       <tbody id="o_rows"></tbody></table></div>
-    <div class="warn">Options use a &times;100 multiplier per contract. <b>Long</b> P/L = (current &minus; premium); <b>Short/sold</b> P/L = (premium &minus; current). Enter the current option price per share to update P/L.</div>
+    <div class="warn">Options use a &times;100 multiplier per contract. <b>Long</b> P/L = (current &minus; premium); <b>Short/sold</b> P/L = (premium &minus; current). Tap &#9998; to edit a position, &#10005; to remove it.</div>
 
     <p class="foot"><b>Not financial advice.</b> Educational decision-support only &mdash; you place every trade yourself. Options carry extra risk (leverage, time decay, assignment). Data syncs to your Supabase; PIN is hashed server-side.</p>
   </div>
@@ -146,7 +147,7 @@ const bandColor=b=>({BUY:["var(--buy)","var(--buybg)"],ACCUMULATE:["var(--acc)",
 const fmt=n=>n==null||isNaN(n)?"—":n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
 let SIG={};
 
-let SESS=null, PORT=[], saveTimer=null;
+let SESS=null, PORT=[], saveTimer=null, editIdx=null, editOptIdx=null;
 function setSync(t){document.getElementById("sync").textContent=t;}
 function cacheKey(){return "dime_pf_cache_"+(SESS?SESS.u:"_");}
 function saveLocal(){try{localStorage.setItem(cacheKey(),JSON.stringify(PORT));}catch(e){}}
@@ -188,7 +189,7 @@ function render(){
       <td>${val!=null?'$'+fmt(val):'—'}</td><td class="${cl}">${pl!=null?(pl>=0?'+':'-')+'$'+fmt(Math.abs(pl)):'—'}</td>
       <td class="${cl}">${plPct!=null?(plPct>=0?'+':'')+plPct.toFixed(1)+'%':'—'}</td>
       <td>${has?`<span class="sig" style="color:${fg};background:${bg}">${sig.b}</span>`:'<span style="color:var(--mut)">n/a</span>'}</td>
-      <td class="note ${ac}">${a}</td><td><button class="tiny" data-del="${i}">✕</button></td>`;
+      <td class="note ${ac}">${a}</td><td><button class="tiny edit" data-edit="${i}">✎</button> <button class="tiny" data-del="${i}">✕</button></td>`;
     sr.appendChild(tr);
   });
   const orr=document.getElementById("o_rows");orr.innerHTML="";
@@ -208,7 +209,7 @@ function render(){
       <td><input class="cp" data-i="${i}" type="number" step="any" value="${cur!=null?cur:""}" placeholder="enter"/></td>
       <td class="${cl}">${pl!=null?(pl>=0?'+':'-')+'$'+fmt(Math.abs(pl)):'—'}</td>
       <td class="${cl}">${plPct!=null?(plPct>=0?'+':'')+plPct.toFixed(1)+'%':'—'}</td>
-      <td>${d==null?'—':d}</td><td class="note">${note}</td><td><button class="tiny" data-del="${i}">✕</button></td>`;
+      <td>${d==null?'—':d}</td><td class="note">${note}</td><td><button class="tiny edit" data-eopt="${i}">✎</button> <button class="tiny" data-del="${i}">✕</button></td>`;
     orr.appendChild(tr);
   });
   document.getElementById("totals").innerHTML=`
@@ -217,8 +218,12 @@ function render(){
     <div class="tcard"><div class="lab">Stock value</div><div class="num">$${fmt(tVal)}${known?'':'*'}</div></div>
     <div class="tcard"><div class="lab">Total P/L (stocks+options)</div><div class="num ${totPL>=0?'pos':'neg'}">${(totPL>=0?'+':'-')+'$'+fmt(Math.abs(totPL))}</div></div>`;
   document.querySelectorAll("input.cp").forEach(inp=>inp.onchange=()=>{const i=+inp.dataset.i,v=parseFloat(inp.value);PORT[i].cp=isNaN(v)?null:v;scheduleSave();render();});
-  document.querySelectorAll("button[data-del]").forEach(b=>b.onclick=()=>{PORT.splice(+b.dataset.del,1);scheduleSave();render();});
+  document.querySelectorAll("button[data-del]").forEach(b=>b.onclick=()=>{const p=PORT[+b.dataset.del];const nm=p.type==='option'?(p.tk+' $'+p.strike+' '+p.right.toUpperCase()):(p.tk+' ('+p.sh+' sh)');if(confirm('Remove '+nm+' from your portfolio?')){PORT.splice(+b.dataset.del,1);scheduleSave();render();}});
+  document.querySelectorAll("button[data-edit]").forEach(b=>b.onclick=()=>loadStockEdit(+b.dataset.edit));
+  document.querySelectorAll("button[data-eopt]").forEach(b=>b.onclick=()=>loadOptEdit(+b.dataset.eopt));
 }
+function loadStockEdit(i){const h=PORT[i];document.getElementById('s_tk').value=h.tk;document.getElementById('s_sh').value=h.sh;document.getElementById('s_ap').value=h.ap;document.getElementById('s_cp').value=h.cp!=null?h.cp:'';editIdx=i;document.getElementById('s_add').textContent='Save changes';document.getElementById('s_tk').scrollIntoView({behavior:'smooth',block:'center'});document.getElementById('s_tk').focus();}
+function loadOptEdit(i){const o=PORT[i];document.getElementById('o_tk').value=o.tk;document.getElementById('o_side').value=o.side;document.getElementById('o_right').value=o.right;document.getElementById('o_strike').value=o.strike;document.getElementById('o_exp').value=o.exp||'';document.getElementById('o_qty').value=o.qty;document.getElementById('o_prem').value=o.prem;document.getElementById('o_cp').value=o.cp!=null?o.cp:'';editOptIdx=i;document.getElementById('o_add').textContent='Save changes';document.getElementById('o_tk').scrollIntoView({behavior:'smooth',block:'center'});document.getElementById('o_tk').focus();}
 
 const val=id=>document.getElementById(id).value.trim();
 const num=id=>parseFloat(document.getElementById(id).value);
@@ -227,12 +232,16 @@ const clr=id=>document.getElementById(id).value="";
 document.getElementById("s_add").onclick=()=>{
   const tk=val("s_tk").toUpperCase(),sh=num("s_sh"),ap=num("s_ap"),cp=numOrNull("s_cp");
   if(!tk||isNaN(sh)||isNaN(ap)||sh<=0||ap<=0){alert("Enter ticker, shares, avg price.");return;}
-  PORT.push({type:"stock",tk,sh,ap,cp});["s_tk","s_sh","s_ap","s_cp"].forEach(clr);scheduleSave();render();
+  if(editIdx!=null){PORT[editIdx]={type:"stock",tk,sh,ap,cp};editIdx=null;document.getElementById("s_add").textContent="+ Add stock";}
+  else PORT.push({type:"stock",tk,sh,ap,cp});
+  ["s_tk","s_sh","s_ap","s_cp"].forEach(clr);scheduleSave();render();
 };
 document.getElementById("o_add").onclick=()=>{
   const tk=val("o_tk").toUpperCase(),side=val("o_side"),right=val("o_right"),strike=num("o_strike"),exp=val("o_exp"),qty=num("o_qty"),prem=num("o_prem"),cp=numOrNull("o_cp");
   if(!tk||isNaN(strike)||isNaN(qty)||isNaN(prem)||qty<=0||prem<=0){alert("Enter underlying, strike, contracts, premium.");return;}
-  PORT.push({type:"option",tk,side,right,strike,exp,qty,prem,cp});["o_tk","o_strike","o_exp","o_qty","o_prem","o_cp"].forEach(clr);scheduleSave();render();
+  if(editOptIdx!=null){PORT[editOptIdx]={type:"option",tk,side,right,strike,exp,qty,prem,cp};editOptIdx=null;document.getElementById("o_add").textContent="+ Add option";}
+  else PORT.push({type:"option",tk,side,right,strike,exp,qty,prem,cp});
+  ["o_tk","o_strike","o_exp","o_qty","o_prem","o_cp"].forEach(clr);scheduleSave();render();
 };
 
 async function doAuth(fn){
