@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
-"""Fetch prices + technicals for the watchlist and write data.json (free, via yfinance)."""
+"""Fetch prices + technicals for the full universe and write data.json (free, via yfinance)."""
 import json, datetime, sys
 import pandas as pd
 import yfinance as yf
 
 WATCHLIST = {
-    "Information Technology": ["AAPL", "MSFT", "NVDA", "AVGO"],
-    "Communication Services": ["GOOGL", "META", "NFLX"],
-    "Consumer Discretionary": ["AMZN", "TSLA", "HD"],
-    "Consumer Staples":       ["COST", "WMT", "KO"],
-    "Financials":             ["JPM", "V", "MA"],
-    "Health Care":            ["LLY", "UNH", "JNJ"],
-    "Industrials":            ["CAT", "GE", "BA"],
-    "Energy":                 ["XOM", "CVX"],
-    "Materials":              ["LIN"],
-    "Utilities":              ["NEE"],
-    "Real Estate":            ["PLD", "AMT"],
+    "Information Technology": ["AAPL","MSFT","NVDA","AVGO","ORCL","CRM","AMD","ADBE","CSCO","ACN","QCOM","TXN","IBM","NOW","INTU","AMAT","MU","INTC"],
+    "Communication Services": ["GOOGL","META","NFLX","DIS","TMUS","VZ","T","CMCSA"],
+    "Consumer Discretionary": ["AMZN","TSLA","HD","MCD","NKE","LOW","SBUX","BKNG","TGT"],
+    "Consumer Staples":       ["COST","WMT","KO","PG","PEP","PM","MO","MDLZ","CL"],
+    "Financials":             ["JPM","V","MA","BAC","WFC","GS","MS","AXP","C","SCHW","BLK","SPGI"],
+    "Health Care":            ["LLY","UNH","JNJ","ABBV","MRK","PFE","TMO","ABT","DHR","AMGN","BMY","GILD"],
+    "Industrials":            ["CAT","GE","BA","HON","UPS","RTX","UNP","DE","LMT","GD"],
+    "Energy":                 ["XOM","CVX","COP","SLB","EOG"],
+    "Materials":              ["LIN","SHW","FCX","NEM","APD"],
+    "Utilities":              ["NEE","DUK","SO","D"],
+    "Real Estate":            ["PLD","AMT","EQIX","O","SPG"],
 }
-GAUGES = [("SPY", "S&P 500"), ("QQQ", "Nasdaq-100"), ("DIA", "Dow 30"), ("IWM", "Russell 2000")]
+GAUGES = [("SPY","S&P 500"),("QQQ","Nasdaq-100"),("DIA","Dow 30"),("IWM","Russell 2000")]
 ALL = [s for v in WATCHLIST.values() for s in v] + [g[0] for g in GAUGES]
 
 
@@ -82,7 +82,7 @@ def main():
             if c is None:
                 stocks.append({"t": sym, "s": sector, "price": None, "day": None,
                                "rsi": 50, "trend": "mixed", "macd": "flat",
-                               "news": None, "headlines": headlines(sym)})
+                               "news": None, "headlines": []})
                 continue
             px = float(c.iloc[-1]); prev = float(c.iloc[-2])
             stocks.append({"t": sym, "s": sector, "price": round(px, 2),
@@ -90,7 +90,6 @@ def main():
                            "rsi": round(float(wilder_rsi(c).iloc[-1]), 1),
                            "trend": trend_flag(c), "macd": macd_flag(c),
                            "news": None, "headlines": headlines(sym)})
-            print(f"  {sym}: {px:.2f}")
 
     gauges = []
     for sym, name in GAUGES:
@@ -103,13 +102,12 @@ def main():
         if len(fx): usdthb = round(float(fx.iloc[-1]), 4)
     except Exception:
         usdthb = None
-    print(f"  USDTHB: {usdthb}")
 
     out = {"updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
            "mode": "live", "usdthb": usdthb, "gauges": gauges, "stocks": stocks}
     with open("data.json", "w") as f:
         json.dump(out, f, indent=2)
-    print(f"Wrote data.json with {len(stocks)} stocks")
+    print(f"Wrote data.json with {len(stocks)} stocks, USDTHB={usdthb}")
 
 
 if __name__ == "__main__":
