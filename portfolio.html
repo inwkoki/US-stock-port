@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Portfolio Tracker</title>
+<style>
+:root{color-scheme:light;--bg:#f6f7f9;--card:#fff;--ink:#1a1f29;--mut:#67707e;--line:#e6e9ee;
+--buy:#0a8f54;--buybg:#e6f6ee;--sell:#c8324a;--sellbg:#fcebee;--hold:#9a7b12;--holdbg:#fbf5e3;
+--acc:#2f7d3a;--accbg:#ecf6ed;--trim:#b5552a;--trimbg:#fbeede;--accent:#2b59ff;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:18px 14px 44px}
+h1{font-size:20px;margin:0 0 2px}
+.sub{color:var(--mut);font-size:12.5px;margin:0 0 6px}
+.nav a{font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:600;margin-right:14px}
+.upd{font-size:11.5px;color:var(--mut);margin:8px 0 12px}
+.totals{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.tcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:130px}
+.tcard .lab{font-size:11px;color:var(--mut)}.tcard .num{font-size:18px;font-weight:700;font-variant-numeric:tabular-nums}
+.form{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:14px;display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end}
+.fld{display:flex;flex-direction:column;gap:3px}.fld label{font-size:11px;color:var(--mut)}
+input{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);width:110px}
+input#f_tk{width:84px;text-transform:uppercase}
+button{font:inherit;font-size:13px;font-weight:600;padding:8px 14px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+button.ghost{background:#eef1f5;color:var(--ink)}button.tiny{padding:3px 8px;font-size:12px;background:#f1f3f6;color:var(--sell)}
+.tablewrap{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:760px}
+th,td{padding:9px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child,th:nth-child(8),td:nth-child(8){text-align:left}
+th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+tr:last-child td{border-bottom:0}.tk{font-weight:700}.pos{color:var(--buy)}.neg{color:var(--sell)}
+.sig{font-size:11px;font-weight:800;padding:2px 7px;border-radius:6px}.act{font-size:11.5px;font-weight:600}
+.cp{width:78px;font-size:12px;padding:4px 6px}.empty{padding:26px;text-align:center;color:var(--mut);font-size:13px}
+.note{background:#fff7e6;border:1px solid #f0dcae;color:#6b541a;border-radius:10px;padding:10px 13px;font-size:12.5px;margin:14px 0}
+.foot{color:var(--mut);font-size:11.5px;margin-top:16px;line-height:1.6}
+details{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+summary{cursor:pointer;font-weight:600;font-size:13px}.legend{font-size:12px;color:#3b4250;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>My Portfolio Tracker</h1>
+  <p class="sub">Enter your holdings → see profit/loss and a suggested action (add · hold · take profit) blending P/L with the live advisor signal.</p>
+  <div class="nav"><a href="index.html">Dashboard</a><a href="portfolio.html">My Portfolio</a></div>
+  <div class="upd" id="upd"></div>
+
+  <div class="totals" id="totals"></div>
+  <div class="form">
+    <div class="fld"><label>Ticker</label><input id="f_tk" placeholder="AAPL"/></div>
+    <div class="fld"><label>Shares</label><input id="f_sh" type="number" step="any" placeholder="10"/></div>
+    <div class="fld"><label>Avg buy price ($)</label><input id="f_ap" type="number" step="any" placeholder="250.00"/></div>
+    <div class="fld"><label>Current price ($) — auto if known</label><input id="f_cp" type="number" step="any" placeholder="auto"/></div>
+    <button id="add">+ Add holding</button><button class="ghost" id="clear">Clear all</button>
+  </div>
+
+  <div class="tablewrap"><table>
+    <thead><tr><th>Ticker</th><th>Shares</th><th>Avg cost</th><th>Current</th><th>Mkt value</th><th>P/L $</th><th>P/L %</th><th>Signal</th><th>Suggested action</th><th></th></tr></thead>
+    <tbody id="rows"></tbody></table></div>
+
+  <div class="note">Current prices auto-fill from the live advisor feed where available; for any other ticker, type the current price in the <b>Current</b> field (or edit inline) to compute P/L.</div>
+
+  <details><summary>How the suggested action is decided</summary>
+    <div class="legend">Combines your <b>profit/loss</b> with the advisor <b>signal</b>:
+      <ul><li><b>SELL</b> → take profit if up, cut if down.</li><li><b>TRIM</b> → lock some profit if up ≥20%; review if near stop.</li>
+      <li><b>BUY/ACCUMULATE</b> → add (esp. near/below cost); let winners run, add on dips.</li>
+      <li><b>HOLD</b> → hold; consider trimming a gain ≥30%; review if down ≥8% (near stop-loss).</li></ul></div>
+  </details>
+
+  <p class="foot"><b>Not financial advice.</b> Educational decision-support only — you place every trade yourself. Holdings are stored only in this browser/device.</p>
+</div>
+
+<script>
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+const rsiScore=r=>clamp((50-r)*4,-100,100),trendScore=s=>({above_both:50,golden:80,mixed:0,below_both:-50,death:-80}[s]??0),macdScore=m=>({bull:60,flat:0,bear:-60}[m]??0);
+function composite(s){const rs=rsiScore(s.rsi),tr=trendScore(s.trend),mc=macdScore(s.macd);return (typeof s.news==='number')?Math.round(.25*rs+.30*tr+.20*mc+.25*s.news):Math.round(.33*rs+.40*tr+.27*mc);}
+function bandLabel(v){return v>=50?"BUY":v>=15?"ACCUMULATE":v>-15?"HOLD":v>-50?"TRIM":"SELL";}
+const bandColor=b=>({BUY:["var(--buy)","var(--buybg)"],ACCUMULATE:["var(--acc)","var(--accbg)"],HOLD:["var(--hold)","var(--holdbg)"],TRIM:["var(--trim)","var(--trimbg)"],SELL:["var(--sell)","var(--sellbg)"]}[b]||["var(--mut)","#eef1f5"]);
+const fmt=n=>n==null||isNaN(n)?"—":n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+
+let SIG={}; // ticker -> {b:band, p:price}
+const KEY="dime_portfolio_v1";let PORT=[];
+try{PORT=JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){PORT=[]}
+const save=()=>localStorage.setItem(KEY,JSON.stringify(PORT));
+
+function action(band,plPct,hasSig){
+  if(!hasSig){if(plPct<=-8)return["REVIEW — near stop-loss","neg"];if(plPct>=30)return["Consider taking some profit","pos"];return["Hold",""];}
+  if(band==="SELL")return plPct>=0?["SELL — take profit (bearish)","pos"]:["SELL — cut loss (bearish)","neg"];
+  if(band==="TRIM"){if(plPct>=20)return["TRIM — lock in profit","pos"];if(plPct<=-8)return["REVIEW — weak & near stop","neg"];return["TRIM / lighten on strength",""];}
+  if(band==="BUY")return plPct<=5?["ADD — strong signal near cost","pos"]:["Hold / add on dips","pos"];
+  if(band==="ACCUMULATE"){if(plPct<=0)return["ADD — positive signal, on sale","pos"];if(plPct>=30)return["Hold winner (trim only if needed)","pos"];return["Hold / add selectively","pos"];}
+  if(plPct<=-8)return["REVIEW — near stop-loss","neg"];if(plPct>=30)return["Consider trimming (large gain)","pos"];return["Hold",""];
+}
+const currentPrice=h=>(h.cp!=null&&!isNaN(h.cp))?h.cp:(SIG[h.tk]&&SIG[h.tk].p!=null?SIG[h.tk].p:null);
+
+function render(){
+  const rows=document.getElementById("rows");rows.innerHTML="";let tCost=0,tVal=0,known=true;
+  if(!PORT.length)rows.innerHTML='<tr><td colspan="10" class="empty">No holdings yet. Add your first stock above ☝️</td></tr>';
+  PORT.forEach((h,i)=>{
+    const cp=currentPrice(h),sig=SIG[h.tk],hasSig=!!sig;
+    const cost=h.sh*h.ap,val=cp!=null?h.sh*cp:null,pl=val!=null?val-cost:null,plPct=val!=null?(cp/h.ap-1)*100:null;
+    tCost+=cost;if(val!=null)tVal+=val;else known=false;
+    const [actTxt,actCls]=plPct!=null?action(hasSig?sig.b:"HOLD",plPct,hasSig):["enter current price",""];
+    const [fg,bg]=bandColor(hasSig?sig.b:"");const plCls=pl==null?"":pl>=0?"pos":"neg";
+    const tr=document.createElement("tr");
+    tr.innerHTML=`<td class="tk">${h.tk}</td><td>${fmt(h.sh)}</td><td>$${fmt(h.ap)}</td>
+      <td><input class="cp" data-i="${i}" type="number" step="any" value="${cp!=null?cp:""}" placeholder="enter"/></td>
+      <td>${val!=null?'$'+fmt(val):'—'}</td><td class="${plCls}">${pl!=null?(pl>=0?'+':'-')+'$'+fmt(Math.abs(pl)):'—'}</td>
+      <td class="${plCls}">${plPct!=null?(plPct>=0?'+':'')+plPct.toFixed(1)+'%':'—'}</td>
+      <td>${hasSig?`<span class="sig" style="color:${fg};background:${bg}">${sig.b}</span>`:'<span style="color:var(--mut)">n/a</span>'}</td>
+      <td class="act ${actCls}">${actTxt}</td><td><button class="tiny" data-del="${i}">remove</button></td>`;
+    rows.appendChild(tr);
+  });
+  const tPL=known?tVal-tCost:null,tPct=(known&&tCost>0)?(tVal/tCost-1)*100:null;
+  document.getElementById("totals").innerHTML=`
+    <div class="tcard"><div class="lab">Positions</div><div class="num">${PORT.length}</div></div>
+    <div class="tcard"><div class="lab">Cost basis</div><div class="num">$${fmt(tCost)}</div></div>
+    <div class="tcard"><div class="lab">Market value</div><div class="num">$${fmt(tVal)}${known?'':'*'}</div></div>
+    <div class="tcard"><div class="lab">Total P/L</div><div class="num ${tPL>=0?'pos':'neg'}">${tPL!=null?(tPL>=0?'+':'-')+'$'+fmt(Math.abs(tPL)):'—'} ${tPct!=null?'('+(tPct>=0?'+':'')+tPct.toFixed(1)+'%)':''}</div></div>`;
+  rows.querySelectorAll("button[data-del]").forEach(b=>b.onclick=()=>{PORT.splice(+b.dataset.del,1);save();render();});
+  rows.querySelectorAll("input.cp").forEach(inp=>inp.onchange=()=>{const i=+inp.dataset.i,v=parseFloat(inp.value);PORT[i].cp=isNaN(v)?null:v;save();render();});
+}
+document.getElementById("add").onclick=()=>{
+  const tk=document.getElementById("f_tk").value.trim().toUpperCase(),sh=parseFloat(document.getElementById("f_sh").value),ap=parseFloat(document.getElementById("f_ap").value),cpR=document.getElementById("f_cp").value.trim(),cp=cpR===""?null:parseFloat(cpR);
+  if(!tk||isNaN(sh)||isNaN(ap)||sh<=0||ap<=0){alert("Enter ticker, shares, and avg buy price.");return;}
+  PORT.push({tk,sh,ap,cp:isNaN(cp)?null:cp});save();
+  ["f_tk","f_sh","f_ap","f_cp"].forEach(id=>document.getElementById(id).value="");document.getElementById("f_tk").focus();render();
+};
+document.getElementById("clear").onclick=()=>{if(confirm("Remove all holdings?")){PORT=[];save();render();}};
+document.getElementById("f_ap").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("add").click();});
+
+fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+  (d.stocks||[]).forEach(s=>{SIG[s.t]={b:bandLabel(composite(s)),p:s.price};});
+  document.getElementById("upd").textContent="Signals from feed updated: "+(d.updated||"—");
+  render();
+}).catch(e=>{document.getElementById("upd").textContent="(Could not load live signals — enter current prices manually.)";render();});
+</script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+{
+  "updated": "2026-06-19 (seed snapshot)",
+  "mode": "snapshot",
+  "gauges": [
+    {
+      "t": "SPY",
+      "n": "S&P 500",
+      "p": 748.09
+    },
+    {
+      "t": "QQQ",
+      "n": "Nasdaq-100",
+      "p": 730.0
+    },
+    {
+      "t": "DIA",
+      "n": "Dow 30",
+      "p": null
+    },
+    {
+      "t": "IWM",
+      "n": "Russell 2000",
+      "p": null
+    }
+  ],
+  "stocks": [
+    {
+      "t": "AAPL",
+      "s": "Information Technology",
+      "price": 299.28,
+      "day": 0.96,
+      "rsi": 53,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 10,
+      "headlines": []
+    },
+    {
+      "t": "MSFT",
+      "s": "Information Technology",
+      "price": null,
+      "day": null,
+      "rsi": 50,
+      "trend": "above_both",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "NVDA",
+      "s": "Information Technology",
+      "price": 208.5,
+      "day": -2.37,
+      "rsi": 44,
+      "trend": "above_both",
+      "macd": "bear",
+      "news": -15,
+      "headlines": []
+    },
+    {
+      "t": "AVGO",
+      "s": "Information Technology",
+      "price": 392.89,
+      "day": null,
+      "rsi": 57,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 15,
+      "headlines": []
+    },
+    {
+      "t": "GOOGL",
+      "s": "Communication Services",
+      "price": 373.25,
+      "day": 1.06,
+      "rsi": 58,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 20,
+      "headlines": []
+    },
+    {
+      "t": "META",
+      "s": "Communication Services",
+      "price": 600.44,
+      "day": 1.17,
+      "rsi": 60,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 20,
+      "headlines": []
+    },
+    {
+      "t": "NFLX",
+      "s": "Communication Services",
+      "price": 77.38,
+      "day": -2.5,
+      "rsi": 32,
+      "trend": "below_both",
+      "macd": "bear",
+      "news": -35,
+      "headlines": []
+    },
+    {
+      "t": "AMZN",
+      "s": "Consumer Discretionary",
+      "price": 246.0,
+      "day": 0.0,
+      "rsi": 49,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "TSLA",
+      "s": "Consumer Discretionary",
+      "price": 404.7,
+      "day": -1.57,
+      "rsi": 46,
+      "trend": "mixed",
+      "macd": "bear",
+      "news": -10,
+      "headlines": []
+    },
+    {
+      "t": "HD",
+      "s": "Consumer Discretionary",
+      "price": 334.28,
+      "day": 2.08,
+      "rsi": 55,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 10,
+      "headlines": []
+    },
+    {
+      "t": "COST",
+      "s": "Consumer Staples",
+      "price": 951.45,
+      "day": -1.46,
+      "rsi": 52,
+      "trend": "above_both",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "WMT",
+      "s": "Consumer Staples",
+      "price": 117.22,
+      "day": null,
+      "rsi": 54,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 5,
+      "headlines": []
+    },
+    {
+      "t": "KO",
+      "s": "Consumer Staples",
+      "price": 79.8,
+      "day": null,
+      "rsi": 50,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "JPM",
+      "s": "Financials",
+      "price": 325.83,
+      "day": -0.6,
+      "rsi": 51,
+      "trend": "above_both",
+      "macd": "flat",
+      "news": 5,
+      "headlines": []
+    },
+    {
+      "t": "V",
+      "s": "Financials",
+      "price": null,
+      "day": null,
+      "rsi": 53,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 10,
+      "headlines": []
+    },
+    {
+      "t": "MA",
+      "s": "Financials",
+      "price": null,
+      "day": null,
+      "rsi": 52,
+      "trend": "above_both",
+      "macd": "flat",
+      "news": 5,
+      "headlines": []
+    },
+    {
+      "t": "LLY",
+      "s": "Health Care",
+      "price": 1155.0,
+      "day": null,
+      "rsi": 63,
+      "trend": "golden",
+      "macd": "bull",
+      "news": 15,
+      "headlines": []
+    },
+    {
+      "t": "UNH",
+      "s": "Health Care",
+      "price": null,
+      "day": null,
+      "rsi": 48,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 15,
+      "headlines": []
+    },
+    {
+      "t": "JNJ",
+      "s": "Health Care",
+      "price": null,
+      "day": null,
+      "rsi": 50,
+      "trend": "above_both",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "CAT",
+      "s": "Industrials",
+      "price": 955.92,
+      "day": null,
+      "rsi": 61,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 10,
+      "headlines": []
+    },
+    {
+      "t": "GE",
+      "s": "Industrials",
+      "price": null,
+      "day": null,
+      "rsi": 57,
+      "trend": "above_both",
+      "macd": "bull",
+      "news": 10,
+      "headlines": []
+    },
+    {
+      "t": "BA",
+      "s": "Industrials",
+      "price": null,
+      "day": null,
+      "rsi": 47,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "XOM",
+      "s": "Energy",
+      "price": 137.81,
+      "day": -2.08,
+      "rsi": 41,
+      "trend": "mixed",
+      "macd": "bear",
+      "news": -10,
+      "headlines": []
+    },
+    {
+      "t": "CVX",
+      "s": "Energy",
+      "price": 172.62,
+      "day": -2.79,
+      "rsi": 39,
+      "trend": "mixed",
+      "macd": "bear",
+      "news": -12,
+      "headlines": []
+    },
+    {
+      "t": "LIN",
+      "s": "Materials",
+      "price": 506.0,
+      "day": null,
+      "rsi": 52,
+      "trend": "above_both",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "NEE",
+      "s": "Utilities",
+      "price": null,
+      "day": null,
+      "rsi": 49,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    },
+    {
+      "t": "PLD",
+      "s": "Real Estate",
+      "price": null,
+      "day": null,
+      "rsi": 47,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": -5,
+      "headlines": []
+    },
+    {
+      "t": "AMT",
+      "s": "Real Estate",
+      "price": null,
+      "day": null,
+      "rsi": 48,
+      "trend": "mixed",
+      "macd": "flat",
+      "news": 0,
+      "headlines": []
+    }
+  ]
+}
