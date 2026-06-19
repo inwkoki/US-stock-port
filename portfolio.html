@@ -8,32 +8,33 @@
 :root{color-scheme:light;--bg:#f6f7f9;--card:#fff;--ink:#1a1f29;--mut:#67707e;--line:#e6e9ee;
 --buy:#0a8f54;--buybg:#e6f6ee;--sell:#c8324a;--sellbg:#fcebee;--hold:#9a7b12;--holdbg:#fbf5e3;
 --acc:#2f7d3a;--accbg:#ecf6ed;--trim:#b5552a;--trimbg:#fbeede;--accent:#2b59ff;}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0e1116;--card:#161b22;--ink:#e6edf3;--mut:#9198a1;--line:#2a313c;
+--buy:#3fb950;--buybg:#12261a;--sell:#f85149;--sellbg:#2d1418;--hold:#d3a72c;--holdbg:#2a2410;
+--acc:#3fb950;--accbg:#12261a;--trim:#db8a3a;--trimbg:#2d1f12;--accent:#4d80ff;}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .wrap{max-width:1060px;margin:0 auto;padding:18px 14px 44px}
 h1{font-size:20px;margin:0 0 2px}
 .sub{color:var(--mut);font-size:12.5px;margin:0 0 6px}
 .nav a{font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:600;margin-right:14px}
-.topbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
-.who{font-size:12.5px;color:var(--mut)}
-.who b{color:var(--ink)}
-.sync{font-size:11.5px;padding:3px 9px;border-radius:999px;background:#eef1f5;color:var(--mut)}
+.topbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin:10px 0 12px}
+.who{font-size:12.5px;color:var(--mut)}.who b{color:var(--ink)}
+.sync{font-size:11.5px;padding:3px 9px;border-radius:999px;background:rgba(127,127,127,.15);color:var(--mut)}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px}
+.fx{display:flex;gap:6px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 8px;font-size:12.5px}
+.fx input{width:88px}.fx select{padding:4px 6px}
+.fx .out{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;min-width:70px}
 button{font:inherit;font-size:13px;font-weight:600;padding:8px 14px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
-button.ghost{background:#eef1f5;color:var(--ink)}
-button.tiny{padding:3px 8px;font-size:12px;background:#f1f3f6;color:var(--sell)}
-input,select{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink)}
-/* login */
+button.ghost{background:rgba(127,127,127,.14);color:var(--ink)}
+button.theme{background:var(--card);border:1px solid var(--line);color:var(--ink)}
+button.tiny{padding:3px 8px;font-size:12px;background:rgba(127,127,127,.14);color:var(--sell)}
+input,select{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
 .login{max-width:340px;margin:8vh auto 0;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
-.login h2{margin:0 0 4px;font-size:18px}
-.login p{color:var(--mut);font-size:12.5px;margin:0 0 16px}
-.login .fld{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}
-.login label{font-size:12px;color:var(--mut)}
-.login input{width:100%}
-.login .btns{display:flex;gap:8px;margin-top:6px}
-.login .btns button{flex:1}
+.login h2{margin:0 0 4px;font-size:18px}.login p{color:var(--mut);font-size:12.5px;margin:0 0 16px}
+.login .fld{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}.login label{font-size:12px;color:var(--mut)}
+.login input{width:100%}.login .btns{display:flex;gap:8px;margin-top:6px}.login .btns button{flex:1}
 .err{color:var(--sell);font-size:12px;min-height:16px;margin-top:4px}
 .hidden{display:none!important}
-/* app */
 .totals{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
 .tcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:120px}
 .tcard .lab{font-size:11px;color:var(--mut)}.tcard .num{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
@@ -51,21 +52,22 @@ th:first-child,td:first-child{text-align:left}
 th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;letter-spacing:.3px}
 .tk{font-weight:700}
 .sig{font-size:11px;font-weight:800;padding:2px 7px;border-radius:6px}
-.note{font-size:11.5px;color:#3b4250}
+.note{font-size:11.5px;color:var(--ink)}
 .cp{width:74px;font-size:12px;padding:4px 6px}
 .empty{padding:22px;text-align:center;color:var(--mut)}
 .tag{font-size:10.5px;font-weight:700;padding:1px 6px;border-radius:5px}
 .tag.long{background:var(--buybg);color:var(--buy)}.tag.short{background:var(--sellbg);color:var(--sell)}
-.tag.call{background:#e9eefc;color:var(--accent)}.tag.put{background:#f3e9fc;color:#7a3fb0}
+.tag.call{background:rgba(77,128,255,.18);color:var(--accent)}.tag.put{background:rgba(150,80,200,.2);color:#9a6fc0}
 .foot{color:var(--mut);font-size:11.5px;margin-top:16px;line-height:1.6}
 .warn{background:#fff7e6;border:1px solid #f0dcae;color:#6b541a;border-radius:10px;padding:9px 12px;font-size:12px;margin:10px 0}
+:root[data-theme="dark"] .warn{background:#2a2410;border-color:#5a4a1e;color:#e8d9a8}
 </style>
+<script>(function(){try{var t=localStorage.getItem('dime_theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
 <div class="wrap">
 
-  <!-- ===== LOGIN ===== -->
   <div id="loginView" class="login">
     <h2>My Portfolio</h2>
     <p>Log in to sync your stocks &amp; options across phone and PC.</p>
@@ -76,21 +78,28 @@ th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;lett
     <p style="margin-top:14px;font-size:11px">Your PIN is hashed on the server. Don't reuse a bank PIN. Only your holdings list is stored.</p>
   </div>
 
-  <!-- ===== APP ===== -->
   <div id="appView" class="hidden">
     <h1>My Portfolio</h1>
     <div class="nav"><a href="index.html">Dashboard</a><a href="portfolio.html">My Portfolio</a></div>
     <div class="topbar">
-      <div class="who">Signed in as <b id="who"></b> · <span id="updTxt"></span></div>
+      <div class="who">Signed in as <b id="who"></b> &middot; <span id="updTxt"></span></div>
       <div style="display:flex;gap:8px;align-items:center">
         <span class="sync" id="sync">synced</span>
         <button class="ghost" id="logout">Log out</button>
       </div>
     </div>
 
+    <div class="toolbar">
+      <div class="fx">
+        <input id="fxAmt" type="number" step="any" value="100"/>
+        <select id="fxDir"><option value="u2t">USD &#8594; THB</option><option value="t2u">THB &#8594; USD</option></select>
+        <span class="out" id="fxOut">&mdash;</span>
+      </div>
+      <button class="theme" id="themeBtn">&#127769; Dark</button>
+    </div>
+
     <div class="totals" id="totals"></div>
 
-    <!-- Add stock -->
     <div class="section"><h3>Stocks</h3><div class="ln"></div></div>
     <div class="form">
       <div class="fld s"><label>Ticker</label><input id="s_tk" placeholder="AAPL" style="text-transform:uppercase"/></div>
@@ -103,7 +112,6 @@ th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;lett
       <thead><tr><th>Ticker</th><th>Shares</th><th>Avg cost</th><th>Current</th><th>Value</th><th>P/L $</th><th>P/L %</th><th>Signal</th><th>Action</th><th></th></tr></thead>
       <tbody id="s_rows"></tbody></table></div>
 
-    <!-- Add option -->
     <div class="section"><h3>Options</h3><div class="ln"></div></div>
     <div class="form">
       <div class="fld s"><label>Underlying</label><input id="o_tk" placeholder="AAPL" style="text-transform:uppercase"/></div>
@@ -119,51 +127,32 @@ th{font-size:11px;color:var(--mut);font-weight:600;text-transform:uppercase;lett
     <div class="tablewrap"><table>
       <thead><tr><th>Contract</th><th>Side</th><th>Qty</th><th>Premium</th><th>Current</th><th>P/L $</th><th>P/L %</th><th>DTE</th><th>Notes</th><th></th></tr></thead>
       <tbody id="o_rows"></tbody></table></div>
-    <div class="warn">Options use a ×100 multiplier per contract. <b>Long</b> P/L = (current − premium); <b>Short/sold</b> P/L = (premium − current). Enter the current option price per share to update P/L.</div>
+    <div class="warn">Options use a &times;100 multiplier per contract. <b>Long</b> P/L = (current &minus; premium); <b>Short/sold</b> P/L = (premium &minus; current). Enter the current option price per share to update P/L.</div>
 
-    <p class="foot"><b>Not financial advice.</b> Educational decision-support only — you place every trade yourself. Signals are technical; options carry extra risk (leverage, time decay, assignment). Data syncs to your Supabase; PIN is hashed server-side.</p>
+    <p class="foot"><b>Not financial advice.</b> Educational decision-support only &mdash; you place every trade yourself. Options carry extra risk (leverage, time decay, assignment). Data syncs to your Supabase; PIN is hashed server-side.</p>
   </div>
 </div>
 
 <script>
-// ===== Supabase =====
 const SUPABASE_URL = "https://mvagebjizddemohhelta.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im12YWdlYmppemRkZW1vaGhlbHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE1MzEyNjUsImV4cCI6MjA5NzEwNzI2NX0.tyyFpblyDiqiF477ji7_MrDFoiMjK2rjvD0mXwNfFOg";
-let sb = null;
-try { sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY); } catch(e) {}
+let sb=null; try{ sb=supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY); }catch(e){}
 
-// ===== signal engine (matches dashboard) =====
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const rsiScore=r=>clamp((50-r)*4,-100,100),trendScore=s=>({above_both:50,golden:80,mixed:0,below_both:-50,death:-80}[s]??0),macdScore=m=>({bull:60,flat:0,bear:-60}[m]??0);
 function composite(s){const rs=rsiScore(s.rsi),tr=trendScore(s.trend),mc=macdScore(s.macd);return (typeof s.news==='number')?Math.round(.25*rs+.30*tr+.20*mc+.25*s.news):Math.round(.33*rs+.40*tr+.27*mc);}
 function bandLabel(v){return v>=50?"BUY":v>=15?"ACCUMULATE":v>-15?"HOLD":v>-50?"TRIM":"SELL";}
-const bandColor=b=>({BUY:["var(--buy)","var(--buybg)"],ACCUMULATE:["var(--acc)","var(--accbg)"],HOLD:["var(--hold)","var(--holdbg)"],TRIM:["var(--trim)","var(--trimbg)"],SELL:["var(--sell)","var(--sellbg)"]}[b]||["var(--mut)","#eef1f5"]);
+const bandColor=b=>({BUY:["var(--buy)","var(--buybg)"],ACCUMULATE:["var(--acc)","var(--accbg)"],HOLD:["var(--hold)","var(--holdbg)"],TRIM:["var(--trim)","var(--trimbg)"],SELL:["var(--sell)","var(--sellbg)"]}[b]||["var(--mut)","rgba(127,127,127,.14)"]);
 const fmt=n=>n==null||isNaN(n)?"—":n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
-let SIG={}; // ticker -> {b, p}
+let SIG={};
 
-// ===== state =====
-let SESS=null; // {u,p}
-let PORT=[];   // positions (stocks + options)
-let saveTimer=null;
-
+let SESS=null, PORT=[], saveTimer=null;
 function setSync(t){document.getElementById("sync").textContent=t;}
 function cacheKey(){return "dime_pf_cache_"+(SESS?SESS.u:"_");}
 function saveLocal(){try{localStorage.setItem(cacheKey(),JSON.stringify(PORT));}catch(e){}}
-function scheduleSave(){
-  saveLocal(); setSync("saving…");
-  clearTimeout(saveTimer);
-  saveTimer=setTimeout(pushCloud,800);
-}
-async function pushCloud(){
-  if(!sb||!SESS){setSync("local only");return;}
-  try{
-    const {error}=await sb.rpc("save_portfolio",{p_username:SESS.u,p_pin:SESS.p,p_data:PORT});
-    if(error) throw error;
-    setSync("synced ✓");
-  }catch(e){ setSync("offline (saved locally)"); }
-}
+function scheduleSave(){saveLocal();setSync("saving…");clearTimeout(saveTimer);saveTimer=setTimeout(pushCloud,800);}
+async function pushCloud(){if(!sb||!SESS){setSync("local only");return;}try{const {error}=await sb.rpc("save_portfolio",{p_username:SESS.u,p_pin:SESS.p,p_data:PORT});if(error)throw error;setSync("synced ✓");}catch(e){setSync("offline (saved locally)");}}
 
-// ===== stock P/L =====
 const stockCur=h=>(h.cp!=null&&!isNaN(h.cp))?h.cp:(SIG[h.tk]&&SIG[h.tk].p!=null?SIG[h.tk].p:null);
 function stockAction(band,plPct,has){
   if(!has){if(plPct<=-8)return["REVIEW — near stop","neg"];if(plPct>=30)return["Consider taking profit","pos"];return["Hold",""];}
@@ -173,148 +162,120 @@ function stockAction(band,plPct,has){
   if(band==="ACCUMULATE"){if(plPct<=0)return["ADD — on sale","pos"];if(plPct>=30)return["Hold winner","pos"];return["Hold / add selectively","pos"];}
   if(plPct<=-8)return["REVIEW — near stop","neg"];if(plPct>=30)return["Consider trimming","pos"];return["Hold",""];
 }
-// ===== option P/L =====
-function dte(exp){if(!exp)return null;const d=Math.ceil((new Date(exp)-new Date())/86400000);return d;}
+function dte(exp){if(!exp)return null;return Math.ceil((new Date(exp)-new Date())/86400000);}
 function optAction(sig,plPct,d,right,side){
-  const n=[]; const bull=sig==="BUY"||sig==="ACCUMULATE", bear=sig==="SELL"||sig==="TRIM";
-  if(d!=null){ if(d<0)n.push("EXPIRED"); else if(d<=7)n.push("expires "+d+"d"); }
-  if(side==="long"){
-    if(right==="call"&&bear)n.push("underlying weak");
-    if(right==="put"&&bull)n.push("underlying strong");
-    if(plPct>=50)n.push("big gain — take profit?");
-    if(plPct<=-50)n.push("deep loss — reassess");
-  }else{
-    if(plPct>=50)n.push("premium mostly captured — close?");
-    if(right==="call"&&bull)n.push("assignment risk ↑");
-    if(right==="put"&&bear)n.push("assignment risk ↓");
-  }
+  const n=[];const bull=sig==="BUY"||sig==="ACCUMULATE",bear=sig==="SELL"||sig==="TRIM";
+  if(d!=null){if(d<0)n.push("EXPIRED");else if(d<=7)n.push("expires "+d+"d");}
+  if(side==="long"){if(right==="call"&&bear)n.push("underlying weak");if(right==="put"&&bull)n.push("underlying strong");if(plPct>=50)n.push("big gain — take profit?");if(plPct<=-50)n.push("deep loss — reassess");}
+  else{if(plPct>=50)n.push("premium mostly captured — close?");if(right==="call"&&bull)n.push("assignment risk ↑");if(right==="put"&&bear)n.push("assignment risk ↓");}
   return n.join(" · ")||"Hold";
 }
 
 function render(){
-  PORT.forEach(p=>{}); // no-op
-  const stocks=PORT.filter(p=>p.type!=="option");
-  const opts=PORT.filter(p=>p.type==="option");
+  const stocks=PORT.filter(p=>p.type!=="option"), opts=PORT.filter(p=>p.type==="option");
   let tCost=0,tVal=0,known=true,totPL=0;
-
-  // stocks table
-  const sr=document.getElementById("s_rows"); sr.innerHTML="";
-  if(!stocks.length) sr.innerHTML='<tr><td colspan="10" class="empty">No stocks yet.</td></tr>';
+  const sr=document.getElementById("s_rows");sr.innerHTML="";
+  if(!stocks.length)sr.innerHTML='<tr><td colspan="10" class="empty">No stocks yet.</td></tr>';
   stocks.forEach(h=>{
-    const i=PORT.indexOf(h), cp=stockCur(h), sig=SIG[h.tk], has=!!sig;
-    const cost=h.sh*h.ap, val=cp!=null?h.sh*cp:null, pl=val!=null?val-cost:null, plPct=val!=null?(cp/h.ap-1)*100:null;
-    tCost+=cost; if(val!=null){tVal+=val;totPL+=pl;}else known=false;
+    const i=PORT.indexOf(h),cp=stockCur(h),sig=SIG[h.tk],has=!!sig;
+    const cost=h.sh*h.ap,val=cp!=null?h.sh*cp:null,pl=val!=null?val-cost:null,plPct=val!=null?(cp/h.ap-1)*100:null;
+    tCost+=cost;if(val!=null){tVal+=val;totPL+=pl;}else known=false;
     const [a,ac]=plPct!=null?stockAction(has?sig.b:"HOLD",plPct,has):["enter price",""];
-    const [fg,bg]=bandColor(has?sig.b:""); const cl=pl==null?"":pl>=0?"pos":"neg";
+    const [fg,bg]=bandColor(has?sig.b:"");const cl=pl==null?"":pl>=0?"pos":"neg";
     const tr=document.createElement("tr");
     tr.innerHTML=`<td class="tk">${h.tk}</td><td>${fmt(h.sh)}</td><td>$${fmt(h.ap)}</td>
-      <td><input class="cp" data-i="${i}" data-k="cp" type="number" step="any" value="${cp!=null?cp:""}" placeholder="enter"/></td>
+      <td><input class="cp" data-i="${i}" type="number" step="any" value="${cp!=null?cp:""}" placeholder="enter"/></td>
       <td>${val!=null?'$'+fmt(val):'—'}</td><td class="${cl}">${pl!=null?(pl>=0?'+':'-')+'$'+fmt(Math.abs(pl)):'—'}</td>
       <td class="${cl}">${plPct!=null?(plPct>=0?'+':'')+plPct.toFixed(1)+'%':'—'}</td>
       <td>${has?`<span class="sig" style="color:${fg};background:${bg}">${sig.b}</span>`:'<span style="color:var(--mut)">n/a</span>'}</td>
       <td class="note ${ac}">${a}</td><td><button class="tiny" data-del="${i}">✕</button></td>`;
     sr.appendChild(tr);
   });
-
-  // options table
-  const orr=document.getElementById("o_rows"); orr.innerHTML="";
-  if(!opts.length) orr.innerHTML='<tr><td colspan="10" class="empty">No options yet.</td></tr>';
+  const orr=document.getElementById("o_rows");orr.innerHTML="";
+  if(!opts.length)orr.innerHTML='<tr><td colspan="10" class="empty">No options yet.</td></tr>';
   opts.forEach(o=>{
-    const i=PORT.indexOf(o), mult=100*(o.qty||0), sig=SIG[o.tk];
+    const i=PORT.indexOf(o),mult=100*(o.qty||0),sig=SIG[o.tk];
     const cur=(o.cp!=null&&!isNaN(o.cp))?o.cp:null;
     let pl=null,plPct=null;
-    if(cur!=null){
-      pl = o.side==="long" ? (cur-o.prem)*mult : (o.prem-cur)*mult;
-      plPct = o.side==="long" ? (cur/o.prem-1)*100 : (o.prem-cur)/o.prem*100;
-      totPL+=pl;
-    }
-    const d=dte(o.exp); const cl=pl==null?"":pl>=0?"pos":"neg";
+    if(cur!=null){pl=o.side==="long"?(cur-o.prem)*mult:(o.prem-cur)*mult;plPct=o.side==="long"?(cur/o.prem-1)*100:(o.prem-cur)/o.prem*100;totPL+=pl;}
+    const d=dte(o.exp),cl=pl==null?"":pl>=0?"pos":"neg";
     const label=`${o.tk} $${o.strike} ${o.right.toUpperCase()} ${o.exp||''}`;
     const note=optAction(sig?sig.b:"",plPct||0,d,o.right,o.side);
     const tr=document.createElement("tr");
     tr.innerHTML=`<td class="tk">${label}</td>
       <td><span class="tag ${o.side}">${o.side==='long'?'BUY':'SELL'}</span> <span class="tag ${o.right}">${o.right.toUpperCase()}</span></td>
       <td>${o.qty}</td><td>$${fmt(o.prem)}</td>
-      <td><input class="cp" data-i="${i}" data-k="cp" type="number" step="any" value="${cur!=null?cur:""}" placeholder="enter"/></td>
+      <td><input class="cp" data-i="${i}" type="number" step="any" value="${cur!=null?cur:""}" placeholder="enter"/></td>
       <td class="${cl}">${pl!=null?(pl>=0?'+':'-')+'$'+fmt(Math.abs(pl)):'—'}</td>
       <td class="${cl}">${plPct!=null?(plPct>=0?'+':'')+plPct.toFixed(1)+'%':'—'}</td>
       <td>${d==null?'—':d}</td><td class="note">${note}</td><td><button class="tiny" data-del="${i}">✕</button></td>`;
     orr.appendChild(tr);
   });
-
-  // totals
   document.getElementById("totals").innerHTML=`
     <div class="tcard"><div class="lab">Positions</div><div class="num">${PORT.length}</div></div>
     <div class="tcard"><div class="lab">Stock cost</div><div class="num">$${fmt(tCost)}</div></div>
     <div class="tcard"><div class="lab">Stock value</div><div class="num">$${fmt(tVal)}${known?'':'*'}</div></div>
     <div class="tcard"><div class="lab">Total P/L (stocks+options)</div><div class="num ${totPL>=0?'pos':'neg'}">${(totPL>=0?'+':'-')+'$'+fmt(Math.abs(totPL))}</div></div>`;
-
-  // wire inline current-price inputs + deletes
   document.querySelectorAll("input.cp").forEach(inp=>inp.onchange=()=>{const i=+inp.dataset.i,v=parseFloat(inp.value);PORT[i].cp=isNaN(v)?null:v;scheduleSave();render();});
   document.querySelectorAll("button[data-del]").forEach(b=>b.onclick=()=>{PORT.splice(+b.dataset.del,1);scheduleSave();render();});
 }
 
-// ===== add handlers =====
+const val=id=>document.getElementById(id).value.trim();
+const num=id=>parseFloat(document.getElementById(id).value);
+const numOrNull=id=>{const v=document.getElementById(id).value.trim();return v===""?null:parseFloat(v);};
+const clr=id=>document.getElementById(id).value="";
 document.getElementById("s_add").onclick=()=>{
   const tk=val("s_tk").toUpperCase(),sh=num("s_sh"),ap=num("s_ap"),cp=numOrNull("s_cp");
   if(!tk||isNaN(sh)||isNaN(ap)||sh<=0||ap<=0){alert("Enter ticker, shares, avg price.");return;}
-  PORT.push({type:"stock",tk,sh,ap,cp});["s_tk","s_sh","s_ap","s_cp"].forEach(clear);scheduleSave();render();
+  PORT.push({type:"stock",tk,sh,ap,cp});["s_tk","s_sh","s_ap","s_cp"].forEach(clr);scheduleSave();render();
 };
 document.getElementById("o_add").onclick=()=>{
   const tk=val("o_tk").toUpperCase(),side=val("o_side"),right=val("o_right"),strike=num("o_strike"),exp=val("o_exp"),qty=num("o_qty"),prem=num("o_prem"),cp=numOrNull("o_cp");
   if(!tk||isNaN(strike)||isNaN(qty)||isNaN(prem)||qty<=0||prem<=0){alert("Enter underlying, strike, contracts, premium.");return;}
-  PORT.push({type:"option",tk,side,right,strike,exp,qty,prem,cp});["o_tk","o_strike","o_exp","o_qty","o_prem","o_cp"].forEach(clear);scheduleSave();render();
+  PORT.push({type:"option",tk,side,right,strike,exp,qty,prem,cp});["o_tk","o_strike","o_exp","o_qty","o_prem","o_cp"].forEach(clr);scheduleSave();render();
 };
-const val=id=>document.getElementById(id).value.trim();
-const num=id=>parseFloat(document.getElementById(id).value);
-const numOrNull=id=>{const v=document.getElementById(id).value.trim();return v===""?null:parseFloat(v);};
-const clear=id=>document.getElementById(id).value="";
 
-// ===== auth =====
 async function doAuth(fn){
-  const u=document.getElementById("lg_user").value.trim().toLowerCase();
-  const p=document.getElementById("lg_pin").value.trim();
-  const err=document.getElementById("lg_err"); err.textContent="";
+  const u=document.getElementById("lg_user").value.trim().toLowerCase(),p=document.getElementById("lg_pin").value.trim();
+  const err=document.getElementById("lg_err");err.textContent="";
   if(!u||!p){err.textContent="Enter username and PIN.";return;}
-  if(!sb){err.textContent="Connection not configured yet (anon key missing).";return;}
-  try{
-    const {data,error}=await sb.rpc(fn,{p_username:u,p_pin:p});
-    if(error) throw error;
-    SESS={u,p}; localStorage.setItem("dime_session",JSON.stringify(SESS));
-    await afterLogin();
-  }catch(e){ err.textContent=(e.message||"Login failed").replace("Invalid username or PIN","Wrong username or PIN"); }
+  if(!sb){err.textContent="Connection not configured.";return;}
+  try{const {data,error}=await sb.rpc(fn,{p_username:u,p_pin:p});if(error)throw error;
+    SESS={u,p};localStorage.setItem("dime_session",JSON.stringify(SESS));await afterLogin();
+  }catch(e){err.textContent=(e.message||"Login failed").replace("Invalid username or PIN","Wrong username or PIN");}
 }
 document.getElementById("lg_login").onclick=()=>doAuth("login");
 document.getElementById("lg_register").onclick=()=>doAuth("register");
 document.getElementById("lg_pin").addEventListener("keydown",e=>{if(e.key==="Enter")doAuth("login");});
 document.getElementById("logout").onclick=()=>{localStorage.removeItem("dime_session");SESS=null;PORT=[];showLogin();};
-
 function showLogin(){document.getElementById("loginView").classList.remove("hidden");document.getElementById("appView").classList.add("hidden");}
 function showApp(){document.getElementById("loginView").classList.add("hidden");document.getElementById("appView").classList.remove("hidden");}
-
 async function afterLogin(){
-  document.getElementById("who").textContent=SESS.u;
-  showApp(); setSync("loading…");
-  // load from cloud, fall back to local cache
+  document.getElementById("who").textContent=SESS.u;showApp();setSync("loading…");
   let loaded=null;
-  try{
-    const {data,error}=await sb.rpc("load_portfolio",{p_username:SESS.u,p_pin:SESS.p});
-    if(error) throw error; loaded=data;
-  }catch(e){ loaded=null; }
-  if(Array.isArray(loaded)){ PORT=loaded; setSync("synced ✓"); saveLocal(); }
-  else { try{PORT=JSON.parse(localStorage.getItem(cacheKey())||"[]");}catch(e){PORT=[];} setSync("offline (local)"); }
+  try{const {data,error}=await sb.rpc("load_portfolio",{p_username:SESS.u,p_pin:SESS.p});if(error)throw error;loaded=data;}catch(e){loaded=null;}
+  if(Array.isArray(loaded)){PORT=loaded;setSync("synced ✓");saveLocal();}
+  else{try{PORT=JSON.parse(localStorage.getItem(cacheKey())||"[]");}catch(e){PORT=[];}setSync("offline (local)");}
   render();
 }
 
-// ===== boot =====
+function applyTheme(t){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('dime_theme',t);}catch(e){}const b=document.getElementById('themeBtn');if(b)b.innerHTML=t==='dark'?'&#9728;&#65039; Light':'&#127769; Dark';}
+function initTheme(){applyTheme(document.documentElement.getAttribute('data-theme')||'light');const b=document.getElementById('themeBtn');if(b)b.onclick=()=>applyTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');}
+function initFx(rate){const amt=document.getElementById('fxAmt'),dir=document.getElementById('fxDir'),out=document.getElementById('fxOut');if(!amt)return;
+  function calc(){const a=parseFloat(amt.value);if(isNaN(a)||!rate){out.textContent=rate?'—':'no rate';return;}
+    out.textContent=dir.value==='u2t'?'฿'+(a*rate).toLocaleString(undefined,{maximumFractionDigits:2}):'$'+(a/rate).toLocaleString(undefined,{maximumFractionDigits:2});}
+  amt.oninput=calc;dir.onchange=calc;calc();if(rate){dir.options[0].text='USD → THB ('+rate.toFixed(2)+')';}
+}
 async function boot(){
-  // signals for current prices / underlying band
-  try{ const d=await (await fetch("data.json?t="+Date.now())).json();
+  initTheme();
+  let rate=null;
+  try{const d=await (await fetch("data.json?t="+Date.now())).json();
     (d.stocks||[]).forEach(s=>SIG[s.t]={b:bandLabel(composite(s)),p:s.price});
+    rate=d.usdthb||null;
     document.getElementById("updTxt").textContent="signals: "+(d.updated||"—");
-  }catch(e){ document.getElementById("updTxt").textContent="signals unavailable"; }
-  // auto-login if session saved
-  try{ const s=JSON.parse(localStorage.getItem("dime_session")||"null"); if(s&&s.u&&s.p){SESS=s; await afterLogin(); return;} }catch(e){}
+  }catch(e){document.getElementById("updTxt").textContent="signals unavailable";}
+  initFx(rate);
+  try{const s=JSON.parse(localStorage.getItem("dime_session")||"null");if(s&&s.u&&s.p){SESS=s;await afterLogin();return;}}catch(e){}
   showLogin();
 }
 boot();

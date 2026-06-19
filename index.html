@@ -8,6 +8,9 @@
 :root{color-scheme:light;--bg:#f6f7f9;--card:#fff;--ink:#1a1f29;--mut:#67707e;--line:#e6e9ee;
 --buy:#0a8f54;--buybg:#e6f6ee;--sell:#c8324a;--sellbg:#fcebee;--hold:#9a7b12;--holdbg:#fbf5e3;
 --acc:#2f7d3a;--accbg:#ecf6ed;--trim:#b5552a;--trimbg:#fbeede;--accent:#2b59ff;}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0e1116;--card:#161b22;--ink:#e6edf3;--mut:#9198a1;--line:#2a313c;
+--buy:#3fb950;--buybg:#12261a;--sell:#f85149;--sellbg:#2d1418;--hold:#d3a72c;--holdbg:#2a2410;
+--acc:#3fb950;--accbg:#12261a;--trim:#db8a3a;--trimbg:#2d1f12;--accent:#4d80ff;}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .wrap{max-width:1060px;margin:0 auto;padding:18px 14px 44px}
@@ -15,11 +18,16 @@ h1{font-size:20px;margin:0 0 2px}
 .sub{color:var(--mut);font-size:12.5px;margin:0 0 6px}
 .nav a{font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:600;margin-right:14px}
 .upd{font-size:11.5px;color:var(--mut);margin:8px 0 12px}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px}
+.fx{display:flex;gap:6px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 8px;font-size:12.5px}
+.fx input{width:88px}.fx select{padding:4px 6px}
+.fx .out{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;min-width:70px}
+input,select{font:inherit;font-size:12.5px;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+button.theme{background:var(--card);border:1px solid var(--line);color:var(--ink);font-weight:600;font-size:13px;padding:7px 12px;border-radius:8px;cursor:pointer}
 .summ{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
 .summ .pill{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px}
 .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
 .controls label{font-size:12px;color:var(--mut)}
-select,input[type=text]{font:inherit;font-size:12.5px;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink)}
 .gauges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
 .gchip{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:7px 11px;font-size:12px;display:flex;gap:7px;align-items:baseline}
 .gchip b{font-size:13px}
@@ -35,8 +43,8 @@ select,input[type=text]{font:inherit;font-size:12.5px;padding:5px 8px;border:1px
 .sig{font-size:12px;font-weight:800;padding:5px 10px;border-radius:8px;display:inline-block;margin:4px 0 10px}
 .bars{display:flex;flex-direction:column;gap:7px;margin-top:6px}
 .bar{display:grid;grid-template-columns:60px 1fr 56px;align-items:center;gap:8px;font-size:11.5px;color:var(--mut)}
-.track{height:8px;background:#eef1f5;border-radius:6px;position:relative;overflow:hidden}
-.mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#cfd5dd}
+.track{height:8px;background:rgba(127,127,127,.18);border-radius:6px;position:relative;overflow:hidden}
+.mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(127,127,127,.5)}
 .fill{position:absolute;top:0;bottom:0;border-radius:6px}
 .val{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600}
 .score{display:flex;align-items:center;gap:8px;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
@@ -44,7 +52,7 @@ select,input[type=text]{font:inherit;font-size:12.5px;padding:5px 8px;border:1px
 .needle{position:absolute;top:-3px;width:3px;height:16px;background:var(--ink);border-radius:2px;transform:translateX(-50%)}
 .scoreval{font-weight:800;font-size:13px;min-width:42px;text-align:right}
 .news{margin-top:9px;font-size:11.5px}
-.news a{color:#3b4250;text-decoration:none;display:block;border-left:3px solid var(--line);padding-left:9px;margin-top:5px}
+.news a{color:var(--mut);text-decoration:none;display:block;border-left:3px solid var(--line);padding-left:9px;margin-top:5px}
 .news a:hover{color:var(--accent)}
 details{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
 summary{cursor:pointer;font-weight:600;font-size:13px}
@@ -52,7 +60,9 @@ table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12.5px}
 th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
 .foot{color:var(--mut);font-size:11.5px;margin-top:18px;line-height:1.6}
 .note{background:#fff7e6;border:1px solid #f0dcae;color:#6b541a;border-radius:10px;padding:10px 13px;font-size:12.5px;margin-bottom:14px}
+:root[data-theme="dark"] .note{background:#2a2410;border-color:#5a4a1e;color:#e8d9a8}
 </style>
+<script>(function(){try{var t=localStorage.getItem('dime_theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
 <body>
 <div class="wrap">
@@ -60,6 +70,15 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
   <p class="sub">Buy/sell signals across every sector you can trade on Dime!</p>
   <div class="nav"><a href="index.html">Dashboard</a><a href="portfolio.html">My Portfolio</a></div>
   <div class="upd" id="upd"></div>
+
+  <div class="toolbar">
+    <div class="fx">
+      <input id="fxAmt" type="number" step="any" value="100"/>
+      <select id="fxDir"><option value="u2t">USD &#8594; THB</option><option value="t2u">THB &#8594; USD</option></select>
+      <span class="out" id="fxOut">&mdash;</span>
+    </div>
+    <button class="theme" id="themeBtn">&#127769; Dark</button>
+  </div>
 
   <div class="note" id="note"></div>
   <div class="summ" id="summ"></div>
@@ -73,7 +92,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
     <label>Filter: <select id="filt">
       <option value="all">All signals</option><option value="buy">Buy / Accumulate</option><option value="sell">Sell / Trim</option>
     </select></label>
-    <input type="text" id="srch" placeholder="search ticker…"/>
+    <input type="text" id="srch" placeholder="search ticker..."/>
   </div>
 
   <div class="gauges" id="gauges"></div>
@@ -88,31 +107,28 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
       <tr><td>Momentum (MACD)</td><td>20%</td><td>MACD above signal</td><td>MACD below signal</td></tr>
       <tr><td>News sentiment (48h)</td><td>25%</td><td>beats, upgrades</td><td>misses, downgrades</td></tr>
     </table>
-    <p style="margin:8px 0 0;color:var(--mut)">Composite −100..+100. Bands: ≥+50 BUY · +15..49 Accumulate · −14..+14 Hold · −15..−49 Trim · ≤−50 SELL. *In the automated live run, news isn't scored, so signals use technical inputs renormalized (RSI 33% / Trend 40% / MACD 27%). The desktop briefing adds news sentiment.</p>
+    <p style="margin:8px 0 0;color:var(--mut)">Composite &#8722;100..+100. Bands: &#8805;+50 BUY, +15..49 Accumulate, &#8722;14..+14 Hold, &#8722;15..&#8722;49 Trim, &#8804;&#8722;50 SELL. *Automated live run uses technical inputs renormalized (RSI 33% / Trend 40% / MACD 27%); the desktop briefing adds news sentiment.</p>
   </details>
 
-  <p class="foot"><b>Not financial advice.</b> Educational, rule-based decision support only — signals do not predict the future or guarantee returns; markets carry risk of loss. You place every trade yourself.</p>
+  <p class="foot"><b>Not financial advice.</b> Educational, rule-based decision support only &mdash; signals do not predict the future or guarantee returns; markets carry risk of loss. You place every trade yourself.</p>
 </div>
 
 <script>
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
-const rsiScore=r=>clamp((50-r)*4,-100,100);
-const trendScore=s=>({above_both:50,golden:80,mixed:0,below_both:-50,death:-80}[s]??0);
-const macdScore=m=>({bull:60,flat:0,bear:-60}[m]??0);
-function composite(s){const rs=rsiScore(s.rsi),tr=trendScore(s.trend),mc=macdScore(s.macd);
-  return (typeof s.news==='number')?Math.round(.25*rs+.30*tr+.20*mc+.25*s.news):Math.round(.33*rs+.40*tr+.27*mc);}
+const rsiScore=r=>clamp((50-r)*4,-100,100),trendScore=s=>({above_both:50,golden:80,mixed:0,below_both:-50,death:-80}[s]??0),macdScore=m=>({bull:60,flat:0,bear:-60}[m]??0);
+function composite(s){const rs=rsiScore(s.rsi),tr=trendScore(s.trend),mc=macdScore(s.macd);return (typeof s.news==='number')?Math.round(.25*rs+.30*tr+.20*mc+.25*s.news):Math.round(.33*rs+.40*tr+.27*mc);}
 function band(v){if(v>=50)return{l:"BUY",fg:"var(--buy)",bg:"var(--buybg)",c:"buy"};if(v>=15)return{l:"ACCUMULATE",fg:"var(--acc)",bg:"var(--accbg)",c:"buy"};if(v>-15)return{l:"HOLD",fg:"var(--hold)",bg:"var(--holdbg)",c:"hold"};if(v>-50)return{l:"TRIM",fg:"var(--trim)",bg:"var(--trimbg)",c:"sell"};return{l:"SELL",fg:"var(--sell)",bg:"var(--sellbg)",c:"sell"};}
 function barFill(sc){const half=Math.abs(sc)/2,color=sc>=0?"var(--buy)":"var(--sell)",left=sc>=0?50:50-half;return `left:${left}%;width:${half}%;background:${color}`;}
 const priceTxt=p=>p==null?"<span style='color:var(--mut)'>n/a</span>":"$"+p.toFixed(2);
 const SECTOR_ORDER=["Information Technology","Communication Services","Consumer Discretionary","Consumer Staples","Financials","Health Care","Industrials","Energy","Materials","Utilities","Real Estate"];
-
 let DATA=null;
+
 function cardHTML(s){
   const v=s.score,b=band(v);
   const sub=[["RSI",rsiScore(s.rsi),s.rsi],["Trend",trendScore(s.trend),s.trend.replace("_"," ")],["MACD",macdScore(s.macd),s.macd]];
   if(typeof s.news==='number')sub.push(["News",s.news,(s.news>0?"+":"")+s.news]);
   const chg=s.day==null?"":`<span class="chg ${s.day>=0?'up':'down'}">${s.day>=0?'+':''}${s.day.toFixed(2)}%</span>`;
-  const hl=(s.headlines&&s.headlines.length)?`<div class="news">${s.headlines.map(h=>`<a href="${h.link||'#'}" target="_blank" rel="noopener">• ${h.title}</a>`).join("")}</div>`:"";
+  const hl=(s.headlines&&s.headlines.length)?`<div class="news">${s.headlines.map(h=>`<a href="${h.link||'#'}" target="_blank" rel="noopener">&bull; ${h.title}</a>`).join("")}</div>`:"";
   return `<div class="card"><div class="row1"><div><div class="tk">${s.t}</div><div class="price">${priceTxt(s.price)} ${chg}</div></div></div>
     <span class="sig" style="color:${b.fg};background:${b.bg}">${b.l}</span>
     <div class="bars">${sub.map(([n,sc,raw])=>`<div class="bar"><span>${n}</span><div class="track"><div class="mid"></div><div class="fill" style="${barFill(sc)}"></div></div><span class="val">${raw}</span></div>`).join("")}</div>
@@ -120,7 +136,7 @@ function cardHTML(s){
 }
 function render(){
   const stocks=DATA.stocks; stocks.forEach(s=>s.score=composite(s));
-  document.getElementById("gauges").innerHTML=(DATA.gauges||[]).map(g=>`<div class="gchip"><b>${g.t}</b><span style="color:var(--mut)">${g.n}</span><span>${g.p==null?'—':'$'+g.p.toFixed(2)}</span></div>`).join("");
+  document.getElementById("gauges").innerHTML=(DATA.gauges||[]).map(g=>`<div class="gchip"><b>${g.t}</b><span style="color:var(--mut)">${g.n}</span><span>${g.p==null?'&mdash;':'$'+g.p.toFixed(2)}</span></div>`).join("");
   const c={BUY:0,ACCUMULATE:0,HOLD:0,TRIM:0,SELL:0};stocks.forEach(s=>c[band(s.score).l]++);
   const m=[["BUY","var(--buy)","var(--buybg)"],["ACCUMULATE","var(--acc)","var(--accbg)"],["HOLD","var(--hold)","var(--holdbg)"],["TRIM","var(--trim)","var(--trimbg)"],["SELL","var(--sell)","var(--sellbg)"]];
   document.getElementById("summ").innerHTML=m.map(([k,fg,bg])=>`<span class="pill" style="color:${fg};background:${bg}">${c[k]} ${k}</span>`).join("");
@@ -130,10 +146,18 @@ function render(){
   if(sort==="sector"){SECTOR_ORDER.forEach(sec=>{const it=list.filter(s=>s.s===sec);if(!it.length)return;const h=document.createElement("div");h.className="sector";h.innerHTML=`<h2>${sec}</h2><div class="ln"></div>`;board.appendChild(h);const g=document.createElement("div");g.className="grid";g.innerHTML=it.map(cardHTML).join("");board.appendChild(g);});}
   else{list.sort((a,b)=>sort==="score_desc"?b.score-a.score:a.score-b.score);const g=document.createElement("div");g.className="grid";g.innerHTML=list.map(cardHTML).join("");board.appendChild(g);}
 }
+function applyTheme(t){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('dime_theme',t);}catch(e){}const b=document.getElementById('themeBtn');if(b)b.innerHTML=t==='dark'?'&#9728;&#65039; Light':'&#127769; Dark';}
+function initTheme(){applyTheme(document.documentElement.getAttribute('data-theme')||'light');document.getElementById('themeBtn').onclick=()=>applyTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');}
+function initFx(rate){const amt=document.getElementById('fxAmt'),dir=document.getElementById('fxDir'),out=document.getElementById('fxOut');
+  function calc(){const a=parseFloat(amt.value);if(isNaN(a)||!rate){out.textContent=rate?'—':'no rate';return;}
+    out.textContent=dir.value==='u2t'?'฿'+(a*rate).toLocaleString(undefined,{maximumFractionDigits:2}):'$'+(a/rate).toLocaleString(undefined,{maximumFractionDigits:2});}
+  amt.oninput=calc;dir.onchange=calc;calc();if(rate){dir.options[0].text='USD → THB ('+rate.toFixed(2)+')';}
+}
 function boot(){
+  initTheme(); initFx(DATA.usdthb);
   document.getElementById("upd").textContent="Last updated: "+(DATA.updated||"—")+(DATA.mode==="live"?" · live (auto)":" · snapshot");
   document.getElementById("note").innerHTML=DATA.mode==="live"
-    ?"<b>Live auto-updating.</b> Prices, RSI, trend and MACD refresh automatically every weekday via GitHub Actions (technical signals; news sentiment is added in your desktop briefing)."
+    ?"<b>Live auto-updating.</b> Prices, RSI, trend and MACD refresh automatically every weekday via GitHub Actions."
     :"<b>Seed snapshot.</b> The scheduled job will replace this with live data on its next weekday run.";
   ["sort","filt","srch"].forEach(id=>document.getElementById(id).addEventListener("input",render));
   render();
