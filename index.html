@@ -73,8 +73,11 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
 .sheet .hint{color:var(--mut);font-size:12px;margin:0 0 12px}
 .loginrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;margin-bottom:12px}
 .loginrow input{width:130px}
-.picker{max-height:48vh;overflow:auto;border:1px solid var(--line);border-radius:10px;padding:6px 10px;background:var(--card)}
-.psec{font-size:11px;text-transform:uppercase;letter-spacing:.3px;color:var(--mut);margin:10px 0 4px;font-weight:700}
+.pickbtns{display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+.picker{max-height:46vh;overflow:auto;border:1px solid var(--line);border-radius:10px;padding:6px 10px;background:var(--card)}
+.psecrow{display:flex;justify-content:space-between;align-items:center;margin:10px 0 4px}
+.psec{font-size:11px;text-transform:uppercase;letter-spacing:.3px;color:var(--mut);font-weight:700}
+.psectoggle{font-size:11px;color:var(--accent);cursor:pointer;font-weight:700}
 .pitem{display:inline-flex;align-items:center;gap:5px;width:104px;font-size:12.5px;margin:2px 0;cursor:pointer}
 .sheet .actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}
 .muted{color:var(--mut);font-size:12px}
@@ -86,7 +89,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
 <div class="wrap">
   <h1>US Stock Expert Advisor</h1>
   <p class="sub">Buy/sell signals across every sector you can trade on Dime!</p>
-  <div class="nav"><a href="index.html">Dashboard</a><a href="portfolio.html">My Portfolio</a></div>
+  <div class="nav"><a href="index.html">Dashboard</a><a href="portfolio.html">My Portfolio</a><a href="guide.html">Guide</a></div>
   <div class="upd" id="upd"></div>
   <div class="live" id="live"></div>
 
@@ -129,18 +132,21 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
       <tr><td>Momentum (MACD)</td><td>20%</td><td>MACD above signal</td><td>MACD below signal</td></tr>
       <tr><td>News sentiment (48h)</td><td>25%</td><td>beats, upgrades</td><td>misses, downgrades</td></tr>
     </table>
-    <p style="margin:8px 0 0;color:var(--mut)">Composite &#8722;100..+100. Bands: &#8805;+50 BUY, +15..49 Accumulate, &#8722;14..+14 Hold, &#8722;15..&#8722;49 Trim, &#8804;&#8722;50 SELL. Signals use end-of-day technicals; prices go live (Finnhub) during US market hours. *Automated run renormalizes to RSI 33% / Trend 40% / MACD 27% (news added in the desktop briefing).</p>
+    <p style="margin:8px 0 0;color:var(--mut)">Composite &#8722;100..+100. Bands: &#8805;+50 BUY, +15..49 Accumulate, &#8722;14..+14 Hold, &#8722;15..&#8722;49 Trim, &#8804;&#8722;50 SELL. Prices go live (Finnhub) during US market hours; signals use end-of-day technicals. New to this? See the <a href="guide.html">Guide</a>.</p>
   </details>
 
   <p class="foot"><b>Not financial advice.</b> Educational, rule-based decision support only &mdash; signals do not predict the future; markets carry risk of loss. You place every trade yourself.</p>
 </div>
 
-<!-- Manage watchlist modal -->
 <div class="modal" id="modal">
   <div class="sheet">
     <h3>Manage watchlist</h3>
     <p class="hint">Tick the stocks you want on your dashboard. <span id="selCount"></span></p>
     <div class="loginrow" id="loginRow"></div>
+    <div class="pickbtns">
+      <button class="btn" id="selAll">Select all</button>
+      <button class="btn" id="selNone">Deselect all</button>
+    </div>
     <input type="text" id="pickSrch" placeholder="search ticker..." style="width:100%;margin-bottom:8px"/>
     <div class="picker" id="picker"></div>
     <div class="actions">
@@ -165,8 +171,7 @@ function band(v){if(v>=50)return{l:"BUY",fg:"var(--buy)",bg:"var(--buybg)",c:"bu
 function barFill(sc){const half=Math.abs(sc)/2,color=sc>=0?"var(--buy)":"var(--sell)",left=sc>=0?50:50-half;return `left:${left}%;width:${half}%;background:${color}`;}
 const priceTxt=p=>p==null?"<span style='color:var(--mut)'>n/a</span>":"$"+p.toFixed(2);
 
-let DATA=null, SESS=null, WL=[], LIVE={}, liveTimer=null;
-
+let DATA=null, SESS=null, WL=[], SEL=new Set(), LIVE={}, liveTimer=null;
 function curPrice(s){const lv=LIVE[s.t];return lv&&typeof lv.p==='number'?lv.p:s.price;}
 function curDay(s){const lv=LIVE[s.t];return lv&&typeof lv.dp==='number'?lv.dp:s.day;}
 
@@ -198,7 +203,6 @@ function render(){
   else{list.sort((a,b)=>sort==="score_desc"?b.score-a.score:a.score-b.score);const g=document.createElement("div");g.className="grid";g.innerHTML=list.map(cardHTML).join("");board.appendChild(g);}
 }
 
-/* ---- theme + fx ---- */
 function applyTheme(t){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('dime_theme',t);}catch(e){}const b=document.getElementById('themeBtn');if(b)b.innerHTML=t==='dark'?'&#9728;&#65039; Light':'&#127769; Dark';}
 function initTheme(){applyTheme(document.documentElement.getAttribute('data-theme')||'light');document.getElementById('themeBtn').onclick=()=>applyTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');}
 function initFx(rate){const amt=document.getElementById('fxAmt'),dir=document.getElementById('fxDir'),out=document.getElementById('fxOut');
@@ -207,7 +211,6 @@ function initFx(rate){const amt=document.getElementById('fxAmt'),dir=document.ge
   amt.oninput=calc;dir.onchange=calc;calc();if(rate){dir.options[0].text='USD → THB ('+rate.toFixed(2)+')';}
 }
 
-/* ---- watchlist load/save ---- */
 function localWL(){try{const w=JSON.parse(localStorage.getItem('dime_wl')||'null');return Array.isArray(w)&&w.length?w:null;}catch(e){return null;}}
 async function loadWatchlist(){
   if(SESS&&sb){try{const {data,error}=await sb.rpc('load_watchlist',{p_username:SESS.u,p_pin:SESS.p});if(!error&&Array.isArray(data)&&data.length){WL=data;localStorage.setItem('dime_wl',JSON.stringify(WL));return;}}catch(e){}}
@@ -219,23 +222,20 @@ async function saveWatchlist(){
   return 'Saved on this device';
 }
 
-/* ---- live prices (Finnhub) ---- */
 function marketOpen(){const et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));const d=et.getDay();if(d===0||d===6)return false;const m=et.getHours()*60+et.getMinutes();return m>=570&&m<960;}
 async function pollLive(){
   if(!FINNHUB_KEY||!WL.length)return;
-  const syms=WL.slice(0,40);
-  for(const t of syms){
+  for(const t of WL.slice(0,40)){
     try{const r=await fetch(`https://finnhub.io/api/v1/quote?symbol=${t}&token=${FINNHUB_KEY}`);const q=await r.json();if(q&&typeof q.c==='number'&&q.c>0)LIVE[t]={p:q.c,dp:q.dp};}catch(e){}
   }
-  const now=new Date().toLocaleTimeString();
   document.getElementById('live').className='live';
-  document.getElementById('live').innerHTML=`<span class="dot">&#9679;</span> LIVE &middot; prices updated ${now} (Finnhub)`;
+  document.getElementById('live').innerHTML=`<span class="dot">&#9679;</span> LIVE &middot; prices updated ${new Date().toLocaleTimeString()} (Finnhub)`;
   render();
 }
 function initLive(){
   const el=document.getElementById('live');
-  if(marketOpen()){ el.className='live'; el.innerHTML='<span class="dot">&#9679;</span> Market open &mdash; fetching live prices...'; pollLive(); liveTimer=setInterval(()=>{if(marketOpen())pollLive();else{el.className='live closed';el.textContent='Market closed — showing last close';clearInterval(liveTimer);}},30000); }
-  else { el.className='live closed'; el.textContent='US market closed — showing last close (signals from end-of-day).'; }
+  if(marketOpen()){el.className='live';el.innerHTML='<span class="dot">&#9679;</span> Market open &mdash; fetching live prices...';pollLive();liveTimer=setInterval(()=>{if(marketOpen())pollLive();else{el.className='live closed';el.textContent='Market closed — showing last close';clearInterval(liveTimer);}},30000);}
+  else{el.className='live closed';el.textContent='US market closed — showing last close (signals from end-of-day).';}
 }
 
 /* ---- manage modal ---- */
@@ -247,25 +247,29 @@ function renderLoginRow(){
     <input id="mu" placeholder="username"/><input id="mp" type="password" placeholder="PIN"/>
     <button class="btn pri" id="mlog">Log in</button><button class="btn" id="mreg">Create</button>`;
     const go=async fn=>{const u=document.getElementById('mu').value.trim().toLowerCase(),p=document.getElementById('mp').value.trim();if(!u||!p||!sb){document.getElementById('syncMsg').textContent='Enter username and PIN.';return;}
-      try{const {data,error}=await sb.rpc(fn,{p_username:u,p_pin:p});if(error)throw error;SESS={u,p};localStorage.setItem('dime_session',JSON.stringify(SESS));await loadWatchlist();buildPicker();renderLoginRow();document.getElementById('syncMsg').textContent='Logged in ✓ watchlist synced.';render();}
+      try{const {data,error}=await sb.rpc(fn,{p_username:u,p_pin:p});if(error)throw error;SESS={u,p};localStorage.setItem('dime_session',JSON.stringify(SESS));await loadWatchlist();SEL=new Set(WL);buildPicker();renderLoginRow();document.getElementById('syncMsg').textContent='Logged in ✓ watchlist synced.';render();}
       catch(e){document.getElementById('syncMsg').textContent=(e.message||'Login failed').replace('Invalid username or PIN','Wrong username or PIN');}};
     document.getElementById('mlog').onclick=()=>go('login');document.getElementById('mreg').onclick=()=>go('register');}
 }
+function secTickers(sec){return DATA.stocks.filter(s=>s.s===sec).map(s=>s.t);}
 function buildPicker(){
   const q=document.getElementById('pickSrch').value.trim().toUpperCase();
   const wrap=document.getElementById('picker');wrap.innerHTML="";
   SECTOR_ORDER.forEach(sec=>{
     const items=DATA.stocks.filter(s=>s.s===sec&&(!q||s.t.includes(q)));
     if(!items.length)return;
-    const h=document.createElement('div');h.className='psec';h.textContent=sec;wrap.appendChild(h);
+    const allOn=secTickers(sec).every(t=>SEL.has(t));
+    const head=document.createElement('div');head.className='psecrow';
+    head.innerHTML=`<span class="psec">${sec}</span><span class="psectoggle" data-sec="${sec}">${allOn?'clear':'select all'}</span>`;
+    wrap.appendChild(head);
     const box=document.createElement('div');
-    box.innerHTML=items.map(s=>`<label class="pitem"><input type="checkbox" value="${s.t}" ${WL.includes(s.t)?'checked':''}/> ${s.t}</label>`).join("");
+    box.innerHTML=items.map(s=>`<label class="pitem"><input type="checkbox" value="${s.t}" ${SEL.has(s.t)?'checked':''}/> ${s.t}</label>`).join("");
     wrap.appendChild(box);
   });
   updateSelCount();
 }
-function updateSelCount(){const n=document.querySelectorAll('#picker input:checked').length;document.getElementById('selCount').textContent=n+' selected';}
-function openModal(){renderLoginRow();buildPicker();document.getElementById('syncMsg').textContent='';document.getElementById('modal').classList.add('open');}
+function updateSelCount(){document.getElementById('selCount').textContent=SEL.size+' selected';}
+function openModal(){SEL=new Set(WL);renderLoginRow();document.getElementById('pickSrch').value='';buildPicker();document.getElementById('syncMsg').textContent='';document.getElementById('modal').classList.add('open');}
 function closeModal(){document.getElementById('modal').classList.remove('open');}
 
 /* ---- boot ---- */
@@ -274,14 +278,17 @@ async function boot(){
   try{const s=JSON.parse(localStorage.getItem('dime_session')||'null');if(s&&s.u&&s.p)SESS=s;}catch(e){}
   await loadWatchlist();
   document.getElementById("upd").textContent="Signals updated: "+(DATA.updated||"—")+(DATA.mode==="live"?" (auto, weekday close)":" (snapshot)");
-  document.getElementById("note").innerHTML="<b>Your watchlist.</b> Showing the stocks you picked with full tools. Use <b>&#9881; Manage watchlist</b> to add, remove, or swap from "+DATA.stocks.length+" stocks across all sectors.";
+  document.getElementById("note").innerHTML="<b>Your watchlist.</b> Showing the stocks you picked with full tools. Use <b>&#9881; Manage watchlist</b> to add, remove, or swap from "+DATA.stocks.length+" stocks. New here? Read the <a href='guide.html'>Guide</a>.";
   ["sort","filt","srch"].forEach(id=>document.getElementById(id).addEventListener("input",render));
   document.getElementById('manageBtn').onclick=openModal;
   document.getElementById('cancelBtn').onclick=closeModal;
   document.getElementById('pickSrch').addEventListener('input',buildPicker);
-  document.getElementById('picker').addEventListener('change',updateSelCount);
+  document.getElementById('selAll').onclick=()=>{DATA.stocks.forEach(s=>SEL.add(s.t));buildPicker();};
+  document.getElementById('selNone').onclick=()=>{SEL.clear();buildPicker();};
+  document.getElementById('picker').addEventListener('change',e=>{if(e.target&&e.target.matches('input[type=checkbox]')){if(e.target.checked)SEL.add(e.target.value);else SEL.delete(e.target.value);updateSelCount();}});
+  document.getElementById('picker').addEventListener('click',e=>{if(e.target&&e.target.classList.contains('psectoggle')){const sec=e.target.dataset.sec,ts=secTickers(sec),allOn=ts.every(t=>SEL.has(t));ts.forEach(t=>allOn?SEL.delete(t):SEL.add(t));buildPicker();}});
   document.getElementById('saveBtn').onclick=async()=>{
-    WL=Array.from(document.querySelectorAll('#picker input:checked')).map(i=>i.value);
+    WL=Array.from(SEL);
     const msg=await saveWatchlist();document.getElementById('syncMsg').textContent=msg;
     render(); LIVE={}; if(marketOpen())pollLive(); setTimeout(closeModal,500);
   };
