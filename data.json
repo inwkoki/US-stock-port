@@ -1,856 +1,856 @@
 {
-  "updated": "2026-08-04 22:34 UTC",
+  "updated": "2026-08-05 22:33 UTC",
   "mode": "live",
   "usdthb": null,
   "gauges": [
     {
       "t": "SPY",
       "n": "S&P 500",
-      "p": 771.33
+      "p": 769.79
     },
     {
       "t": "QQQ",
       "n": "Nasdaq-100",
-      "p": 723.85
+      "p": 717.3
     },
     {
       "t": "DIA",
       "n": "Dow 30",
-      "p": 540.43
+      "p": 542.81
     },
     {
       "t": "IWM",
       "n": "Russell 2000",
-      "p": 301.71
+      "p": 299.77
     }
   ],
   "stocks": [
     {
       "t": "AAPL",
       "s": "Information Technology",
-      "price": 309.38,
-      "day": 1.96,
-      "rsi": 44.7,
-      "trend": "mixed",
+      "price": 311.0,
+      "day": 0.52,
+      "rsi": 45.8,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "OpenAI Dumps Apple Employees' Text Messages to Fight Trade Secret Suit",
-          "link": "https://decrypt.co/374928/openai-emails-text-messages-apple-trade-secrets-lawsuit"
+          "title": "Price hikes on consumer electronics could be here to stay. Here's why.",
+          "link": "https://finance.yahoo.com/video/price-hikes-consumer-electronics-could-195601126.html"
         },
         {
-          "title": "Here's When SpaceX Expects $1 Trillion in Annual Revenue",
-          "link": "https://www.barrons.com/livecoverage/spacex-earnings-stock-price-ipo-elon-musk/card/here-s-when-spacex-expects-1-trillion-in-annual-revenue--hfvz8hHOfzAcK9nfzk4c?siteid=yhoof2&yptr=yahoo"
+          "title": "The Calm Surface of Alphabet Stock Hides a Turbulent Forecast",
+          "link": "https://www.trefis.com/articles/610171/the-calm-surface-of-alphabet-stock-hides-a-turbulent-forecast/2026-08-05"
         }
       ]
     },
     {
       "t": "MSFT",
       "s": "Information Technology",
-      "price": 492.81,
-      "day": 1.06,
-      "rsi": 79.0,
+      "price": 487.46,
+      "day": -1.09,
+      "rsi": 76.1,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Arista forecasts upbeat quarterly revenue on AI-driven networking demand",
-          "link": "https://finance.yahoo.com/technology/articles/arista-forecasts-upbeat-quarterly-revenue-221420916.html"
+          "title": "Why this CIO sees the S&P 500 climbing above $8,000 by year-end",
+          "link": "https://finance.yahoo.com/video/why-cio-sees-p-500-203700974.html"
         },
         {
-          "title": "AMD Stock Slides After Solid  Earnings Report",
-          "link": "https://www.barrons.com/articles/amd-earnings-stock-price-dca0d5fa?siteid=yhoof2&yptr=yahoo"
+          "title": "The companies emerging as new leaders in this renewed AI rally",
+          "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         }
       ]
     },
     {
       "t": "NVDA",
       "s": "Information Technology",
-      "price": 211.94,
-      "day": 2.56,
-      "rsi": 56.9,
+      "price": 219.22,
+      "day": 3.43,
+      "rsi": 61.6,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "SpaceX teams up with Nvidia: Musk says Vera Rubin is 'the best AI computer'",
-          "link": "https://finance.yahoo.com/video/spacex-teams-nvidia-musk-says-221211771.html"
+          "title": "Nvidia stock rises after Musk says SpaceX will exclusively use company's chips",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-after-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
         },
         {
-          "title": "'This was not an exceptional result': Strategist talks AMD earnings & 'shocking' capex",
-          "link": "https://finance.yahoo.com/video/not-exceptional-result-strategist-talks-205254303.html"
+          "title": "SpaceX stock declines post-earnings. Are investors worried about AI spending?",
+          "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         }
       ]
     },
     {
       "t": "AVGO",
       "s": "Information Technology",
-      "price": 418.16,
-      "day": 6.61,
+      "price": 418.28,
+      "day": 0.03,
       "rsi": 61.8,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
-          "link": "https://finance.yahoo.com/markets/article/marvell-sandisk-sk-hynix-lead-semiconductor-stock-rally-as-sp-500-trades-at-record-highs-172216048.html"
+          "title": "Top Analyst Reports for Broadcom, Coca-Cola & Palantir",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-broadcom-coca-201500234.html"
         },
         {
-          "title": "Marvell Technology Stock Is On Sale, But Is It A Bargain?",
-          "link": "https://www.trefis.com/articles/610005/marvell-technology-stock-is-on-sale-but-is-it-a-bargain/2026-08-04"
+          "title": "Can Microchip's Micron Alliance Help it Challenge AVGO & ALAB?",
+          "link": "https://finance.yahoo.com/technology/articles/microchips-micron-alliance-help-challenge-181500152.html"
         }
       ]
     },
     {
       "t": "ORCL",
       "s": "Information Technology",
-      "price": 145.74,
-      "day": 2.74,
-      "rsi": 56.0,
+      "price": 144.39,
+      "day": -0.93,
+      "rsi": 54.8,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed.",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-and-amd-post-quarterly-results-investors-werent-impressed-140419479.html"
+          "title": "Can CRM Stock Compound Its Way Higher?",
+          "link": "https://www.trefis.com/articles/610187/can-crm-stock-compound-its-way-higher/2026-08-05"
         },
         {
-          "title": "AMD Stock Slides After Solid  Earnings Report",
-          "link": "https://www.barrons.com/articles/amd-earnings-stock-price-dca0d5fa?siteid=yhoof2&yptr=yahoo"
+          "title": "ADBE Stock: Where Compounding Could Take The Price",
+          "link": "https://www.trefis.com/articles/610183/adbe-stock-where-compounding-could-take-the-price-2/2026-08-05"
         }
       ]
     },
     {
       "t": "CRM",
       "s": "Information Technology",
-      "price": 190.99,
-      "day": 2.71,
-      "rsi": 63.9,
+      "price": 192.98,
+      "day": 1.04,
+      "rsi": 65.0,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Salesforce (CRM) Lands VA Deal as Its Undervalued Narrative Gets Fresh Support",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-lands-va-deal-201052758.html"
+          "title": "Can CRM Stock Compound Its Way Higher?",
+          "link": "https://www.trefis.com/articles/610187/can-crm-stock-compound-its-way-higher/2026-08-05"
         },
         {
-          "title": "Salesforce, HubSpot, Okta, Workday, and Datadog Shares Skyrocket, What You Need To Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-hubspot-okta-workday-datadog-144522144.html"
+          "title": "ADBE Stock: Where Compounding Could Take The Price",
+          "link": "https://www.trefis.com/articles/610183/adbe-stock-where-compounding-could-take-the-price-2/2026-08-05"
         }
       ]
     },
     {
       "t": "AMD",
       "s": "Information Technology",
-      "price": 518.58,
-      "day": 7.0,
-      "rsi": 52.3,
-      "trend": "golden",
+      "price": 482.05,
+      "day": -7.04,
+      "rsi": 46.6,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed.",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-and-amd-post-quarterly-results-investors-werent-impressed-140419479.html"
+          "title": "The companies defying macro uncertainty and raising guidance: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/the-companies-defying-macro-uncertainty-and-raising-guidance-alphacheck-140605238.html"
         },
         {
-          "title": "AMD beats on Q2 earnings estimates, but also reports massive capex spend",
-          "link": "https://finance.yahoo.com/video/amd-beats-q2-earnings-estimates-202804476.html"
+          "title": "Dow Jones Futures: Nvidia Lifts Dow, But Google, SpaceX Skid; Sandisk, Western Digital Lead Earnings Losers Late",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-google-spacex-skid-sandisk-western-digital-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
     {
       "t": "ADBE",
       "s": "Information Technology",
-      "price": 257.49,
-      "day": 2.45,
-      "rsi": 62.7,
+      "price": 259.32,
+      "day": 0.71,
+      "rsi": 63.5,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Asana, Snowflake, Atlassian, Guidewire Software, and Adobe Stocks Trade Up, What You Need To Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asana-snowflake-atlassian-guidewire-software-151722909.html"
+          "title": "Can CRM Stock Compound Its Way Higher?",
+          "link": "https://www.trefis.com/articles/610187/can-crm-stock-compound-its-way-higher/2026-08-05"
         },
         {
-          "title": "How Much Upside Can ADBE Stock's Growth Deliver?",
-          "link": "https://www.trefis.com/articles/609994/how-much-upside-can-adbe-stocks-growth-deliver/2026-08-04"
+          "title": "ADBE Stock: Where Compounding Could Take The Price",
+          "link": "https://www.trefis.com/articles/610183/adbe-stock-where-compounding-could-take-the-price-2/2026-08-05"
         }
       ]
     },
     {
       "t": "CSCO",
       "s": "Information Technology",
-      "price": 121.74,
-      "day": 5.08,
-      "rsi": 62.3,
+      "price": 121.5,
+      "day": -0.2,
+      "rsi": 61.7,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Cisco Likely to Deliver Q4 Revenue, EPS Upside, UBS Says",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-likely-deliver-q4-revenue-173302257.html"
+          "title": "Cisco Systems to report amid expectations of continued AI infrastructure strength",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096615/cisco-systems-to-report-amid-expectations-of-continued-ai-infrastructure-strength-1096615.html"
         },
         {
-          "title": "Tesla Trades at 140 Times Forward Earnings. Here's What Has to Go Right to Justify This Valuation",
-          "link": "https://www.fool.com/investing/2026/08/04/tesla-trades-at-140-times-forward-earnings-heres-w/"
+          "title": "History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now.",
+          "link": "https://www.fool.com/investing/2026/08/05/history-says-software-as-a-service-saas-stocks-wil/"
         }
       ]
     },
     {
       "t": "ACN",
       "s": "Information Technology",
-      "price": 170.43,
-      "day": 2.82,
-      "rsi": 64.9,
+      "price": 170.73,
+      "day": 0.18,
+      "rsi": 65.1,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "The Unusual Cash Offer Sitting In IBM Stock",
-          "link": "https://www.trefis.com/articles/610007/the-unusual-cash-offer-sitting-in-ibm-stock/2026-08-04"
+          "title": "Accenture vs. Automatic Data Processing: Comparing Quarterly Revenue Trends",
+          "link": "https://www.fool.com/coverage/charts/2026/08/05/accenture-vs-automatic-data-processing-comparing-quarterly-revenue-trends/"
         },
         {
-          "title": "The Hidden Turbulence Priced Into Accenture Stock",
-          "link": "https://www.trefis.com/articles/609998/the-hidden-turbulence-priced-into-accenture-stock/2026-08-04"
+          "title": "The Unusual Cash Offer Sitting In IBM Stock",
+          "link": "https://www.trefis.com/articles/610007/the-unusual-cash-offer-sitting-in-ibm-stock/2026-08-04"
         }
       ]
     },
     {
       "t": "QCOM",
       "s": "Information Technology",
-      "price": 162.67,
-      "day": 7.32,
-      "rsi": 42.4,
+      "price": 157.53,
+      "day": -3.16,
+      "rsi": 39.6,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
-          "link": "https://finance.yahoo.com/markets/article/marvell-sandisk-sk-hynix-lead-semiconductor-stock-rally-as-sp-500-trades-at-record-highs-172216048.html"
+          "title": "How To Bank 14% On MU Stock Before Buying A Single Share",
+          "link": "https://www.trefis.com/articles/610184/how-to-bank-14-on-mu-stock-before-buying-a-single-share/2026-08-05"
         },
         {
-          "title": "Marvell Technology Stock Is On Sale, But Is It A Bargain?",
-          "link": "https://www.trefis.com/articles/610005/marvell-technology-stock-is-on-sale-but-is-it-a-bargain/2026-08-04"
+          "title": "QRVO Rises 11.6% in the Past Month: Can the Rally Continue?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/qrvo-rises-11-6-past-164400974.html"
         }
       ]
     },
     {
       "t": "TXN",
       "s": "Information Technology",
-      "price": 283.63,
-      "day": 5.42,
-      "rsi": 48.5,
+      "price": 277.72,
+      "day": -2.08,
+      "rsi": 45.5,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Buy Microchip Stock Before Q1 Earnings? Here's What to Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-microchip-stock-q1-earnings-180800937.html"
+          "title": "Price Prediction: ON Semiconductor Stock Looks Ready for Its Next Move",
+          "link": "https://247wallst.com/investing/2026/08/05/price-prediction-on-semiconductor-stock-looks-ready-for-its-next-move/"
         },
         {
-          "title": "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
-          "link": "https://www.trefis.com/articles/610044/what-could-push-broadcom-stock-higher-is-already-sitting-in-its-order-book/2026-08-04"
+          "title": "Are Wall Street Analysts Bullish on Texas Instruments Stock?",
+          "link": "https://www.barchart.com/story/news/3653948/are-wall-street-analysts-bullish-on-texas-instruments-stock"
         }
       ]
     },
     {
       "t": "IBM",
       "s": "Information Technology",
-      "price": 235.15,
-      "day": 3.91,
-      "rsi": 48.4,
+      "price": 235.92,
+      "day": 0.33,
+      "rsi": 48.8,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Jim Cramer Is Selling His Bitcoin Over Quantum Threat\u2014Crypto Twitter Is Thrilled",
-          "link": "https://decrypt.co/374923/jim-cramer-selling-bitcoin-quantum-computing-threat"
+          "title": "Kyndryl Holdings Inc (KD) (Q1 2027) Earnings Call Highlights: AI-Led Growth Offsets IBM Headwinds",
+          "link": "https://finance.yahoo.com/technology/ai/articles/kyndryl-holdings-inc-kd-q1-210257276.html"
         },
         {
-          "title": "The Unusual Cash Offer Sitting In IBM Stock",
-          "link": "https://www.trefis.com/articles/610007/the-unusual-cash-offer-sitting-in-ibm-stock/2026-08-04"
+          "title": "Rigetti Expands Hybrid Quantum HPC Push With New NSF Project",
+          "link": "https://finance.yahoo.com/technology/articles/rigetti-expands-hybrid-quantum-hpc-174400386.html"
         }
       ]
     },
     {
       "t": "NOW",
       "s": "Information Technology",
-      "price": 118.14,
-      "day": 3.46,
-      "rsi": 62.2,
+      "price": 117.22,
+      "day": -0.78,
+      "rsi": 61.0,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Goldman Sachs Just Added Microsoft to Its Closely Watched \u2018Conviction List.\u2019 Broadcom and ServiceNow Were Removed.",
-          "link": "https://247wallst.com/investing/2026/08/04/goldman-sachs-just-added-microsoft-to-its-closely-watched-conviction-list-broadcom-and-servicenow-were-removed/"
+          "title": "Can CRM Stock Compound Its Way Higher?",
+          "link": "https://www.trefis.com/articles/610187/can-crm-stock-compound-its-way-higher/2026-08-05"
         },
         {
-          "title": "nCino, Braze, ServiceNow, Health Catalyst, and Palo Alto Networks Shares Are Soaring, What You Need To Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ncino-braze-servicenow-health-catalyst-143722191.html"
+          "title": "ServiceNow Drops 23% Year to Date: Time to Hold the Stock or Fold?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-drops-23-date-time-182000639.html"
         }
       ]
     },
     {
       "t": "INTU",
       "s": "Information Technology",
-      "price": 323.6,
-      "day": 1.64,
-      "rsi": 62.0,
+      "price": 327.94,
+      "day": 1.34,
+      "rsi": 63.6,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Intuit, BILL, Workiva, Elastic, and Autodesk Stocks Trade Up, What You Need To Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-bill-workiva-elastic-autodesk-150122929.html"
+          "title": "Intuit (INTU) Advances But Underperforms Market: Key Facts",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-intu-advances-underperforms-market-214502293.html"
         },
         {
-          "title": "Intuit cut to Hold at Truist on softening growth outlook; shares dip",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-cut-hold-truist-softening-132526441.html"
+          "title": "Intuit, BILL, Workiva, Elastic, and Autodesk Stocks Trade Up, What You Need To Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-bill-workiva-elastic-autodesk-150122929.html"
         }
       ]
     },
     {
       "t": "AMAT",
       "s": "Information Technology",
-      "price": 546.62,
-      "day": 5.48,
-      "rsi": 51.0,
+      "price": 534.24,
+      "day": -2.26,
+      "rsi": 49.2,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Chatham Lodging Trust Q2 2026 Earnings Call Summary",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-chatham-lodging-trust-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "IPGP Q2 Earnings Beat Estimates on Industrial Solutions Growth",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ipgp-q2-earnings-beat-estimates-175400370.html"
         },
         {
-          "title": "Lam Research Plunges 16% in a Month: Should You Still Buy the Stock?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-plunges-16-month-160800344.html"
+          "title": "Astera Labs Q2 Earnings Beat on PCIe 6 and Scorpio Strength",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-q2-earnings-beat-174700591.html"
         }
       ]
     },
     {
       "t": "MU",
       "s": "Information Technology",
-      "price": 892.67,
-      "day": 7.62,
+      "price": 893.19,
+      "day": 0.06,
       "rsi": 48.8,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Sandisk bulls are probably eyeing this number on earnings day: AlphaSpace stat of the evening",
-          "link": "https://finance.yahoo.com/markets/article/sandisk-bulls-are-probably-eyeing-this-number-on-earnings-day-alphaspace-stat-of-the-evening-220000368.html"
+          "title": "Micron Retreats From Earlier Gains After Musk Flagged Surging Memory Prices",
+          "link": "https://www.barrons.com/articles/micron-stock-price-memory-chips-9685ac02?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
-          "link": "https://finance.yahoo.com/markets/article/marvell-sandisk-sk-hynix-lead-semiconductor-stock-rally-as-sp-500-trades-at-record-highs-172216048.html"
+          "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today\u2019s Market",
+          "link": "https://www.barrons.com/articles/stock-movers-c5965517?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "INTC",
       "s": "Information Technology",
-      "price": 100.86,
-      "day": 10.84,
-      "rsi": 49.4,
+      "price": 101.06,
+      "day": 0.2,
+      "rsi": 49.5,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
-          "link": "https://finance.yahoo.com/markets/article/marvell-sandisk-sk-hynix-lead-semiconductor-stock-rally-as-sp-500-trades-at-record-highs-172216048.html"
+          "title": "The companies defying macro uncertainty and raising guidance: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/the-companies-defying-macro-uncertainty-and-raising-guidance-alphacheck-140605238.html"
         },
         {
-          "title": "Marvell Technology Stock Is On Sale, But Is It A Bargain?",
-          "link": "https://www.trefis.com/articles/610005/marvell-technology-stock-is-on-sale-but-is-it-a-bargain/2026-08-04"
+          "title": "Tech, Media & Telecom Roundup: Market Talk",
+          "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-60e57249?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "GOOGL",
       "s": "Communication Services",
-      "price": 377.65,
-      "day": 1.11,
-      "rsi": 62.6,
+      "price": 362.43,
+      "day": -4.03,
+      "rsi": 54.6,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed.",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-and-amd-post-quarterly-results-investors-werent-impressed-140419479.html"
+          "title": "Tech stocks today: Google shakes up AI leadership, SpaceX plunges",
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-google-shakes-up-ai-leadership-spacex-plunges-140419479.html"
         },
         {
-          "title": "Here's When SpaceX Expects $1 Trillion in Annual Revenue",
-          "link": "https://www.barrons.com/livecoverage/spacex-earnings-stock-price-ipo-elon-musk/card/here-s-when-spacex-expects-1-trillion-in-annual-revenue--hfvz8hHOfzAcK9nfzk4c?siteid=yhoof2&yptr=yahoo"
+          "title": "This SpaceX number is spooking already skittish investors",
+          "link": "https://finance.yahoo.com/markets/article/this-spacex-number-is-spooking-already-skittish-investors-130824734.html"
         }
       ]
     },
     {
       "t": "META",
       "s": "Communication Services",
-      "price": 587.94,
-      "day": -0.39,
-      "rsi": 46.5,
+      "price": 588.77,
+      "day": 0.14,
+      "rsi": 46.7,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed.",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-and-amd-post-quarterly-results-investors-werent-impressed-140419479.html"
+          "title": "Meta debuts Muse Spark 1.2  and first coding agent, as it ramps up competition with OpenAI, Anthropic",
+          "link": "https://finance.yahoo.com/technology/article/meta-debuts-muse-spark-12-and-first-coding-agent-as-it-ramps-up-competition-with-openai-anthropic-213338398.html"
         },
         {
-          "title": "Pinterest Stock Falls Despite Earnings Beat",
-          "link": "https://www.barrons.com/articles/pinterest-earnings-stock-price-a80a18b3?siteid=yhoof2&yptr=yahoo"
+          "title": "AI CapEx fears: Is big tech overspending?",
+          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
         }
       ]
     },
     {
       "t": "NFLX",
       "s": "Communication Services",
-      "price": 73.57,
-      "day": 0.33,
-      "rsi": 50.6,
+      "price": 74.2,
+      "day": 0.86,
+      "rsi": 52.5,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
           "title": "The Toughest Questions AMZN Faced On Its Latest Call",
-          "link": "https://www.trefis.com/articles/610024/the-toughest-questions-amzn-faced-on-its-latest-call/2026-08-04"
+          "link": "https://www.trefis.com/articles/610202/the-toughest-questions-amzn-faced-on-its-latest-call-2/2026-08-05"
         },
         {
-          "title": "Amazon.com Stock Is Cheaper Than The Market On Earnings And Pricier On Cash",
-          "link": "https://www.trefis.com/articles/610042/amazon-com-stock-is-cheaper-than-the-market-on-earnings-and-pricier-on-cash/2026-08-04"
+          "title": "The Calm Surface of Alphabet Stock Hides a Turbulent Forecast",
+          "link": "https://www.trefis.com/articles/610171/the-calm-surface-of-alphabet-stock-hides-a-turbulent-forecast/2026-08-05"
         }
       ]
     },
     {
       "t": "DIS",
       "s": "Communication Services",
-      "price": 98.18,
-      "day": 0.04,
-      "rsi": 52.3,
-      "trend": "death",
+      "price": 101.76,
+      "day": 3.65,
+      "rsi": 60.8,
+      "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Disney (DIS) To Report Earnings Tomorrow: Here Is What To Expect",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-report-earnings-tomorrow-210122606.html"
+          "title": "Disney streaming is finally gaining 'traction': Analyst on Q3 earnings, growth",
+          "link": "https://finance.yahoo.com/video/disney-streaming-finally-gaining-traction-195114963.html"
         },
         {
-          "title": "Disney Stock Needs More Than an Earnings Beat to Get a Boost",
-          "link": "https://www.barrons.com/articles/disney-earnings-stock-price-dee97241?siteid=yhoof2&yptr=yahoo"
+          "title": "Get on line because Disney parks drove Q3 growth, earnings lift stock",
+          "link": "https://finance.yahoo.com/video/get-on-line-because-disney-parks-drove-q3-growth-earnings-lift-stock-140659984.html"
         }
       ]
     },
     {
       "t": "TMUS",
       "s": "Communication Services",
-      "price": 177.21,
-      "day": 0.07,
-      "rsi": 45.6,
+      "price": 173.46,
+      "day": -2.12,
+      "rsi": 42.5,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Wireless Stocks Turn Lower on SpaceX Mobile Plans",
-          "link": "https://www.barrons.com/livecoverage/spacex-earnings-stock-price-ipo-elon-musk/card/wireless-stocks-turn-lower-on-spacex-mobile-plans--Hf1Nr798cI8bqPMTYp3u?siteid=yhoof2&yptr=yahoo"
+          "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today\u2019s Market",
+          "link": "https://www.barrons.com/articles/stock-movers-c5965517?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "T-Mobile rolls out generous offers after outage angers customers",
-          "link": "https://www.thestreet.com/retail/t-mobile-rolls-out-bill-credits-after-outage-angers-customers"
+          "title": "Dow Makes More New Highs Despite AI Drag: Stock Market Today",
+          "link": "https://www.kiplinger.com/investing/stocks/dow-makes-more-new-highs-despite-ai-drag-stock-market-today"
         }
       ]
     },
     {
       "t": "VZ",
       "s": "Communication Services",
-      "price": 46.88,
-      "day": -1.01,
-      "rsi": 59.1,
+      "price": 46.47,
+      "day": -0.87,
+      "rsi": 56.6,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Wireless Stocks Turn Lower on SpaceX Mobile Plans",
-          "link": "https://www.barrons.com/livecoverage/spacex-earnings-stock-price-ipo-elon-musk/card/wireless-stocks-turn-lower-on-spacex-mobile-plans--Hf1Nr798cI8bqPMTYp3u?siteid=yhoof2&yptr=yahoo"
+          "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today\u2019s Market",
+          "link": "https://www.barrons.com/articles/stock-movers-c5965517?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "AST SpaceMobile vs. First Majestic Silver: Which Industrials Stock Is a Better Buy in 2026?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/08/04/ast-spacemobile-vs-first-majestic-silver-which-industrials-stock-is-a-better-buy-in-2026/"
+          "title": "Dow Makes More New Highs Despite AI Drag: Stock Market Today",
+          "link": "https://www.kiplinger.com/investing/stocks/dow-makes-more-new-highs-despite-ai-drag-stock-market-today"
         }
       ]
     },
     {
       "t": "T",
       "s": "Communication Services",
-      "price": 23.38,
-      "day": -0.89,
-      "rsi": 55.9,
+      "price": 23.06,
+      "day": -1.37,
+      "rsi": 52.4,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Wireless Stocks Turn Lower on SpaceX Mobile Plans",
-          "link": "https://www.barrons.com/livecoverage/spacex-earnings-stock-price-ipo-elon-musk/card/wireless-stocks-turn-lower-on-spacex-mobile-plans--Hf1Nr798cI8bqPMTYp3u?siteid=yhoof2&yptr=yahoo"
+          "title": "Airgain Q2 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/airgain-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
         },
         {
-          "title": "AST SpaceMobile vs. First Majestic Silver: Which Industrials Stock Is a Better Buy in 2026?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/08/04/ast-spacemobile-vs-first-majestic-silver-which-industrials-stock-is-a-better-buy-in-2026/"
+          "title": "Dow Makes More New Highs Despite AI Drag: Stock Market Today",
+          "link": "https://www.kiplinger.com/investing/stocks/dow-makes-more-new-highs-despite-ai-drag-stock-market-today"
         }
       ]
     },
     {
       "t": "CMCSA",
       "s": "Communication Services",
-      "price": 24.93,
-      "day": 1.51,
-      "rsi": 59.4,
+      "price": 24.75,
+      "day": -0.72,
+      "rsi": 57.7,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Can NFLX Stock Compound Its Way Higher?",
-          "link": "https://www.trefis.com/articles/610006/can-nflx-stock-compound-its-way-higher/2026-08-04"
+          "title": "Just How Wide Is the Range of Outcomes for Netflix Stock?",
+          "link": "https://www.trefis.com/articles/610174/just-how-wide-is-the-range-of-outcomes-for-netflix-stock/2026-08-05"
         },
         {
-          "title": "5 Must-Read Analyst Questions From Comcast\u2019s Q2 Earnings Call",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-150757082.html"
+          "title": "$58 billion In Payouts, A Lagging Stock: The T Trade-Off",
+          "link": "https://www.trefis.com/articles/610172/58-billion-in-payouts-a-lagging-stock-the-t-trade-off/2026-08-05"
         }
       ]
     },
     {
       "t": "AMZN",
       "s": "Consumer Discretionary",
-      "price": 277.42,
-      "day": -2.32,
-      "rsi": 67.0,
+      "price": 272.65,
+      "day": -1.72,
+      "rsi": 63.5,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Arista forecasts upbeat quarterly revenue on AI-driven networking demand",
-          "link": "https://finance.yahoo.com/technology/articles/arista-forecasts-upbeat-quarterly-revenue-221420916.html"
+          "title": "Why this CIO sees the S&P 500 climbing above $8,000 by year-end",
+          "link": "https://finance.yahoo.com/video/why-cio-sees-p-500-203700974.html"
         },
         {
-          "title": "AMD Stock Slides After Solid  Earnings Report",
-          "link": "https://www.barrons.com/articles/amd-earnings-stock-price-dca0d5fa?siteid=yhoof2&yptr=yahoo"
+          "title": "The companies emerging as new leaders in this renewed AI rally",
+          "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         }
       ]
     },
     {
       "t": "TSLA",
       "s": "Consumer Discretionary",
-      "price": 327.35,
-      "day": 1.64,
-      "rsi": 39.2,
+      "price": 321.55,
+      "day": -1.77,
+      "rsi": 37.5,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "SpaceX's Q2 results top estimates but stock drops on AI capex costs",
-          "link": "https://finance.yahoo.com/technology/article/spacexs-q2-results-top-estimates-but-stock-drops-on-ai-capex-costs-132323178.html"
+          "title": "SpaceX stock hits new all-time low as AI capex jumps in Q2",
+          "link": "https://finance.yahoo.com/technology/article/spacex-stock-hits-new-all-time-low-as-ai-capex-jumps-in-q2-132323178.html"
         },
         {
-          "title": "SpaceX profitability will come down to Starlink's success: Lee Munson",
-          "link": "https://finance.yahoo.com/video/spacex-profitability-come-down-starlinks-150000084.html"
+          "title": "Jim Cramer: SpaceX Could Reach $1 Trillion in Revenue by 2030, but \u201cShort Term, Forget About It\u201d",
+          "link": "https://247wallst.com/investing/2026/08/05/jim-cramer-spacex-could-reach-1-trillion-in-revenue-by-2030-but-short-term-forget-about-it/"
         }
       ]
     },
     {
       "t": "HD",
       "s": "Consumer Discretionary",
-      "price": 348.24,
-      "day": 2.42,
-      "rsi": 58.2,
+      "price": 353.14,
+      "day": 1.41,
+      "rsi": 60.9,
       "trend": "above_both",
-      "macd": "flat",
+      "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Should Investors Buy Tecnoglass for Growth Despite Margin Pressure?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-tecnoglass-growth-despite-165800123.html"
+          "title": "Home Depot reshuffles leadership to accelerate tech innovation",
+          "link": "https://www.ciodive.com/news/home-depot-leadership-tech-innovation/827150/"
         },
         {
-          "title": "Home Depot accused of using customers to boost profit",
-          "link": "https://www.thestreet.com/retail/home-depot-lawsuit-accused-of-selling-shoppers-personal-data"
+          "title": "Do Wall Street Analysts Like Home Depot Stock?",
+          "link": "https://www.barchart.com/story/news/3664880/do-wall-street-analysts-like-home-depot-stock"
         }
       ]
     },
     {
       "t": "MCD",
       "s": "Consumer Discretionary",
-      "price": 268.34,
-      "day": 1.17,
-      "rsi": 47.1,
-      "trend": "death",
+      "price": 274.0,
+      "day": 2.11,
+      "rsi": 53.5,
+      "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Earnings live updates: SpaceX stock slides despite Starlink-driven revenue beat, Paramount stock slips",
-          "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-130425228.html"
+          "title": "McDonald's names new US head as sales growth slows in Q2",
+          "link": "https://finance.yahoo.com/markets/stocks/article/mcdonalds-names-new-us-head-as-sales-growth-slows-in-q2-194507295.html"
         },
         {
-          "title": "McDonald's delays store expansion plans",
-          "link": "https://www.thestreet.com/investing/stocks/mcd-mcdonalds-delays-store-expansion-plans-2028"
+          "title": "Portillo\u2019s 2Q Revenue Climbs, Teases New Long-Term Growth Strategy",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/portillo-2q-revenue-climbs-teases-214512712.html"
         }
       ]
     },
     {
       "t": "NKE",
       "s": "Consumer Discretionary",
-      "price": 41.53,
-      "day": -2.6,
-      "rsi": 43.9,
+      "price": 42.45,
+      "day": 2.22,
+      "rsi": 48.6,
       "trend": "death",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "How Investors May Respond To NIKE (NKE) Ending Pou Sheng China Online Sales From 2027",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-nike-nke-201006594.html"
+          "title": "Nike stock is underperforming on a historic scale: AlphaSpace stat to know",
+          "link": "https://finance.yahoo.com/markets/article/nike-stock-is-underperforming-on-a-historic-scale-alphaspace-stat-to-know-133834175.html"
         },
         {
-          "title": "Sector Update: Consumer Stocks Advance Late Afternoon",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194641925.html"
+          "title": "Tanger CEO says World Cup boosted Q2 traffic and sales",
+          "link": "https://qz.com/tanger-ceo-world-cup-traffic-sales-outlet-centers-080526"
         }
       ]
     },
     {
       "t": "LOW",
       "s": "Consumer Discretionary",
-      "price": 218.08,
-      "day": 2.84,
-      "rsi": 55.9,
+      "price": 219.94,
+      "day": 0.85,
+      "rsi": 57.4,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Should Investors Buy Tecnoglass for Growth Despite Margin Pressure?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-tecnoglass-growth-despite-165800123.html"
+          "title": "Lowe's (LOW) Laps the Stock Market: Here's Why",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lowes-low-laps-stock-market-214503139.html"
         },
         {
-          "title": "Is Lowe's (LOW) a Buy as Wall Street Analysts Look Optimistic?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lowes-low-buy-wall-street-133002127.html"
+          "title": "Should Investors Buy Tecnoglass for Growth Despite Margin Pressure?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-tecnoglass-growth-despite-165800123.html"
         }
       ]
     },
     {
       "t": "SBUX",
       "s": "Consumer Discretionary",
-      "price": 104.97,
-      "day": 1.55,
-      "rsi": 53.1,
+      "price": 106.0,
+      "day": 0.98,
+      "rsi": 56.1,
       "trend": "golden",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Starbucks Revives Fan Favorite as Traffic Slips",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-revives-fan-favorite-traffic-193121315.html"
+          "title": "Shake Shack Sizzles After Starboard Reveals a Stake",
+          "link": "https://www.barrons.com/articles/shake-shack-stock-activist-starboard-stake-e42363c8?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "The Zacks Analyst Blog Highlights Amazon, Marvell, Starbucks, Preformed Line Products  and Crown Crafts",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-amazon-143900470.html"
+          "title": "Chipotle Stock Carries A Premium Built On New Restaurants",
+          "link": "https://www.trefis.com/articles/610210/chipotle-stock-carries-a-premium-built-on-new-restaurants/2026-08-05"
         }
       ]
     },
     {
       "t": "BKNG",
       "s": "Consumer Discretionary",
-      "price": 194.27,
-      "day": 0.81,
-      "rsi": 61.1,
+      "price": 207.02,
+      "day": 6.56,
+      "rsi": 69.3,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Booking (NASDAQ:BKNG) Beats Q2 CY2026 Sales Expectations",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/booking-nasdaq-bkng-beats-q2-214914526.html"
+          "title": "Booking Holdings reports strong demand as industry evolves",
+          "link": "https://www.cnn.com/2026/08/05/business/video/booking-holdings-travel-earnings-fogel-live-080504pseg1-cnni-business-fast?cid=external-feeds_iluminar_yahoo"
         },
         {
-          "title": "Booking Holdings Stock Jumps As 'Resilient' Travel Demand Powers Earnings Beat",
-          "link": "https://www.investors.com/news/technology/booking-stock-bkng-q2-2026-earnings/?src=A00220&yptr=yahoo"
+          "title": "Booking Stock Jumps as Travel Demand Defies War Disruption",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/booking-stock-jumps-travel-demand-205442453.html"
         }
       ]
     },
     {
       "t": "TGT",
       "s": "Consumer Discretionary",
-      "price": 148.11,
-      "day": -0.83,
-      "rsi": 66.6,
+      "price": 147.7,
+      "day": -0.28,
+      "rsi": 65.7,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Top Stock Reports for Berkshire Hathaway, Micron & Oracle",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-berkshire-hathaway-204200336.html"
+          "title": "Amazon says it will share $600 million in Trump tariff refunds with some of its customers \u2014 will you get a payout?",
+          "link": "https://finance.yahoo.com/economy/policy/articles/amazon-says-share-600-million-161500550.html"
         },
         {
-          "title": "I've Been Wrong About Target's Stock for 5 Months. Here's Why I'm Finally Changing My Mind.",
-          "link": "https://www.fool.com/investing/2026/08/04/ive-been-wrong-about-tgt-stock-for-5-mo/"
+          "title": "Consumers Keep Hitting Buy on THC Despite Federal Restrictions",
+          "link": "https://app.moby.co/home/news/news-consumers-keep-hitting-buy-on-thc-despite-federal-restrictions?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
     {
       "t": "COST",
       "s": "Consumer Staples",
-      "price": 947.85,
-      "day": -0.65,
-      "rsi": 50.0,
+      "price": 941.99,
+      "day": -0.62,
+      "rsi": 47.7,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "How this health-food retailer differentiates between TikTok trends & teens' real health needs",
-          "link": "https://finance.yahoo.com/video/health-food-retailer-differentiates-between-120000004.html"
+          "title": "Amazon says it will share $600 million in Trump tariff refunds with some of its customers \u2014 will you get a payout?",
+          "link": "https://finance.yahoo.com/economy/policy/articles/amazon-says-share-600-million-161500550.html"
         },
         {
-          "title": "Why Is Walmart Down Year to Date? This Is the Only Answer I Can Think Of.",
-          "link": "https://www.fool.com/investing/2026/08/04/why-is-walmart-down-year-to-date-this-is-the-only/"
+          "title": "The Treasury Has Now Refunded $100 Billion Of Tariff Revenue, and Scott Bessent Predicts None of It Is Going to You",
+          "link": "https://247wallst.com/investing/2026/08/05/the-treasury-has-now-refunded-100-billion-of-tariff-revenue-and-scott-bessent-predicts-none-of-it-is-going-to-you/"
         }
       ]
     },
     {
       "t": "WMT",
       "s": "Consumer Staples",
-      "price": 111.55,
-      "day": 0.76,
-      "rsi": 45.8,
+      "price": 112.34,
+      "day": 0.71,
+      "rsi": 48.2,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
           "title": "The Toughest Questions AMZN Faced On Its Latest Call",
-          "link": "https://www.trefis.com/articles/610024/the-toughest-questions-amzn-faced-on-its-latest-call/2026-08-04"
+          "link": "https://www.trefis.com/articles/610202/the-toughest-questions-amzn-faced-on-its-latest-call-2/2026-08-05"
         },
         {
-          "title": "I've Been Wrong About Target's Stock for 5 Months. Here's Why I'm Finally Changing My Mind.",
-          "link": "https://www.fool.com/investing/2026/08/04/ive-been-wrong-about-tgt-stock-for-5-mo/"
+          "title": "Walmart seen delivering steady second quarter as UBS backs long-term earnings story",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096614/walmart-seen-delivering-steady-second-quarter-as-ubs-backs-long-term-earnings-story-1096614.html"
         }
       ]
     },
     {
       "t": "KO",
       "s": "Consumer Staples",
-      "price": 86.56,
-      "day": -0.35,
-      "rsi": 58.6,
+      "price": 86.83,
+      "day": 0.31,
+      "rsi": 59.3,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Suja Defies Grocery Slowdown With Double-Digit Sales Growth in Q2",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/suja-defies-grocery-slowdown-double-213813418.html"
+          "title": "The Dividend Income Illusion: Why Your 8% Yield Is Really Paying You 5%",
+          "link": "https://247wallst.com/personal-finance/2026/08/05/the-dividend-income-illusion-why-your-8-yield-is-really-paying-you-5/"
         },
         {
-          "title": "Coca-Cola and PepsiCo Both Saw the Health Trend Coming. Only One of Them Actually Got Ahead of It.",
-          "link": "https://www.fool.com/investing/2026/08/04/coca-cola-and-pepsico-both-saw-the-health-trend/"
+          "title": "Top Analyst Reports for Broadcom, Coca-Cola & Palantir",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-broadcom-coca-201500234.html"
         }
       ]
     },
     {
       "t": "PG",
       "s": "Consumer Staples",
-      "price": 148.01,
-      "day": 2.1,
-      "rsi": 52.6,
+      "price": 146.8,
+      "day": -0.82,
+      "rsi": 49.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Procter & Gamble to Acquire Thorne for $3.8B, Expanding Personal Health Care Portfolio",
-          "link": "https://wwd.com/beauty-industry-news/wellness/procter-gamble-acquire-thorne-personal-health-care-1239093305/"
+          "title": "A $3.8 Billion Reason Why Procter & Gamble Stock Is in Focus Today",
+          "link": "https://www.barchart.com/story/news/3667266/a-3-8-billion-reason-why-procter-gamble-stock-is-in-focus-today"
         },
         {
-          "title": "P&G to acquire supplement brand Thorne for $3.8 billion",
-          "link": "https://qz.com/procter-gamble-acquiring-thorne-supplements-3-8-billion-080426"
+          "title": "Wayfair Sees Recovery in U.S. Furniture Demand; SpaceX Is Eyeing $1 Trillion in Revenue; P&G\u2019s $3.8 Billion Bet",
+          "link": "https://www.wsj.com/cfo-journal/wayfair-sees-recovery-in-u-s-furniture-demand-spacex-is-eyeing-1-trillion-in-revenue-p-gs-3-8-billion-bet-6aeba202?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "PEP",
       "s": "Consumer Staples",
-      "price": 139.1,
-      "day": -0.38,
-      "rsi": 48.6,
+      "price": 138.78,
+      "day": -0.23,
+      "rsi": 47.9,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Suja Defies Grocery Slowdown With Double-Digit Sales Growth in Q2",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/suja-defies-grocery-slowdown-double-213813418.html"
+          "title": "Why Wall Street Prices Coca-Cola and PepsiCo Differently",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-wall-street-prices-coca-190436046.html"
         },
         {
-          "title": "Coca-Cola and PepsiCo Both Saw the Health Trend Coming. Only One of Them Actually Got Ahead of It.",
-          "link": "https://www.fool.com/investing/2026/08/04/coca-cola-and-pepsico-both-saw-the-health-trend/"
+          "title": "Is FEMSA Stock Worth Buying Now as Growth Meets a Premium Valuation?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/femsa-stock-worth-buying-now-153800108.html"
         }
       ]
     },
     {
       "t": "PM",
       "s": "Consumer Staples",
-      "price": 186.91,
-      "day": -0.27,
-      "rsi": 48.8,
+      "price": 188.93,
+      "day": 1.08,
+      "rsi": 51.3,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "What Are Wall Street Analysts' Target Price for Philip Morris International Stock?",
-          "link": "https://www.barchart.com/story/news/3634243/what-are-wall-street-analysts-target-price-for-philip-morris-international-stock"
+          "title": "Philip Morris International (PM) Opens Its Largest US Manufacturing Campus For ZYN",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/philip-morris-international-pm-opens-151139735.html"
         },
         {
-          "title": "Can Altria's Pricing Power Offset Cigarette Volume Declines?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/altrias-pricing-power-offset-cigarette-160900980.html"
+          "title": "Philip Morris International (PM) Faces Brazil Lawsuit Pressure, Is The Upside Already Priced In?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/philip-morris-international-pm-faces-091940635.html"
         }
       ]
     },
     {
       "t": "MO",
       "s": "Consumer Staples",
-      "price": 68.07,
-      "day": -0.28,
-      "rsi": 38.4,
+      "price": 68.44,
+      "day": 0.54,
+      "rsi": 39.9,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
@@ -868,9 +868,9 @@
     {
       "t": "MDLZ",
       "s": "Consumer Staples",
-      "price": 62.08,
-      "day": 0.57,
-      "rsi": 54.0,
+      "price": 62.6,
+      "day": 0.84,
+      "rsi": 55.8,
       "trend": "golden",
       "macd": "bull",
       "news": null,
@@ -888,389 +888,389 @@
     {
       "t": "CL",
       "s": "Consumer Staples",
-      "price": 92.53,
-      "day": 2.95,
-      "rsi": 53.5,
+      "price": 93.28,
+      "day": 0.81,
+      "rsi": 55.4,
       "trend": "golden",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Colgate-Palmolive Organic Sales Growth to Return to 3%-4% in H2 2026 and 2027, Morgan Stanley Says",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/colgate-palmolive-organic-sales-growth-150124175.html"
+          "title": "Gulf oil exports steady in July despite fighting, still below pre-war levels",
+          "link": "https://finance.yahoo.com/energy/articles/gulf-oil-exports-steady-july-150142494.html"
         },
         {
-          "title": "TSX futures edge lower after index posts fourth straight monthly gain",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-edge-lower-index-120808491.html"
+          "title": "Colgate-Palmolive Organic Sales Growth to Return to 3%-4% in H2 2026 and 2027, Morgan Stanley Says",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/colgate-palmolive-organic-sales-growth-150124175.html"
         }
       ]
     },
     {
       "t": "JPM",
       "s": "Financials",
-      "price": 357.52,
-      "day": 1.38,
-      "rsi": 64.9,
+      "price": 359.24,
+      "day": 0.48,
+      "rsi": 66.0,
       "trend": "golden",
       "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "JPMorgan Chase (JPM) Puts Housing First, But Is The Valuation Case Already Priced In?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-puts-housing-211147115.html"
+          "title": "Micron Retreats From Earlier Gains After Musk Flagged Surging Memory Prices",
+          "link": "https://www.barrons.com/articles/micron-stock-price-memory-chips-9685ac02?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Sector Update: Financial Stocks Rise Late Afternoon",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-195128226.html"
+          "title": "Sector Update: Financial Stocks Advance Late Afternoon",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-195238828.html"
         }
       ]
     },
     {
       "t": "V",
       "s": "Financials",
-      "price": 369.59,
-      "day": 1.07,
-      "rsi": 65.7,
+      "price": 368.54,
+      "day": -0.28,
+      "rsi": 64.2,
       "trend": "golden",
       "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Central Bancompany Inc (CBC) (Q2 2026) Earnings Call Highlights: Strong Net Income Growth and ...",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/central-bancompany-inc-cbc-q2-210627185.html"
+          "title": "Visa Adds Stablecoin Funding and Payouts to Visa Direct With zerohash",
+          "link": "https://www.cryptoprowl.com/releases/visa-adds-stablecoin-funding-and-payouts-to-visa-direct-with-zerohash-6339"
         },
         {
-          "title": "Circle Faces Crypto Slump and New Competitor Ahead of Earnings",
-          "link": "https://www.barrons.com/articles/circle-earnings-stock-price-64394d15?siteid=yhoof2&yptr=yahoo"
+          "title": "PYPL's Historical Floor Is Back, But Is The Business The Same?",
+          "link": "https://www.trefis.com/articles/610170/pypls-historical-floor-is-back-but-is-the-business-same/2026-08-05"
         }
       ]
     },
     {
       "t": "MA",
       "s": "Financials",
-      "price": 571.1,
-      "day": 0.02,
-      "rsi": 67.8,
+      "price": 570.48,
+      "day": -0.11,
+      "rsi": 67.3,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Circle Faces Crypto Slump and New Competitor Ahead of Earnings",
-          "link": "https://www.barrons.com/articles/circle-earnings-stock-price-64394d15?siteid=yhoof2&yptr=yahoo"
+          "title": "PYPL's Historical Floor Is Back, But Is The Business The Same?",
+          "link": "https://www.trefis.com/articles/610170/pypls-historical-floor-is-back-but-is-the-business-same/2026-08-05"
         },
         {
-          "title": "FIS Beats Q2 Earnings on Banking Solutions Strength, Cuts 2026 Outlook",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/fis-beats-q2-earnings-banking-155100996.html"
+          "title": "Circle Internet Stock Angles Higher as Earnings Beat Overcomes the Crypto Slump",
+          "link": "https://www.barrons.com/articles/circle-earnings-stock-price-64394d15?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "BAC",
       "s": "Financials",
-      "price": 62.9,
-      "day": 0.67,
-      "rsi": 66.7,
+      "price": 63.25,
+      "day": 0.56,
+      "rsi": 68.2,
       "trend": "golden",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Oklo Reports Earnings on Aug. 7. Here's What Investors Should Be Watching.",
-          "link": "https://www.fool.com/investing/2026/08/04/oklos-next-earnings-report-on-aug-7-could-send-the-stock-soaring-heres-why/"
+          "title": "BofA's Brian Moynihan Expects Fed To Hike Rates Three Times In 2026, Sees Inflation In 'Mid-2s' By End Of 2027",
+          "link": "https://stocktwits.com/news-articles/markets/equity/bofa-brian-moynihan-expects-three-rate-hikes-in-2026-inflation-mid-2s-2027/cZo4ULBRJea"
         },
         {
-          "title": "Micron pullback seen as buying opportunity amid solid end-demand, says BofA",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096535/micron-pullback-seen-as-buying-opportunity-amid-solid-end-demand-says-bofa-1096535.html"
+          "title": "Bank of America spending $250M a year on GLP-1 weight loss drugs",
+          "link": "https://qz.com/bank-of-america-weight-loss-drugs-glp1-spending-080526"
         }
       ]
     },
     {
       "t": "WFC",
       "s": "Financials",
-      "price": 88.39,
-      "day": 0.57,
-      "rsi": 58.7,
+      "price": 89.17,
+      "day": 0.88,
+      "rsi": 60.8,
       "trend": "above_both",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Wells Fargo joins the fast-growing tokenized-deposit club",
-          "link": "https://www.americanbanker.com/news/wells-fargo-joins-the-fast-growing-tokenized-deposit-club"
+          "title": "Wells Fargo (WFC) Stock May Be 25% Undervalued On Tokenized Deposits Launch",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-stock-may-191551334.html"
         },
         {
-          "title": "Bilt Cardholders Hit With Mistaken Collections Notices on Phantom Balances",
-          "link": "https://www.wsj.com/business/bilt-cardholders-hit-with-mistaken-collections-notices-on-phantom-balances-a7e8c8cc?siteid=yhoof2&yptr=yahoo"
+          "title": "Wells Fargo\u2019s CEO Says AI Will Erase Tens of Thousands of Jobs. Here\u2019s Why He\u2019s Still Not Worried About Your Wallet",
+          "link": "https://247wallst.com/investing/2026/08/05/wells-fargos-ceo-says-ai-will-erase-tens-of-thousands-of-jobs-heres-why-hes-still-not-worried-about-your-wallet/"
         }
       ]
     },
     {
       "t": "GS",
       "s": "Financials",
-      "price": 1052.98,
-      "day": 2.52,
-      "rsi": 50.8,
+      "price": 1060.38,
+      "day": 0.7,
+      "rsi": 52.1,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Goldman's AI Strategy: Transforming Operations & Unlocking New Growth",
-          "link": "https://finance.yahoo.com/technology/ai/articles/goldmans-ai-strategy-transforming-operations-145900408.html"
+          "title": "Goldman Sachs stock doubles from 'Liberation Day' lows",
+          "link": "https://finance.yahoo.com/markets/stocks/article/goldman-sachs-stock-doubles-from-liberation-day-lows-180548528.html"
         },
         {
-          "title": "\u201cOur Conviction Level Is Really Strong\u201d: Goldman Sachs Sees 90% Upside on Korean Stocks. Here Are the ETFs to Buy if They\u2019re Right.",
-          "link": "https://247wallst.com/investing/2026/08/04/our-conviction-level-is-really-strong-goldman-sachs-sees-90-upside-on-korean-stocks-here-are-the-etfs-to-buy-if-theyre-right/"
+          "title": "Goldman Sachs Names 2 European Stocks It Says Can More Than Double",
+          "link": "https://beincrypto.com/goldman-sachs-european-stock-picks-august/"
         }
       ]
     },
     {
       "t": "MS",
       "s": "Financials",
-      "price": 217.04,
-      "day": 2.75,
-      "rsi": 53.9,
+      "price": 218.27,
+      "day": 0.57,
+      "rsi": 55.1,
       "trend": "golden",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Are Wall Street Analysts Predicting Morgan Stanley Stock Will Climb or Sink?",
-          "link": "https://www.barchart.com/story/news/3640209/are-wall-street-analysts-predicting-morgan-stanley-stock-will-climb-or-sink"
+          "title": "Sector Update: Financial Stocks Advance Late Afternoon",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-195238828.html"
         },
         {
-          "title": "Blackstone Has Pitched Mega Debt Package for Anthropic Chip Deal",
-          "link": "https://finance.yahoo.com/technology/ai/articles/blackstone-pitched-mega-debt-package-142054823.html"
+          "title": "Sector Update: Financial Stocks Rise in Afternoon Trading",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-afternoon-180105908.html"
         }
       ]
     },
     {
       "t": "AXP",
       "s": "Financials",
-      "price": 346.71,
-      "day": 0.58,
-      "rsi": 54.4,
+      "price": 348.99,
+      "day": 0.66,
+      "rsi": 56.0,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "SRX Global Acquires Stake in Vistagen Therapeutics",
-          "link": "https://investorshub.advfn.com/market-news/article/33413/srx-global-acquires-stake-in-vistagen-therapeutics"
+          "title": "IFS or AXP: Which Is the Better Value Stock Right Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ifs-axp-better-value-stock-154004117.html"
         },
         {
-          "title": "Are Billionaire Investor Warren Buffett\u2019s Top 5 Stock Picks a Buy in August?",
-          "link": "https://247wallst.com/investing/2026/08/04/are-billionaire-investor-warren-buffetts-top-5-stock-picks-a-buy-in-august/"
+          "title": "SRX Global Acquires Stake in Vistagen Therapeutics",
+          "link": "https://investorshub.advfn.com/market-news/article/33413/srx-global-acquires-stake-in-vistagen-therapeutics"
         }
       ]
     },
     {
       "t": "C",
       "s": "Financials",
-      "price": 136.87,
-      "day": 2.47,
-      "rsi": 55.7,
+      "price": 137.64,
+      "day": 0.56,
+      "rsi": 56.9,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Why Citigroup (C) is a Great Dividend Stock Right Now",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-citigroup-c-great-dividend-154501147.html"
+          "title": "Citigroup's Q2 Revenues Reach Decade High: What's Fuelling Growth?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citigroups-q2-revenues-reach-decade-143300050.html"
         },
         {
-          "title": "Goldman's AI Strategy: Transforming Operations & Unlocking New Growth",
-          "link": "https://finance.yahoo.com/technology/ai/articles/goldmans-ai-strategy-transforming-operations-145900408.html"
+          "title": "Citi downgrades Burlington to Neutral with stock near all-time highs",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/citi-downgrades-burlington-neutral-stock-131727202.html"
         }
       ]
     },
     {
       "t": "SCHW",
       "s": "Financials",
-      "price": 106.35,
-      "day": 0.45,
-      "rsi": 67.9,
+      "price": 108.02,
+      "day": 1.57,
+      "rsi": 71.2,
       "trend": "golden",
-      "macd": "flat",
+      "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Why Charles Schwab Stock Jumped in July",
-          "link": "https://www.fool.com/investing/2026/08/04/why-charles-schwab-stock-jumped-in-july/"
+          "title": "How Investors Are Reacting To Charles Schwab (SCHW) Dividend And Surge In Retail Bullish Sentiment",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-charles-schwab-schw-001925766.html"
         },
         {
-          "title": "Retail Investors Just Got a Lot More Bullish on the Market, Schwab Says",
-          "link": "https://www.barrons.com/advisor/articles/retail-investors-market-sentiment-schwab-6a0fe327?siteid=yhoof2&yptr=yahoo"
+          "title": "Charles Schwab (SCHW) Stock Still Looks Cheap On Fair Value Yet Fair On Earnings",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/charles-schwab-schw-stock-still-221035277.html"
         }
       ]
     },
     {
       "t": "BLK",
       "s": "Financials",
-      "price": 1131.13,
-      "day": 0.4,
-      "rsi": 65.4,
+      "price": 1133.58,
+      "day": 0.22,
+      "rsi": 65.8,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Apollo Global Q2 Earnings Miss Estimates, Expenses Increase Y/Y",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-q2-earnings-miss-161600357.html"
+          "title": "Wall Street expected to see bonus increases amid major dealmaking",
+          "link": "https://finance.yahoo.com/video/wall-street-expected-see-bonus-201500779.html"
         },
         {
-          "title": "Ford, Google, and BlackRock Say America Needs Millions More Tradespeople. A 63-Year-Old Electrician Should Know the Overtime Catch.",
-          "link": "https://247wallst.com/personal-finance/social-security/2026/08/04/ford-google-and-blackrock-say-america-needs-millions-more-tradespeople-a-63-year-old-electrician-should-know-the-overtime-catch/"
+          "title": "Wall Street just killed its first spot Bitcoin ETF and for a known reason",
+          "link": "https://www.thestreet.com/crypto/markets/wall-street-just-killed-its-first-spot-bitcoin-etf-and-for-a-known-reason"
         }
       ]
     },
     {
       "t": "SPGI",
       "s": "Financials",
-      "price": 412.53,
-      "day": -0.89,
-      "rsi": 45.0,
-      "trend": "mixed",
+      "price": 410.03,
+      "day": -0.61,
+      "rsi": 43.8,
+      "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Axon Stock Diversifies Your Portfolio Less Than Its Business Does",
-          "link": "https://www.trefis.com/articles/610045/axon-stock-diversifies-your-portfolio-less-than-its-business-does/2026-08-04"
+          "title": "AI's bottomless pit problem: Investors are scrutinizing costs",
+          "link": "https://www.axios.com/2026/08/05/ai-spacex-amd-elon-musk#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI"
         },
         {
-          "title": "Update: S&P Global Says Canada's July Manufacturing PMI Rises to Highest Level in More Than Four Years",
-          "link": "https://finance.yahoo.com/economy/articles/p-global-says-canada-apos-160134026.html"
+          "title": "Why PFE Stock Hands You So Much Cash Right Now",
+          "link": "https://www.trefis.com/articles/610204/why-pfe-stock-hands-you-so-much-cash-right-now/2026-08-05"
         }
       ]
     },
     {
       "t": "LLY",
       "s": "Health Care",
-      "price": 1115.68,
-      "day": -0.51,
-      "rsi": 40.2,
-      "trend": "mixed",
+      "price": 1169.86,
+      "day": 4.86,
+      "rsi": 51.3,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Earnings live updates: SpaceX stock slides despite Starlink-driven revenue beat, Paramount stock slips",
-          "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-130425228.html"
+          "title": "The companies defying macro uncertainty and raising guidance: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/the-companies-defying-macro-uncertainty-and-raising-guidance-alphacheck-140605238.html"
         },
         {
-          "title": "Dow Jones Futures: SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
+          "title": "Eli Lilly stock soars on strong demand for weight-loss drugs",
+          "link": "https://finance.yahoo.com/markets/stocks/article/eli-lilly-stock-soars-on-strong-demand-for-weight-loss-drugs-135325819.html"
         }
       ]
     },
     {
       "t": "UNH",
       "s": "Health Care",
-      "price": 407.55,
-      "day": -1.88,
-      "rsi": 43.1,
-      "trend": "mixed",
+      "price": 412.75,
+      "day": 1.28,
+      "rsi": 46.8,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "The Zacks Analyst Blog Highlights SpaceX, United Health, The Goldman Sachs and Industrial and Commercial Bank",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-spacex-143400570.html"
+          "title": "The Case For UnitedHealth Stock Is Margin, Not Growth",
+          "link": "https://www.trefis.com/articles/610214/the-case-for-unitedhealth-stock-is-margin-not-growth/2026-08-05"
         },
         {
-          "title": "Why Hims & Hers Is the Perfect Acquisition Target (Even If a Deal Never Happens)",
-          "link": "https://247wallst.com/investing/2026/08/04/why-hims-hers-is-the-perfect-acquisition-target-even-if-a-deal-never-happens/"
+          "title": "CVS Stock Slides On 2027 Outlook Despite Hearty Earnings Beat",
+          "link": "https://www.investors.com/news/cvs-stock-q2-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
     {
       "t": "JNJ",
       "s": "Health Care",
-      "price": 254.93,
-      "day": 0.2,
-      "rsi": 50.7,
+      "price": 257.59,
+      "day": 1.04,
+      "rsi": 53.7,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "The $85 Billion Consolation Prize For JNJ Shareholders",
-          "link": "https://www.trefis.com/articles/609996/the-85-billion-consolation-prize-for-jnj-shareholders/2026-08-04"
+          "title": "Why PFE Stock Hands You So Much Cash Right Now",
+          "link": "https://www.trefis.com/articles/610204/why-pfe-stock-hands-you-so-much-cash-right-now/2026-08-05"
         },
         {
-          "title": "BAYRY Beats on Q2 Earnings, Crop Science Business Boosts Growth",
-          "link": "https://finance.yahoo.com/healthcare/articles/bayry-beats-q2-earnings-crop-155700429.html"
+          "title": "The Dividend Income Illusion: Why Your 8% Yield Is Really Paying You 5%",
+          "link": "https://247wallst.com/personal-finance/2026/08/05/the-dividend-income-illusion-why-your-8-yield-is-really-paying-you-5/"
         }
       ]
     },
     {
       "t": "ABBV",
       "s": "Health Care",
-      "price": 243.8,
-      "day": -0.53,
-      "rsi": 44.7,
+      "price": 246.2,
+      "day": 0.98,
+      "rsi": 47.5,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
-          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-194408227.html"
+          "title": "Why PFE Stock Hands You So Much Cash Right Now",
+          "link": "https://www.trefis.com/articles/610204/why-pfe-stock-hands-you-so-much-cash-right-now/2026-08-05"
         },
         {
-          "title": "The $85 Billion Consolation Prize For JNJ Shareholders",
-          "link": "https://www.trefis.com/articles/609996/the-85-billion-consolation-prize-for-jnj-shareholders/2026-08-04"
+          "title": "Prediction: AbbVie Will End The Year at This Price",
+          "link": "https://247wallst.com/investing/2026/08/05/prediction-abbvie-will-end-the-year-at-this-price/"
         }
       ]
     },
     {
       "t": "MRK",
       "s": "Health Care",
-      "price": 128.0,
-      "day": 0.18,
-      "rsi": 53.2,
+      "price": 128.33,
+      "day": 0.26,
+      "rsi": 54.0,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "The Merck Product That Absolutely Demolished Wall Street's Forecasts",
-          "link": "https://www.investors.com/news/technology/merck-stock-merck-earnings-q2-2026/?src=A00220&yptr=yahoo"
+          "title": "Why PFE Stock Hands You So Much Cash Right Now",
+          "link": "https://www.trefis.com/articles/610204/why-pfe-stock-hands-you-so-much-cash-right-now/2026-08-05"
         },
         {
-          "title": "Gilead Posts a Loss on Acquisitions but Revenue Tells a Bigger Story",
-          "link": "https://www.barrons.com/articles/gilead-earnings-stock-price-6c655d6a?siteid=yhoof2&yptr=yahoo"
+          "title": "Merck (MRK) Is Racing Beyond Keytruda As Its Biggest Patent Cliff Nears",
+          "link": "https://finance.yahoo.com/healthcare/articles/merck-mrk-racing-beyond-keytruda-180945781.html"
         }
       ]
     },
     {
       "t": "PFE",
       "s": "Health Care",
-      "price": 25.41,
-      "day": 1.52,
-      "rsi": 62.4,
+      "price": 25.81,
+      "day": 1.57,
+      "rsi": 66.8,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Earnings live updates: SpaceX stock slides despite Starlink-driven revenue beat, Paramount stock slips",
-          "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-130425228.html"
+          "title": "Why PFE Stock Hands You So Much Cash Right Now",
+          "link": "https://www.trefis.com/articles/610204/why-pfe-stock-hands-you-so-much-cash-right-now/2026-08-05"
         },
         {
-          "title": "Pfizer Ducks Continued Covid Fallout As Hard-Fought Obesity Readout Looms",
-          "link": "https://www.investors.com/news/technology/pfizer-stock-pfizer-earnings-q2-2026/?src=A00220&yptr=yahoo"
+          "title": "3 Beaten-Down Stocks to Hold for the Next 10 Years",
+          "link": "https://www.fool.com/investing/2026/08/05/3-beaten-down-stocks-to-hold-for-the-next-10-years/"
         }
       ]
     },
     {
       "t": "TMO",
       "s": "Health Care",
-      "price": 564.75,
-      "day": -1.62,
-      "rsi": 62.4,
+      "price": 577.83,
+      "day": 2.32,
+      "rsi": 66.9,
       "trend": "above_both",
       "macd": "flat",
       "news": null,
@@ -1288,9 +1288,9 @@
     {
       "t": "ABT",
       "s": "Health Care",
-      "price": 105.46,
-      "day": -1.55,
-      "rsi": 64.2,
+      "price": 105.71,
+      "day": 0.24,
+      "rsi": 64.6,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
@@ -1308,209 +1308,209 @@
     {
       "t": "DHR",
       "s": "Health Care",
-      "price": 194.78,
-      "day": -1.38,
-      "rsi": 51.7,
+      "price": 199.66,
+      "day": 2.51,
+      "rsi": 56.4,
       "trend": "mixed",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "How Investors Are Reacting To Danaher (DHR) CEO Transition, Buybacks, And Updated 2026 Outlook",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-danaher-dhr-ceo-190833368.html"
+          "title": "Can Danaher (DHR) Trade At A Discount After Its CEO Change?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-trade-discount-ceo-002018587.html"
         },
         {
-          "title": "Abbott vs Danaher: Which Healthcare Stock Looks Better Positioned Following Earnings?",
-          "link": "https://finance.yahoo.com/healthcare/articles/abbott-vs-danaher-healthcare-stock-165559358.html"
+          "title": "How Investors Are Reacting To Danaher (DHR) CEO Transition, Buybacks, And Updated 2026 Outlook",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-danaher-dhr-ceo-190833368.html"
         }
       ]
     },
     {
       "t": "AMGN",
       "s": "Health Care",
-      "price": 390.02,
-      "day": 2.94,
-      "rsi": 64.9,
+      "price": 407.83,
+      "day": 4.57,
+      "rsi": 72.5,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Amgen Q2 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/amgen-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "title": "Amgen Stock Climbs as Drug Growth Outruns Obesity Setback",
+          "link": "https://finance.yahoo.com/healthcare/articles/amgen-stock-climbs-drug-growth-205415719.html"
         },
         {
-          "title": "Amgen Hikes Sales Outlook By $1 Billion After Second-Quarter Smash",
-          "link": "https://www.investors.com/news/technology/amgen-stock-amgen-earnings-q2-2026/?src=A00220&yptr=yahoo"
+          "title": "Stock Market Today: Dow Scores Record As SpaceX Craters; SharkNinja Soars",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-data-amd-stock-spacex-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
     {
       "t": "BMY",
       "s": "Health Care",
-      "price": 65.89,
-      "day": 0.64,
-      "rsi": 72.8,
+      "price": 63.63,
+      "day": -3.43,
+      "rsi": 60.2,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Pfizer Covid Pill Revenue Plunges 95%. The Stock Is Rising Anyway.",
-          "link": "https://www.barrons.com/articles/pfizer-earnings-stock-price-biontech-b519c9be?siteid=yhoof2&yptr=yahoo"
+          "title": "Why PFE Stock Hands You So Much Cash Right Now",
+          "link": "https://www.trefis.com/articles/610204/why-pfe-stock-hands-you-so-much-cash-right-now/2026-08-05"
         },
         {
-          "title": "AstraZeneca-BMY megadeal talk sparks huge market rift",
-          "link": "https://www.thestreet.com/investing/stocks/astrazeneca-bristol-myers-merger-talks-azn-bmy"
+          "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
+          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-195004130.html"
         }
       ]
     },
     {
       "t": "GILD",
       "s": "Health Care",
-      "price": 135.25,
-      "day": 3.13,
-      "rsi": 58.0,
+      "price": 131.76,
+      "day": -2.58,
+      "rsi": 51.0,
       "trend": "above_both",
       "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Gilead's High-Profile HIV Drug Beat, But That's Not What Grabbed Attention",
+          "title": "Gilead Slumps As Long-Term Uncertainty Clouds Massive HIV Beat",
           "link": "https://www.investors.com/news/technology/gilead-stock-gilead-sciences-earnings-q2-2026/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Gilead Posts a Loss on Acquisitions but Revenue Tells a Bigger Story",
-          "link": "https://www.barrons.com/articles/gilead-earnings-stock-price-6c655d6a?siteid=yhoof2&yptr=yahoo"
+          "title": "Compass Pathways PLC (CMPS) (Q2 2026) Earnings Call Highlights: Strong Cash Position and NDA ...",
+          "link": "https://finance.yahoo.com/healthcare/articles/compass-pathways-plc-cmps-q2-190123153.html"
         }
       ]
     },
     {
       "t": "CAT",
       "s": "Industrials",
-      "price": 876.54,
-      "day": 5.6,
-      "rsi": 48.5,
+      "price": 871.08,
+      "day": -0.62,
+      "rsi": 47.6,
       "trend": "mixed",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Earnings live updates: SpaceX stock slides despite Starlink-driven revenue beat, Paramount stock slips",
-          "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-130425228.html"
+          "title": "Michael Burry Sends Stark Warning on S&P 500 Crash",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sends-stark-warning-171931417.html"
         },
         {
-          "title": "Dow Jones Futures: SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
+          "title": "Michael Burry Drops Shocking Take on AI Stocks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-drops-shocking-ai-165752178.html"
         }
       ]
     },
     {
       "t": "GE",
       "s": "Industrials",
-      "price": 377.28,
-      "day": 2.26,
-      "rsi": 64.5,
+      "price": 381.22,
+      "day": 1.04,
+      "rsi": 66.3,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Boeing's Finished Flight Test Counts Most For A Different Jet",
-          "link": "https://www.trefis.com/articles/610049/boeings-finished-flight-test-counts-most-for-a-different-jet/2026-08-04"
+          "title": "This GE Vernova Supplier Spikes Past A Buy Point",
+          "link": "https://www.investors.com/news/this-ge-vernova-supplier-spikes-past-a-buy-point/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "1 Mid-Cap Stock to Target This Week and 2 We Find Risky",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/1-mid-cap-stock-target-063722205.html"
+          "title": "GE Aerospace Talks Less About The Shortage It Still Has",
+          "link": "https://www.trefis.com/articles/610209/ge-aerospace-talks-less-about-the-shortage-it-still-has/2026-08-05"
         }
       ]
     },
     {
       "t": "BA",
       "s": "Industrials",
-      "price": 237.16,
-      "day": 1.57,
-      "rsi": 63.8,
+      "price": 240.19,
+      "day": 1.28,
+      "rsi": 65.4,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Albany International Q2 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/albany-international-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "title": "PayPal to Stripe: The Offer Is Too Low",
+          "link": "https://www.fool.com/investing/2026/08/05/paypal-to-stripe-the-offer-is-too-low/"
         },
         {
-          "title": "The $280 Million Reason Boeing Missed\u2014and Why Wall Street Shrugged It Off",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/280-million-reason-boeing-missed-173927982.html"
+          "title": "Boeing-Lockheed Martin\u2019s ULA said to plan $500m private bond sale",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-lockheed-martin-ula-said-182700940.html"
         }
       ]
     },
     {
       "t": "HON",
       "s": "Industrials",
-      "price": 248.79,
-      "day": 0.82,
-      "rsi": 63.7,
+      "price": 248.12,
+      "day": -0.27,
+      "rsi": 62.7,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Basic Materials Roundup: Market Talk",
-          "link": "https://www.wsj.com/business/basic-materials-roundup-market-talk-39b1ba36?siteid=yhoof2&yptr=yahoo"
+          "title": "Honeywell Aerospace Cuts Full-Year Growth Guidance as Supply Constraints Dampen Second-Quarter Sales",
+          "link": "https://www.wsj.com/business/earnings/honeywell-aerospace-cuts-full-year-growth-guidance-as-supply-constraints-dampen-second-quarter-sales-c45776ad?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Why SYM Beats A Bond At Its Own Game",
-          "link": "https://www.trefis.com/articles/610025/why-sym-beats-a-bond-at-its-own-game-2/2026-08-04"
+          "title": "TAT Technologies Q2 Earnings Call Highlights",
+          "link": "https://www.marketbeat.com/instant-alerts/tat-technologies-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
     {
       "t": "UPS",
       "s": "Industrials",
-      "price": 109.11,
-      "day": 2.1,
-      "rsi": 48.8,
-      "trend": "golden",
+      "price": 107.7,
+      "day": -1.29,
+      "rsi": 46.2,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is United Parcel Service (UPS) the Best Dividend Stock in the Industrial Sector?",
-          "link": "https://www.fool.com/investing/2026/08/04/is-hot-ticker-the-best-dividend-stock-in-the-indus/"
+          "title": "Retired UPS Driver Discovers Union Pension Skyrocketed His Medicare Premium",
+          "link": "https://247wallst.com/personal-finance/2026/08/05/retired-ups-driver-discovers-union-pension-skyrocketed-his-medicare-premium/"
         },
         {
-          "title": "UPS, Amazon fuel surcharges help blunt higher costs",
-          "link": "https://www.supplychaindive.com/news/ups-amazon-fuel-surcharges-help-blunt-higher-costs/826840/"
+          "title": "2 Magnificent Industrial Stocks Down 40% to Buy and Hold Forever",
+          "link": "https://www.fool.com/investing/2026/08/05/x-magnificent-industrial-stocks-down-x-to-buy-and/"
         }
       ]
     },
     {
       "t": "RTX",
       "s": "Industrials",
-      "price": 217.93,
-      "day": 0.59,
-      "rsi": 72.6,
+      "price": 222.31,
+      "day": 2.01,
+      "rsi": 75.8,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Lockheed Martin is Down 8% in 6 Months: Wall Street Pro Expects 30% Growth Within a Year",
-          "link": "https://247wallst.com/investing/2026/08/04/lockheed-martin-is-down-8-in-6-months-wall-street-pro-expects-30-growth-within-a-year/"
+          "title": "GE Aerospace Talks Less About The Shortage It Still Has",
+          "link": "https://www.trefis.com/articles/610209/ge-aerospace-talks-less-about-the-shortage-it-still-has/2026-08-05"
         },
         {
-          "title": "Boeing's Finished Flight Test Counts Most For A Different Jet",
-          "link": "https://www.trefis.com/articles/610049/boeings-finished-flight-test-counts-most-for-a-different-jet/2026-08-04"
+          "title": "Kratos Defense Q2 Earnings and Revenues Outpace Estimates",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kratos-defense-q2-earnings-revenues-151400551.html"
         }
       ]
     },
     {
       "t": "UNP",
       "s": "Industrials",
-      "price": 296.35,
-      "day": 1.76,
-      "rsi": 58.1,
+      "price": 295.54,
+      "day": -0.27,
+      "rsi": 57.1,
       "trend": "golden",
       "macd": "bear",
       "news": null,
@@ -1528,130 +1528,130 @@
     {
       "t": "DE",
       "s": "Industrials",
-      "price": 617.37,
-      "day": 2.03,
-      "rsi": 55.0,
+      "price": 612.0,
+      "day": -0.87,
+      "rsi": 52.9,
       "trend": "golden",
       "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "5 Farm Equipment Stocks to Watch as Industry Shows Promise",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/5-farm-equipment-stocks-watch-163200052.html"
+          "title": "Zacks Industry Outlook Deere, Kubota, CNH, AGCO and Alamo",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-deere-kubota-094100481.html"
         },
         {
-          "title": "Zebra Technologies (ZBRA) Beats Q2 Earnings and Revenue Estimates",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zebra-technologies-zbra-beats-q2-115003913.html"
+          "title": "5 Farm Equipment Stocks to Watch as Industry Shows Promise",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-farm-equipment-stocks-watch-163200052.html"
         }
       ]
     },
     {
       "t": "LMT",
       "s": "Industrials",
-      "price": 589.33,
-      "day": 0.52,
-      "rsi": 69.5,
+      "price": 577.6,
+      "day": -1.99,
+      "rsi": 62.6,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "FCX Flashes Buy Signal; This Is Fueling Copper, Rare Earth Stocks",
-          "link": "https://www.investors.com/news/fcx-stock-copper-price-etf-cper-trump-tariff-nb-rare-earth/?src=A00220&yptr=yahoo"
+          "title": "This Drone Maker Stock Is Bouncing Back After Earnings",
+          "link": "https://www.barrons.com/articles/kratos-earnings-stock-price-fbf5d874?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "LMT Reportedly In Talks For Crucial Minerals Supply From US Mines Amid Trump\u2019s Stance Of Reducing Dependence On China",
-          "link": "https://stocktwits.com/news-articles/markets/equity/lmt-reportedly-in-talks-for-crucial-minerals-supply-from-us-mines-amid-trump-s-stance-of-reducing-dependence-on-china/cZo5riBRJ49"
+          "title": "Boeing-Lockheed Martin\u2019s ULA said to plan $500m private bond sale",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-lockheed-martin-ula-said-182700940.html"
         }
       ]
     },
     {
       "t": "GD",
       "s": "Industrials",
-      "price": 385.76,
-      "day": 0.87,
-      "rsi": 62.4,
+      "price": 384.08,
+      "day": -0.44,
+      "rsi": 60.4,
       "trend": "golden",
-      "macd": "flat",
+      "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Lockheed Martin is Down 8% in 6 Months: Wall Street Pro Expects 30% Growth Within a Year",
-          "link": "https://247wallst.com/investing/2026/08/04/lockheed-martin-is-down-8-in-6-months-wall-street-pro-expects-30-growth-within-a-year/"
+          "title": "Should Investors Chase LMT Stock After Its 15.5% Three-Month Gain?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-chase-lmt-stock-15-145100828.html"
         },
         {
-          "title": "Boeing's Finished Flight Test Counts Most For A Different Jet",
-          "link": "https://www.trefis.com/articles/610049/boeings-finished-flight-test-counts-most-for-a-different-jet/2026-08-04"
+          "title": "Lockheed Martin is Down 8% in 6 Months: Wall Street Pro Expects 30% Growth Within a Year",
+          "link": "https://247wallst.com/investing/2026/08/04/lockheed-martin-is-down-8-in-6-months-wall-street-pro-expects-30-growth-within-a-year/"
         }
       ]
     },
     {
       "t": "XOM",
       "s": "Energy",
-      "price": 153.96,
-      "day": -0.71,
-      "rsi": 59.3,
+      "price": 151.63,
+      "day": -1.51,
+      "rsi": 53.6,
       "trend": "golden",
-      "macd": "bull",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "BP profit more than doubles as Middle East conflict boosts oil prices",
-          "link": "https://www.euronews.com/2026/08/04/bp-profit-more-than-doubles-as-middle-east-conflict-boosts-oil-prices"
+          "title": "Shell Q2 Earnings Beat Estimates as Higher Oil Prices Boost Results",
+          "link": "https://finance.yahoo.com/energy/articles/shell-q2-earnings-beat-estimates-164500491.html"
         },
         {
-          "title": "Exxon Posts Its Best Profit in Four Years, Here\u2019s Where It\u2019ll End The Year",
-          "link": "https://247wallst.com/investing/2026/08/04/exxon-posts-its-best-profit-in-four-years-heres-where-itll-end-the-year/"
+          "title": "EOG Q2 Earnings Beat Estimates on Higher Volumes & Prices",
+          "link": "https://finance.yahoo.com/energy/articles/eog-q2-earnings-beat-estimates-150200833.html"
         }
       ]
     },
     {
       "t": "CVX",
       "s": "Energy",
-      "price": 190.4,
-      "day": -1.44,
-      "rsi": 55.6,
+      "price": 186.41,
+      "day": -2.1,
+      "rsi": 49.7,
       "trend": "golden",
-      "macd": "bull",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "BP profit more than doubles as Middle East conflict boosts oil prices",
-          "link": "https://www.euronews.com/2026/08/04/bp-profit-more-than-doubles-as-middle-east-conflict-boosts-oil-prices"
+          "title": "Shell Q2 Earnings Beat Estimates as Higher Oil Prices Boost Results",
+          "link": "https://finance.yahoo.com/energy/articles/shell-q2-earnings-beat-estimates-164500491.html"
         },
         {
-          "title": "Exxon Posts Its Best Profit in Four Years, Here\u2019s Where It\u2019ll End The Year",
-          "link": "https://247wallst.com/investing/2026/08/04/exxon-posts-its-best-profit-in-four-years-heres-where-itll-end-the-year/"
+          "title": "EOG Q2 Earnings Beat Estimates on Higher Volumes & Prices",
+          "link": "https://finance.yahoo.com/energy/articles/eog-q2-earnings-beat-estimates-150200833.html"
         }
       ]
     },
     {
       "t": "COP",
       "s": "Energy",
-      "price": 117.94,
-      "day": -1.02,
-      "rsi": 55.9,
+      "price": 115.04,
+      "day": -2.46,
+      "rsi": 49.6,
       "trend": "golden",
-      "macd": "bull",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "ConocoPhillips (COP) Following Pelto Island Reef Project Is The Stock A Bargain",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-cop-following-pelto-island-180841498.html"
+          "title": "Jobs Report, Berkshire Earnings: What to Watch the Rest of the Week",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-05-2026/card/jobs-report-berkshire-earnings-what-to-watch-the-rest-of-the-week-QUahvmShwtialYKVbvIR?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Exxon Posts Its Best Profit in Four Years, Here\u2019s Where It\u2019ll End The Year",
-          "link": "https://247wallst.com/investing/2026/08/04/exxon-posts-its-best-profit-in-four-years-heres-where-itll-end-the-year/"
+          "title": "Suncor CEO says \u2018a lot of work to do\u2019 on pipeline, carbon MOU",
+          "link": "https://financialpost.com/commodities/energy/suncor-energy-second-quarter-results"
         }
       ]
     },
     {
       "t": "SLB",
       "s": "Energy",
-      "price": 50.81,
-      "day": 3.04,
-      "rsi": 57.3,
-      "trend": "golden",
+      "price": 49.91,
+      "day": -1.77,
+      "rsi": 53.2,
+      "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
@@ -1668,29 +1668,29 @@
     {
       "t": "EOG",
       "s": "Energy",
-      "price": 143.52,
-      "day": -1.48,
-      "rsi": 55.3,
-      "trend": "golden",
-      "macd": "bull",
+      "price": 134.23,
+      "day": -6.47,
+      "rsi": 42.3,
+      "trend": "mixed",
+      "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "EOG Resources (EOG) Draws Interest On Earnings Growth Hopes, Is It Still Below Fair Value?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/eog-resources-eog-draws-interest-151146998.html"
+          "title": "EOG Q2 Earnings Beat Estimates on Higher Volumes & Prices",
+          "link": "https://finance.yahoo.com/energy/articles/eog-q2-earnings-beat-estimates-150200833.html"
         },
         {
-          "title": "How Bullish 2026 Earnings Forecasts At EOG Resources (EOG) Has Changed Its Investment Story",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bullish-2026-earnings-forecasts-eog-111023638.html"
+          "title": "EOG Resources, Inc. Q2 2026 Earnings Call Summary",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-eog-resources-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
     {
       "t": "LIN",
       "s": "Materials",
-      "price": 484.64,
-      "day": 0.87,
-      "rsi": 35.2,
+      "price": 491.05,
+      "day": 1.32,
+      "rsi": 40.0,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
@@ -1708,9 +1708,9 @@
     {
       "t": "SHW",
       "s": "Materials",
-      "price": 361.57,
-      "day": 2.07,
-      "rsi": 64.4,
+      "price": 369.68,
+      "day": 2.24,
+      "rsi": 67.3,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
@@ -1728,169 +1728,169 @@
     {
       "t": "FCX",
       "s": "Materials",
-      "price": 67.3,
-      "day": 5.75,
-      "rsi": 60.9,
+      "price": 69.39,
+      "day": 3.11,
+      "rsi": 64.3,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "FCX Flashes Buy Signal; This Is Fueling Copper, Rare Earth Stocks",
-          "link": "https://www.investors.com/news/fcx-stock-copper-price-etf-cper-trump-tariff-nb-rare-earth/?src=A00220&yptr=yahoo"
+          "title": "5 Non-Ferrous Metal Mining Stocks to Watch in a Challenging Industry",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/5-non-ferrous-metal-mining-150000306.html"
         },
         {
-          "title": "Earn 14% On SCCO Stock Now, For Capping Your Upside At 18%",
-          "link": "https://www.trefis.com/articles/610018/earn-14-on-scco-stock-now-for-capping-your-upside-at-18/2026-08-04"
+          "title": "FCX Flashes Buy Signal; This Is Fueling Copper, Rare Earth Stocks",
+          "link": "https://www.investors.com/news/fcx-stock-copper-price-etf-cper-trump-tariff-nb-rare-earth/?src=A00220&yptr=yahoo"
         }
       ]
     },
     {
       "t": "NEM",
       "s": "Materials",
-      "price": 97.73,
-      "day": 2.47,
-      "rsi": 54.7,
-      "trend": "death",
+      "price": 104.29,
+      "day": 6.71,
+      "rsi": 63.8,
+      "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Earn 14% On SCCO Stock Now, For Capping Your Upside At 18%",
-          "link": "https://www.trefis.com/articles/610018/earn-14-on-scco-stock-now-for-capping-your-upside-at-18/2026-08-04"
+          "title": "The companies defying macro uncertainty and raising guidance: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/the-companies-defying-macro-uncertainty-and-raising-guidance-alphacheck-140605238.html"
         },
         {
-          "title": "Do Options Traders Know Something About Newmont Stock We Don't?",
-          "link": "https://finance.yahoo.com/markets/options/articles/options-traders-know-something-newmont-130300767.html"
+          "title": "Why These Bargain Stocks Can Outshine Gold",
+          "link": "https://www.barrons.com/articles/gold-price-miner-mining-stocks-7f413d87?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "APD",
       "s": "Materials",
-      "price": 294.71,
-      "day": 0.6,
-      "rsi": 50.7,
+      "price": 295.09,
+      "day": 0.13,
+      "rsi": 51.1,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Linde Stock Barely Moved While Its Order Book Hit A Record",
-          "link": "https://www.trefis.com/articles/609849/linde-stock-barely-moved-while-its-order-book-hit-a-record/2026-08-03"
+          "title": "Is Air Products and Chemicals (APD) Outperforming Other Basic Materials Stocks This Year?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-apd-outperforming-134003811.html"
         },
         {
-          "title": "Air Products (APD) Stock Looks Undervalued On Cash Flow But Overvalued On Sales",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/air-products-apd-stock-looks-061028765.html"
+          "title": "Linde Stock Barely Moved While Its Order Book Hit A Record",
+          "link": "https://www.trefis.com/articles/609849/linde-stock-barely-moved-while-its-order-book-hit-a-record/2026-08-03"
         }
       ]
     },
     {
       "t": "NEE",
       "s": "Utilities",
-      "price": 87.2,
-      "day": 0.75,
-      "rsi": 45.1,
-      "trend": "golden",
+      "price": 85.91,
+      "day": -1.48,
+      "rsi": 39.5,
+      "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "This Top Nuclear Energy Dividend Stock Could Turn $1,000 Into a Lifetime Income Stream",
-          "link": "https://www.fool.com/investing/2026/08/01/this-top-nuclear-energy-dividend-stock-could-turn/"
+          "title": "Utilities Are Up 8% on AI Power Demand. The Fund Actually Building the Data Centers Is Up 40%",
+          "link": "https://247wallst.com/investing/2026/08/05/utilities-are-up-8-on-ai-power-demand-the-fund-actually-building-the-data-centers-is-up-40/"
         },
         {
-          "title": "Does US$100 Billion Paducah AI Power Campus Plan Change The Bull Case For NextEra Energy (NEE)?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/does-us-100-billion-paducah-220927718.html"
+          "title": "NiSource Q2 Earnings Top Estimates on NIPSCO Gains, Data Center Demand",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-q2-earnings-top-estimates-160600485.html"
         }
       ]
     },
     {
       "t": "DUK",
       "s": "Utilities",
-      "price": 124.27,
-      "day": -0.01,
-      "rsi": 42.8,
+      "price": 123.34,
+      "day": -0.75,
+      "rsi": 40.3,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Duke Energy Corporation Q2 2026 Earnings Call Summary",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-duke-energy-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "DUK Q2 Earnings Call Centers on Large-Load Capital Upside",
+          "link": "https://finance.yahoo.com/energy/articles/duk-q2-earnings-call-centers-140000580.html"
         },
         {
-          "title": "Duke Energy Corp (DUK) (Q2 2026) Earnings Call Highlights: Strong EPS Growth and Strategic ...",
-          "link": "https://finance.yahoo.com/energy/articles/duke-energy-corp-duk-q2-210716882.html"
+          "title": "Is Wall Street Bullish or Bearish on Duke Energy Stock?",
+          "link": "https://www.barchart.com/story/news/3663259/is-wall-street-bullish-or-bearish-on-duke-energy-stock"
         }
       ]
     },
     {
       "t": "SO",
       "s": "Utilities",
-      "price": 93.25,
-      "day": 0.33,
-      "rsi": 42.4,
+      "price": 93.1,
+      "day": -0.16,
+      "rsi": 41.9,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Worried About the Market? Hide Out in These 3 High-Yielding Dividend Stocks",
-          "link": "https://www.fool.com/investing/2026/08/04/worried-about-the-market-hide-out-in-these-3-high/"
+          "title": "Top Analyst Reports for Broadcom, Coca-Cola & Palantir",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-broadcom-coca-201500234.html"
         },
         {
-          "title": "Earn 14% On SCCO Stock Now, For Capping Your Upside At 18%",
-          "link": "https://www.trefis.com/articles/610018/earn-14-on-scco-stock-now-for-capping-your-upside-at-18/2026-08-04"
+          "title": "Southern Q2 Earnings Beat on Customer Growth, Revenues Miss",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/southern-q2-earnings-beat-customer-121700056.html"
         }
       ]
     },
     {
       "t": "D",
       "s": "Utilities",
-      "price": 69.22,
-      "day": 0.68,
-      "rsi": 47.1,
-      "trend": "golden",
+      "price": 68.27,
+      "day": -1.37,
+      "rsi": 41.7,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "AI Power Demands Spur Builders to Seek Billions in Bank Pledges",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-power-demands-spur-builders-093000020.html"
+          "title": "NiSource Q2 Earnings Top Estimates on NIPSCO Gains, Data Center Demand",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-q2-earnings-top-estimates-160600485.html"
         },
         {
-          "title": "This Top Nuclear Energy Dividend Stock Could Turn $1,000 Into a Lifetime Income Stream",
-          "link": "https://www.fool.com/investing/2026/08/01/this-top-nuclear-energy-dividend-stock-could-turn/"
+          "title": "Is Southern Company Stock Worth Buying Despite Its Premium Valuation?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/southern-company-stock-worth-buying-120800908.html"
         }
       ]
     },
     {
       "t": "PLD",
       "s": "Real Estate",
-      "price": 139.05,
-      "day": -3.54,
-      "rsi": 39.3,
+      "price": 140.76,
+      "day": 1.23,
+      "rsi": 43.3,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Stocks to Watch: Palantir, SpaceX, HSBC",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-spacex-earnings-08-04-2026/card/stocks-to-watch-palantir-spacex-hsbc-RYp3Hr98R2mpob0tg5Os?siteid=yhoof2&yptr=yahoo"
+          "title": "Prologis (PLD) Stock Looks Reasonable On Earnings But Stretched On Cash Flow",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prologis-pld-stock-looks-reasonable-191608310.html"
         },
         {
-          "title": "Prologis says $18.8B takeover of Segro moving forward",
-          "link": "https://finance.yahoo.com/real-estate/articles/prologis-says-18-8b-takeover-150139746.html"
+          "title": "IRM Q2 AFFO Beats Estimates on Data Center and ALM Growth, '26 View Up",
+          "link": "https://finance.yahoo.com/real-estate/articles/irm-q2-affo-beats-estimates-150200516.html"
         }
       ]
     },
     {
       "t": "AMT",
       "s": "Real Estate",
-      "price": 175.25,
-      "day": 1.3,
-      "rsi": 55.8,
+      "price": 168.07,
+      "day": -4.1,
+      "rsi": 45.8,
       "trend": "death",
       "macd": "bull",
       "news": null,
@@ -1908,60 +1908,60 @@
     {
       "t": "EQIX",
       "s": "Real Estate",
-      "price": 1051.53,
-      "day": 1.95,
-      "rsi": 52.5,
-      "trend": "mixed",
+      "price": 1056.2,
+      "day": 0.44,
+      "rsi": 53.5,
+      "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "International Markets and Equinix (EQIX): A Deep Dive for Investors",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/international-markets-equinix-eqix-deep-131505192.html"
+          "title": "Is Dell (DELL) Quietly Becoming the Backbone of AI Infrastructure Across Sectors?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/dell-dell-quietly-becoming-backbone-100956498.html"
         },
         {
-          "title": "Loan Investors Are Pushing Back as Fear Rises",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/loan-investors-pushing-back-fear-190000602.html"
+          "title": "International Markets and Equinix (EQIX): A Deep Dive for Investors",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/international-markets-equinix-eqix-deep-131505192.html"
         }
       ]
     },
     {
       "t": "O",
       "s": "Real Estate",
-      "price": 62.9,
-      "day": -0.91,
-      "rsi": 44.2,
+      "price": 62.7,
+      "day": -0.32,
+      "rsi": 42.9,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Should You Buy, Hold or Sell Realty Income Stock Before Q2 Earnings?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-realty-income-185100612.html"
+          "title": "Realty Income Corp. (O) Q2 FFO Meet Estimates",
+          "link": "https://finance.yahoo.com/real-estate/articles/realty-income-corp-o-q2-212505069.html"
         },
         {
-          "title": "3 REITs to Watch for Potential Upside This Earnings Season",
-          "link": "https://finance.yahoo.com/real-estate/articles/3-reits-watch-potential-upside-182700351.html"
+          "title": "The Zacks Analyst Blog Highlights Host Hotels & Resorts, Realty Income and Simon Property Group",
+          "link": "https://finance.yahoo.com/real-estate/articles/zacks-analyst-blog-highlights-host-092600066.html"
         }
       ]
     },
     {
       "t": "SPG",
       "s": "Real Estate",
-      "price": 225.9,
-      "day": -1.42,
-      "rsi": 50.8,
+      "price": 224.81,
+      "day": -0.48,
+      "rsi": 49.0,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Top Stock Reports for Berkshire Hathaway, Micron & Oracle",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-berkshire-hathaway-204200336.html"
+          "title": "Realty Income Corp. (O) Q2 FFO Meet Estimates",
+          "link": "https://finance.yahoo.com/real-estate/articles/realty-income-corp-o-q2-212505069.html"
         },
         {
-          "title": "3 REITs to Watch for Potential Upside This Earnings Season",
-          "link": "https://finance.yahoo.com/real-estate/articles/3-reits-watch-potential-upside-182700351.html"
+          "title": "Tanger Posts Higher Earnings, Raises Dividend as Open-Air Retail Momentum Builds",
+          "link": "https://finance.yahoo.com/real-estate/articles/tanger-posts-higher-earnings-raises-205553211.html"
         }
       ]
     }
