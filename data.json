@@ -1,876 +1,876 @@
 {
-  "updated": "2026-11-21 02:38 UTC",
+  "updated": "2026-11-24 05:23 UTC",
   "mode": "live",
   "usdthb": null,
   "gauges": [
     {
       "t": "SPY",
       "n": "S&P 500",
-      "p": 689.81
+      "p": 722.29
     },
     {
       "t": "QQQ",
       "n": "Nasdaq-100",
-      "p": 608.45
+      "p": 651.03
     },
     {
       "t": "DIA",
       "n": "Dow 30",
-      "p": 481.08
+      "p": 495.8
     },
     {
       "t": "IWM",
       "n": "Russell 2000",
-      "p": 256.61
+      "p": 265.74
     }
   ],
   "stocks": [
     {
       "t": "AAPL",
       "s": "Information Technology",
-      "price": 342.56,
-      "day": -1.9,
-      "rsi": 46.6,
+      "price": 349.08,
+      "day": 1.9,
+      "rsi": 52.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Apple's secret AI agent shows John Ternus is done sitting out the AI race",
-          "link": "https://finance.yahoo.com/markets/article/apples-secret-ai-agent-shows-john-ternus-is-done-sitting-out-the-ai-race-164226953.html"
+          "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
         },
         {
-          "title": "Apple's AI agent push: Why the pressure is mounting",
-          "link": "https://finance.yahoo.com/video/apples-ai-agent-push-why-the-pressure-is-mounting-151336671.html"
+          "title": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html"
         }
       ]
     },
     {
       "t": "MSFT",
       "s": "Information Technology",
-      "price": 484.52,
-      "day": -2.77,
-      "rsi": 35.0,
+      "price": 492.5,
+      "day": 1.65,
+      "rsi": 39.3,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Mercedes F1's drivers still get the final say, even as it utilizes AI agents",
-          "link": "https://finance.yahoo.com/video/mercedes-f1s-drivers-still-get-the-final-say-even-as-it-utilizes-ai-agents-222256690.html"
+          "title": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived'",
+          "link": "https://finance.yahoo.com/markets/article/nvidia-gains-nearly-1t-as-trump-says-nobody-could-revive-the-stock-like-its-being-revived-194634496.html"
         },
         {
-          "title": "Could a handful of tech giants control the future of AI?",
-          "link": "https://finance.yahoo.com/video/could-a-handful-of-tech-giants-control-the-future-of-ai-180645576.html"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         }
       ]
     },
     {
       "t": "NVDA",
       "s": "Information Technology",
-      "price": 125.53,
-      "day": -14.01,
-      "rsi": 15.0,
+      "price": 165.05,
+      "day": 31.48,
+      "rsi": 42.9,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
-          "link": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+          "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+          "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
         },
         {
-          "title": "Trump critiques Jensen Huang's replacement as he wades deeper into Nvidia turmoil",
-          "link": "https://finance.yahoo.com/markets/article/trump-critiques-jensen-huangs-replacement-as-he-wades-deeper-into-nvidia-turmoil-210729338.html"
+          "title": "Ex-Nvidia employee: 'Stability and accountability can coexist'",
+          "link": "https://finance.yahoo.com/video/ex-nvidia-employee-stability-and-accountability-can-coexist-221105947.html"
         }
       ]
     },
     {
       "t": "AVGO",
       "s": "Information Technology",
-      "price": 304.41,
-      "day": -12.19,
-      "rsi": 40.8,
+      "price": 313.55,
+      "day": 3.0,
+      "rsi": 43.8,
       "trend": "death",
-      "macd": "bull",
+      "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
-          "link": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html"
+          "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump",
+          "link": "https://finance.yahoo.com/markets/article/nvidia-soars-25-as-board-reinstates-jensen-huang-as-ceo-chip-stocks-jump-142353537.html"
         },
         {
-          "title": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
-          "link": "https://247wallst.com/investing/2026/11/20/data-center-ai-chips-could-change-the-winners-broadcom-and-marvell/"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         }
       ]
     },
     {
       "t": "ORCL",
       "s": "Information Technology",
-      "price": 101.19,
-      "day": -8.48,
-      "rsi": 31.9,
+      "price": 113.68,
+      "day": 12.34,
+      "rsi": 43.4,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Oracle says OpenAI contract is fully funded, addresses market financing scrutiny",
-          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-says-openai-contract-fully-224306974.html"
+          "title": "Bloom Energy Stock What Changed in AI Data Center Demand",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-changed-ai-011325575.html"
         },
         {
-          "title": "Credo Technology Group vs. Western Digital: Which Technology Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/20/credo-technology-group-vs-western-digital-which-technology-stock-is-a-better-buy-for-2027/"
+          "title": "Jensen Huang Is Back and Nvidia Just Soared 31%. Here\u2019s What 6 Giant Stocks Did the Week and the Year After a Day Like This",
+          "link": "https://247wallst.com/investing/2026/11/23/jensen-huang-is-back-and-nvidia-just-soared-31-heres-what-6-giant-stocks-did-the-week-and-the-year-after-a-day-like-this/"
         }
       ]
     },
     {
       "t": "CRM",
       "s": "Information Technology",
-      "price": 180.62,
-      "day": -1.47,
-      "rsi": 20.7,
+      "price": 185.46,
+      "day": 2.68,
+      "rsi": 26.5,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/20/salesforce-vs-servicenow-which-technology-stock-is-a-better-buy-for-2027/"
+          "title": "Chamath Says Microsoft \u201cClearly Is Going to Need to Have a Frontier Model.\u201d Nadella Is Betting It Won\u2019t",
+          "link": "https://www.tikr.com/blog/chamath-says-microsoft-clearly-is-going-to-need-to-have-a-frontier-model-nadella-is-betting-it-wont?ref=yahoofinance&tlnk=yf-261123-rjg9hgh9"
         },
         {
-          "title": "Coatue Management Just Bought 8 Million Shares of Salesforce Stock. Why Investors Should Care.",
-          "link": "https://www.barchart.com/story/news/8941412/coatue-management-just-bought-8-million-shares-of-salesforce-stock-why-investors-should-care"
+          "title": "Salesforce (CRM) Ascends But Remains Behind Market: Some Facts to Note",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-ascends-remains-behind-214502680.html"
         }
       ]
     },
     {
       "t": "AMD",
       "s": "Information Technology",
-      "price": 424.39,
-      "day": -13.25,
-      "rsi": 38.4,
-      "trend": "below_both",
+      "price": 453.46,
+      "day": 6.85,
+      "rsi": 42.6,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
-          "link": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html"
+          "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump",
+          "link": "https://finance.yahoo.com/markets/article/nvidia-soars-25-as-board-reinstates-jensen-huang-as-ceo-chip-stocks-jump-142353537.html"
         },
         {
-          "title": "Sozzi: Anthropic\u2019s IPO Surges; Is AMD\u2019s Pullback a Buy?",
-          "link": "https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html"
+          "title": "Why Jensen Huang is the 'key man' behind the market rally",
+          "link": "https://finance.yahoo.com/video/why-jensen-huang-is-the-key-man-behind-the-market-rally-193849634.html"
         }
       ]
     },
     {
       "t": "ADBE",
       "s": "Information Technology",
-      "price": 217.71,
-      "day": -1.79,
-      "rsi": 30.9,
+      "price": 223.98,
+      "day": 2.88,
+      "rsi": 37.5,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Adobe (ADBE) Joins 40 Plus Groups Launching The AI Transparency Initiative",
-          "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-joins-40-plus-201324152.html"
+          "title": "Adobe (ADBE) Faces A Valuation Test, Is It A Bargain?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-faces-valuation-test-220628881.html"
         },
         {
-          "title": "Snowflake vs. Adobe: Which Enterprise AI Stock Is a Better Buy?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/snowflake-vs-adobe-enterprise-ai-155800527.html"
+          "title": "How to Play Adobe Stock Before 2027 as Michael Burry Loads Up on More Shares",
+          "link": "https://www.barchart.com/story/news/8972450/how-to-play-adobe-stock-before-2027-as-michael-burry-loads-up-on-more-shares"
         }
       ]
     },
     {
       "t": "CSCO",
       "s": "Information Technology",
-      "price": 90.64,
-      "day": -4.29,
-      "rsi": 33.4,
+      "price": 96.8,
+      "day": 6.8,
+      "rsi": 44.3,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "The Fear Gauge Hit 40. This Is What the Market Is Worried About.",
-          "link": "https://www.barrons.com/articles/stock-market-vix-fear-gauge-ai-d1012e90?siteid=yhoof2&yptr=yahoo"
+          "title": "OpenAI & Cisco team up on AI defense system 'Shirudo': Learn more from these execs",
+          "link": "https://finance.yahoo.com/video/openai--cisco-team-up-on-ai-defense-system-shirudo-learn-more-from-these-execs-220144119.html"
         },
         {
-          "title": "How Investors May Respond To Cisco Stock After Earnings Beat",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-cisco-stock-191220194.html"
+          "title": "A Stock Market Crash Could Be Life-Changing for Investors Who Own These 3 Artificial Intelligence (AI) Stocks",
+          "link": "https://www.fool.com/investing/2026/11/23/a-stock-market-crash-could-be-life-changing-for-investors-who-own-these-3-artificial-intelligence-ai-stocks/"
         }
       ]
     },
     {
       "t": "ACN",
       "s": "Information Technology",
-      "price": 221.17,
-      "day": 1.18,
-      "rsi": 39.3,
+      "price": 222.29,
+      "day": 0.51,
+      "rsi": 40.2,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "How Did IBM Stock Leave Cognizant Behind?",
-          "link": "https://www.trefis.com/stock/ctsh/articles/626884/how-did-ibm-stock-leave-cognizant-behind/2026-11-19"
+          "title": "Accenture (ACN) Pushes Deeper Into Regulatory Data With AI And Real Time Risk Monitoring",
+          "link": "https://finance.yahoo.com/technology/ai/articles/accenture-acn-pushes-deeper-regulatory-021708658.html"
         },
         {
-          "title": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/19/servicenow-vs-uipath-which-technology-stock-is-a-better-buy-for-2027/"
+          "title": "Fashion\u2019s Resale Supply Hunt Leads to Shoppers\u2019 Closets",
+          "link": "https://wwd.com/sourcing-journal/sustainability/ellen-macarthur-foundation-wardrobe-clearouts-resale-1239460502/"
         }
       ]
     },
     {
       "t": "QCOM",
       "s": "Information Technology",
-      "price": 149.94,
-      "day": -7.45,
-      "rsi": 35.1,
+      "price": 165.38,
+      "day": 10.3,
+      "rsi": 47.3,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "George Soros and 20 Other Big Funds Bought Qualcomm Last Quarter. David Tepper and 14 Others Sold. Who\u2019s Right?",
-          "link": "https://www.tikr.com/blog/george-soros-and-20-other-big-funds-bought-qualcomm-last-quarter-david-tepper-and-14-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261120-7fxgch3m"
+          "title": "How Key Tech Stocks Reacted Today",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/here-s-how-key-tech-stocks-are-reacting-to-jensen-huang-s-return-RG61uJgWg989HwP2qtPK?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Why Are Investors Ignoring Qualcomm Stock's High Cash Yield?",
-          "link": "https://www.trefis.com/stock/qcom/articles/627180/why-are-investors-ignoring-qualcomm-stocks-high-cash-yield/2026-11-20"
+          "title": "How NVDA Stock Rises To $235?",
+          "link": "https://www.trefis.com/stock/nvda/articles/627995/how-nvda-stock-rises-to-235/2026-11-23"
         }
       ]
     },
     {
       "t": "TXN",
       "s": "Information Technology",
-      "price": 263.75,
-      "day": -7.7,
-      "rsi": 36.3,
-      "trend": "below_both",
+      "price": 291.19,
+      "day": 10.4,
+      "rsi": 50.0,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Texas Instruments (TXN) Could Be 50% Overvalued As AI Tools And Earnings Impress",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-could-50-211249173.html"
+          "title": "New Title for Huang? Fastest \u2018Boomerang\u2019",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/new-title-for-jensen-huang-fastest-boomerang-ceo-hEjlZATKHOv4oVJhDEyU?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Why Are Investors Ignoring Qualcomm Stock's High Cash Yield?",
-          "link": "https://www.trefis.com/stock/qcom/articles/627180/why-are-investors-ignoring-qualcomm-stocks-high-cash-yield/2026-11-20"
+          "title": "Why Did Broadcom Stock Drop On Friday?",
+          "link": "https://www.trefis.com/stock/avgo/articles/627781/why-did-broadcom-stock-drop-on-friday/2026-11-23"
         }
       ]
     },
     {
       "t": "IBM",
       "s": "Information Technology",
-      "price": 224.44,
-      "day": 0.25,
-      "rsi": 34.1,
+      "price": 233.0,
+      "day": 3.81,
+      "rsi": 44.5,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-opens-231452605.html"
+          "title": "International Business Machines (IBM) Emerges As A Smart Ports Leader In New Industry Analysis",
+          "link": "https://finance.yahoo.com/technology/articles/international-business-machines-ibm-emerges-002113886.html"
         },
         {
-          "title": "Is Dell Stock's Steep Fall A Bargain Or A Warning?",
-          "link": "https://www.trefis.com/stock/dell/articles/627170/is-dell-stocks-steep-fall-a-bargain-or-a-warning/2026-11-20"
+          "title": "Top Stock Reports for NVIDIA, Cisco & BHP",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-nvidia-cisco-203500498.html"
         }
       ]
     },
     {
       "t": "NOW",
       "s": "Information Technology",
-      "price": 87.61,
-      "day": -1.42,
-      "rsi": 24.1,
-      "trend": "below_both",
-      "macd": "bear",
-      "news": null,
-      "headlines": [
-        {
-          "title": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/20/salesforce-vs-servicenow-which-technology-stock-is-a-better-buy-for-2027/"
-        },
-        {
-          "title": "Sozzi: Anthropic\u2019s IPO Surges; Is AMD\u2019s Pullback a Buy?",
-          "link": "https://finance.yahoo.com/video/sozzi-anthropics-ipo-surges-is-amds-pullback-a-buy-181915349.html"
-        }
-      ]
-    },
-    {
-      "t": "INTU",
-      "s": "Information Technology",
-      "price": 270.44,
-      "day": -12.77,
-      "rsi": 26.8,
-      "trend": "death",
-      "macd": "bear",
-      "news": null,
-      "headlines": [
-        {
-          "title": "Intuit stock falls on weaker outlook, Mailchimp sale to Bending Spoons",
-          "link": "https://finance.yahoo.com/markets/stocks/article/intuit-stock-falls-on-weaker-outlook-mailchimp-sale-to-bending-spoons-160641699.html"
-        },
-        {
-          "title": "Intuit (INTU) Stock Price Slides As Q1 Results Meet Slower Growth Fears",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-intu-stock-price-slides-231300241.html"
-        }
-      ]
-    },
-    {
-      "t": "AMAT",
-      "s": "Information Technology",
-      "price": 302.63,
-      "day": -10.71,
-      "rsi": 30.9,
-      "trend": "death",
-      "macd": "bear",
-      "news": null,
-      "headlines": [
-        {
-          "title": "AMAT's AGS Gains From Growing Installed Base: What's Ahead?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amats-ags-gains-growing-installed-150200974.html"
-        },
-        {
-          "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
-          "link": "https://www.tikr.com/blog/abrams-bison-investments-applied-materials-amat-stock?ref=yahoofinance&tlnk=yf-261120-fqw6rgjj"
-        }
-      ]
-    },
-    {
-      "t": "MU",
-      "s": "Information Technology",
-      "price": 594.51,
-      "day": -13.89,
-      "rsi": 29.5,
-      "trend": "below_both",
-      "macd": "bear",
-      "news": null,
-      "headlines": [
-        {
-          "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
-          "link": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html"
-        },
-        {
-          "title": "She Moves $250,000 of Her 401(k) Into a Nasdaq-100 Fund at 60 to Own Anthropic From Its Debut Thursday. Nasdaq\u2019s Fast-Entry Rule Keeps Her Fund From Buying Until Dec. 21, After Any First-Month Pop",
-          "link": "https://247wallst.com/personal-finance/2026/11/20/she-moves-250000-of-her-401k-into-a-nasdaq-100-fund-at-60-to-own-anthropic-from-its-debut-thursday-nasdaqs-fast-entry-rule-keeps-her-fund-from-buying-until-dec-21-after-any-first-month-pop/"
-        }
-      ]
-    },
-    {
-      "t": "INTC",
-      "s": "Information Technology",
-      "price": 51.28,
-      "day": -7.97,
-      "rsi": 28.0,
-      "trend": "below_both",
-      "macd": "bull",
-      "news": null,
-      "headlines": [
-        {
-          "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-buy-according-010421254.html"
-        },
-        {
-          "title": "Mets Owner Steve Cohen\u2019s Fund Dumped Nearly All of Its AMD and Bet $1 Billion That Microsoft Is the Safer AI Stock. AMD Has Fallen 31% Since",
-          "link": "https://247wallst.com/investing/2026/11/20/mets-owner-steve-cohens-fund-dumped-nearly-all-of-its-amd-and-bet-1-billion-that-microsoft-is-the-safer-ai-stock-amd-has-fallen-31-since/"
-        }
-      ]
-    },
-    {
-      "t": "GOOGL",
-      "s": "Communication Services",
-      "price": 265.29,
-      "day": -2.7,
-      "rsi": 27.8,
-      "trend": "death",
-      "macd": "bear",
-      "news": null,
-      "headlines": [
-        {
-          "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-buy-according-010421254.html"
-        },
-        {
-          "title": "Morgan Stanley sends a strong signal to Google stock investors",
-          "link": "https://www.thestreet.com/investing/stocks/morgan-stanley-sends-a-strong-signal-to-google-stock-investors"
-        }
-      ]
-    },
-    {
-      "t": "META",
-      "s": "Communication Services",
-      "price": 560.84,
-      "day": -5.93,
+      "price": 91.72,
+      "day": 4.69,
       "rsi": 30.3,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about where the stock goes next.",
-          "link": "https://finance.yahoo.com/markets/article/anthropic-just-went-public-heres-what-spacex-and-facebook-ipos-tell-us-about-where-the-stock-goes-next-135422687.html"
+          "title": "ServiceNow stock: catalysts, technicals, and outlook after the selloff",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-catalysts-technicals-outlook-212029012.html"
         },
         {
-          "title": "Billionaire Bill Ackman\u2019s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-top-5-013837421.html"
+          "title": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join \u2018Jensen Rally\u2019",
+          "link": "https://247wallst.com/videos/palantir-rips-10-to-lead-software-stocks-cloudflare-and-servicenow-also-join-jensen-rally/"
+        }
+      ]
+    },
+    {
+      "t": "INTU",
+      "s": "Information Technology",
+      "price": 275.46,
+      "day": 1.86,
+      "rsi": 29.8,
+      "trend": "death",
+      "macd": "bear",
+      "news": null,
+      "headlines": [
+        {
+          "title": "Upstart Is the Real Loser in Intuit\u2019s Credit Karma Guidance Cut",
+          "link": "https://www.tikr.com/blog/upstart-is-the-real-loser-in-intuits-credit-karma-guidance-cut?ref=yahoofinance&tlnk=yf-261123-v6cccm77"
+        },
+        {
+          "title": "Coworking with Sophie Ozoux",
+          "link": "https://www.marketingbrew.com/stories/coworking-with-sophie-ozoux?utm_source=&utm_medium=syndication&utm_campaign=feed"
+        }
+      ]
+    },
+    {
+      "t": "AMAT",
+      "s": "Information Technology",
+      "price": 346.87,
+      "day": 14.62,
+      "rsi": 43.2,
+      "trend": "death",
+      "macd": "bear",
+      "news": null,
+      "headlines": [
+        {
+          "title": "What Just Happened To Lam Research Stock Since May?",
+          "link": "https://www.trefis.com/stock/lrcx/articles/627570/what-just-happened-to-lam-research-stock-since-may/2026-11-23"
+        },
+        {
+          "title": "Why KLA (KLAC) Stock Is Up Today: New Singapore Plant Meets $4.7 Billion Guide",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-kla-klac-stock-today-183028209.html"
+        }
+      ]
+    },
+    {
+      "t": "MU",
+      "s": "Information Technology",
+      "price": 707.7,
+      "day": 19.04,
+      "rsi": 42.5,
+      "trend": "below_both",
+      "macd": "bear",
+      "news": null,
+      "headlines": [
+        {
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
+        },
+        {
+          "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
+        }
+      ]
+    },
+    {
+      "t": "INTC",
+      "s": "Information Technology",
+      "price": 59.66,
+      "day": 16.34,
+      "rsi": 39.9,
+      "trend": "below_both",
+      "macd": "bull",
+      "news": null,
+      "headlines": [
+        {
+          "title": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html"
+        },
+        {
+          "title": "Jensen Huang\u2019s Return As Nvidia CEO Sparks AI Stock Rally, But Congressional Probes Loom \u2013 And Analysts See Risks Ahead",
+          "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-return-as-nvidia-ceo-sparks-ai-stock-rally-but-congressional-probes-loom-and-analysts-see-risks-ahead/cNbrt2TR9ju"
+        }
+      ]
+    },
+    {
+      "t": "GOOGL",
+      "s": "Communication Services",
+      "price": 282.1,
+      "day": 6.34,
+      "rsi": 41.0,
+      "trend": "death",
+      "macd": "flat",
+      "news": null,
+      "headlines": [
+        {
+          "title": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
+          "link": "https://finance.yahoo.com/video/googles-gemini-4-neon-gains-momentum-ahead-of-openai-data-shows-223324082.html"
+        },
+        {
+          "title": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html"
+        }
+      ]
+    },
+    {
+      "t": "META",
+      "s": "Communication Services",
+      "price": 597.6,
+      "day": 6.55,
+      "rsi": 41.8,
+      "trend": "below_both",
+      "macd": "bear",
+      "news": null,
+      "headlines": [
+        {
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
+        },
+        {
+          "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
         }
       ]
     },
     {
       "t": "NFLX",
       "s": "Communication Services",
-      "price": 56.73,
-      "day": -2.96,
-      "rsi": 27.5,
+      "price": 58.1,
+      "day": 2.41,
+      "rsi": 33.4,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Bill Ackman\u2019s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-top-10-stocks-013227518.html"
+          "title": "Is Amazon's Profit Riskier Than It Looks?",
+          "link": "https://www.trefis.com/stock/amzn/articles/627559/is-amazon-s-profit-riskier-than-it-looks/2026-11-23"
         },
         {
-          "title": "Prediction: Netflix and Disney Will \u201cBlame Grand Theft Auto\u201d for Falling Viewership, per Scott Galloway",
-          "link": "https://www.tikr.com/blog/prediction-netflix-and-disney-will-blame-grand-theft-auto-for-falling-viewership-per-scott-galloway?ref=yahoofinance&tlnk=yf-261120-w2ppff3q"
+          "title": "Netflix Cuts About 1,000 Jobs and Its Content Chief. YouTube Already Has Twice Its TV Share",
+          "link": "https://www.tikr.com/blog/netflix-cuts-about-1000-jobs-and-its-content-chief-youtube-already-has-twice-its-tv-share?ref=yahoofinance&tlnk=yf-261123-qvgmg437"
         }
       ]
     },
     {
       "t": "DIS",
       "s": "Communication Services",
-      "price": 117.98,
-      "day": -1.89,
-      "rsi": 56.4,
+      "price": 120.27,
+      "day": 1.94,
+      "rsi": 60.8,
       "trend": "golden",
       "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Disney (DIS) Is Catching Up to Netflix (NFLX), but the Upside May Be Shrinking",
-          "link": "https://finance.yahoo.com/media-advertising/articles/disney-dis-catching-netflix-nflx-212947164.html"
+          "title": "Walt Disney (DIS) Plans To Merge Hulu Into Disney+ By December 2026",
+          "link": "https://finance.yahoo.com/media-advertising/articles/walt-disney-dis-plans-merge-221202990.html"
         },
         {
-          "title": "Walt Disney (DIS) Says Its In House AI Cuts Film Compute Costs 30%",
-          "link": "https://finance.yahoo.com/technology/ai/articles/walt-disney-dis-says-house-211608108.html"
+          "title": "The Super Bowl Is Coming Live to IMAX Theaters. Here\u2019s the Appeal.",
+          "link": "https://www.barrons.com/articles/super-bowl-live-imax-theaters-disney-espn-nfl-14ab56ba?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "TMUS",
       "s": "Communication Services",
-      "price": 165.6,
-      "day": 1.89,
-      "rsi": 53.3,
+      "price": 166.36,
+      "day": 0.46,
+      "rsi": 54.2,
       "trend": "mixed",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/starlink-spectrum-approval-could-game-021122742.html"
+          "title": "Starlink\u2019s 40x Upgrade Targets 150Mbps to Phones. AST SpaceMobile Has a Big Problem",
+          "link": "https://www.tikr.com/blog/starlinks-40x-upgrade-targets-150mbps-to-phones-ast-spacemobile-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-m4mrj3j8"
         },
         {
-          "title": "Can T Mobile US (TMUS) Turn AI Network Upgrades Into A Real Edge?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/t-mobile-us-tmus-turn-191118473.html"
+          "title": "The 5 Best Stocks in SoftBank\u2019s Portfolio",
+          "link": "https://www.tikr.com/blog/the-5-best-stocks-in-softbanks-portfolio?ref=yahoofinance&tlnk=yf-261123-qfxc9224"
         }
       ]
     },
     {
       "t": "VZ",
       "s": "Communication Services",
-      "price": 46.48,
-      "day": 1.62,
-      "rsi": 56.6,
+      "price": 46.45,
+      "day": -0.06,
+      "rsi": 56.3,
       "trend": "above_both",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "How AI Contracts Will Impact Verizon (VZ) Investors",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-contracts-impact-verizon-vz-231612484.html"
+          "title": "Verizon has a sneaky price hike that hits rate-locked customers",
+          "link": "https://www.thestreet.com/retail/verizon-has-a-sneaky-price-hike-that-hits-rate-locked-customers"
         },
         {
-          "title": "Shots Fired: Meta Will Reportedly Sell a $300 Muse Charm With Free Verizon 5G as Apple Builds Its Agent",
-          "link": "https://www.tikr.com/blog/shots-fired-meta-will-reportedly-sell-a-300-muse-charm-with-free-verizon-5g-as-apple-builds-its-agent?ref=yahoofinance&tlnk=yf-261120-pg825wq7"
+          "title": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stock-gets-fcc-002319879.html"
         }
       ]
     },
     {
       "t": "T",
       "s": "Communication Services",
-      "price": 22.31,
-      "day": 2.11,
-      "rsi": 50.8,
+      "price": 22.3,
+      "day": -0.04,
+      "rsi": 50.7,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Will Subscriber Growth Change AT&T Stock Narrative",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/subscriber-growth-change-t-stock-001507871.html"
+          "title": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stock-gets-fcc-002319879.html"
         },
         {
-          "title": "AST SpaceMobile vs. Redwire: Which Space Infrastructure Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/20/ast-spacemobile-vs-redwire-which-space-infrastructure-stock-is-a-better-buy-for-2027/"
+          "title": "Starlink\u2019s 40x Upgrade Targets 150Mbps to Phones. AST SpaceMobile Has a Big Problem",
+          "link": "https://www.tikr.com/blog/starlinks-40x-upgrade-targets-150mbps-to-phones-ast-spacemobile-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-m4mrj3j8"
         }
       ]
     },
     {
       "t": "CMCSA",
       "s": "Communication Services",
-      "price": 24.9,
-      "day": 0.16,
-      "rsi": 60.4,
+      "price": 24.72,
+      "day": -0.72,
+      "rsi": 57.9,
       "trend": "mixed",
-      "macd": "bull",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "A $4.8 Billion Fund Dumps These 2 Stocks",
-          "link": "https://www.tikr.com/blog/a-4-8-billion-fund-dumps-these-2-stocks?ref=yahoofinance&tlnk=yf-261120-5m8hvvcg"
+          "title": "How Taylor Sheridan still makes a profit from high-budget TV",
+          "link": "https://finance.yahoo.com/video/taylor-sheridan-still-makes-profit-110000407.html"
         },
         {
-          "title": "Filings Show Trump Sold MCD and HD and Bought SpaceX Stock Instead",
-          "link": "https://247wallst.com/investing/2026/11/20/filings-show-trump-sold-mcd-and-hd-and-bought-spacex-stock-instead/"
+          "title": "Comcast vs. Walt Disney: Which Media Stock Is a Better Buy?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/22/comcast-vs-walt-disney-which-media-stock-is-a-better-buy/"
         }
       ]
     },
     {
       "t": "AMZN",
       "s": "Consumer Discretionary",
-      "price": 246.82,
-      "day": -4.1,
-      "rsi": 42.3,
-      "trend": "mixed",
+      "price": 255.39,
+      "day": 3.47,
+      "rsi": 48.4,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-worst-week-covid-nvidia-anthropic-vix-fear-gauge/?src=A00220&yptr=yahoo"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         },
         {
-          "title": "Amazon's re:Invent Conference Starts Nov. 30. Here's What the Stock Did in the Month After the Last 10.",
-          "link": "https://www.fool.com/investing/2026/11/20/amazon-s-re-invent-conference-starts-nov-30-here-s-what-the-stock-did-in-the-month-after-the-last-10/"
+          "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
         }
       ]
     },
     {
       "t": "TSLA",
       "s": "Consumer Discretionary",
-      "price": 345.82,
-      "day": -7.64,
-      "rsi": 37.8,
-      "trend": "death",
+      "price": 385.46,
+      "day": 11.46,
+      "rsi": 52.1,
+      "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel\u2019s Fund Quietly Sold Every Tesla Share It Owned",
-          "link": "https://247wallst.com/investing/2026/11/20/in-2000-elon-musk-crashed-his-uninsured-1-million-mclaren-trying-to-show-peter-thiel-what-it-could-do-in-2025-thiels-fund-quietly-sold-every-tesla-share-it-owned/"
+          "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-nvidia-jensen-huang-elon-musk-spacex-tesla/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Has AI's honeymoon ended on Wall Street?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ais-honeymoon-ended-wall-street-004604807.html"
+          "title": "How to Invest in Humanoid Robots: 3 Stocks to Watch",
+          "link": "https://www.fool.com/investing/2026/11/23/how-to-invest-in-humanoid-robots-3-stocks-to-watch/"
         }
       ]
     },
     {
       "t": "HD",
       "s": "Consumer Discretionary",
-      "price": 339.04,
-      "day": 0.7,
-      "rsi": 55.1,
+      "price": 346.06,
+      "day": 2.07,
+      "rsi": 60.1,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Shopping Till We Drop",
-          "link": "https://www.barrons.com/articles/shopping-till-we-drop-60621077?siteid=yhoof2&yptr=yahoo"
+          "title": "Tariffs Strike Again: 343 Companies Report $28.5 Billion in Trump Tariff Refunds. Retail Beats Need a Second Look",
+          "link": "https://www.tikr.com/blog/tariffs-strike-again-343-companies-report-28-5-billion-in-trump-tariff-refunds-retail-beats-need-a-second-look?ref=yahoofinance&tlnk=yf-261123-rf9p82g5"
         },
         {
-          "title": "Peter Lynch Made Millions for Investors by Following One Simple Rule",
-          "link": "https://247wallst.com/investing/2026/11/20/peter-lynch-made-millions-for-investors-by-following-one-simple-rule/"
+          "title": "The Home Depot (HD) Shares Fall as Depressed Home Turnover Weighs on Outlook",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-shares-fall-170844895.html"
         }
       ]
     },
     {
       "t": "MCD",
       "s": "Consumer Discretionary",
-      "price": 273.24,
-      "day": 0.33,
-      "rsi": 60.7,
+      "price": 276.38,
+      "day": 1.15,
+      "rsi": 63.8,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Peter Lynch Made Millions for Investors by Following One Simple Rule",
-          "link": "https://247wallst.com/investing/2026/11/20/peter-lynch-made-millions-for-investors-by-following-one-simple-rule/"
+          "title": "Colgate-Palmolive vs. McDonald's: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/23/colgate-palmolive-vs-mcdonalds-which-consumer-goods-stock-is-a-better-buy-for-2027/"
         },
         {
-          "title": "Chipotle Stock Looks Cheaper On 2027 Profit, If Sales Deliver",
-          "link": "https://www.trefis.com/stock/cmg/articles/627292/chipotle-stock-looks-cheaper-on-2027-profit-if-sales-deliver/2026-11-20"
+          "title": "McDonald\u2019s and Burger King Items Come in \u2018Lighter\u2019 in Price vs. Portion Tests",
+          "link": "https://firstformoney.com/mcdonalds-and-burger-king-items-come-in-lighter-in-price-vs-portion-tests/"
         }
       ]
     },
     {
       "t": "NKE",
       "s": "Consumer Discretionary",
-      "price": 32.92,
-      "day": -4.11,
-      "rsi": 31.7,
+      "price": 33.76,
+      "day": 2.55,
+      "rsi": 36.3,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "How Nike's new F1 partnership could help the struggling stock",
-          "link": "https://finance.yahoo.com/video/how-nikes-new-f1-partnership-could-help-the-struggling-stock-144427513.html"
+          "title": "Nike (NKE) Ascends But Remains Behind Market: Some Facts to Note",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-ascends-remains-behind-214502416.html"
         },
         {
-          "title": "NIKE (NKE) Resets Performance Push With Tuned Air, Nike Mind And Nike Free",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-resets-performance-push-181303936.html"
+          "title": "Foot Locker Is a Focus for Analysts When Dick\u2019s Reports Q3 Results on Tuesday",
+          "link": "https://wwd.com/footwear-news/shoe-industry-news/dicks-q3-report-wall-street-foot-locker-nike-jordan-brand-1239462436/"
         }
       ]
     },
     {
       "t": "LOW",
       "s": "Consumer Discretionary",
-      "price": 220.84,
-      "day": 0.78,
-      "rsi": 56.6,
+      "price": 226.14,
+      "day": 2.4,
+      "rsi": 61.3,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Nvidia Can Rebound to $200, Analyst Says. Plus, L3Harris and 4 More Stocks.",
-          "link": "https://www.barrons.com/articles/nvidia-can-rebound-to-200-analyst-says-plus-l3harris-and-4-more-stocks-3c840464?siteid=yhoof2&yptr=yahoo"
+          "title": "Vuzix stock jumps on reseller deal with Friends With Holograms",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/vuzix-stock-jumps-reseller-deal-155040814.html"
         },
         {
-          "title": "Why BJ\u2019s Wholesale Club and Lowe\u2019s invest windfalls in their customers",
-          "link": "https://www.customerexperiencedive.com/news/bjs-wholesale-club-lowes-invest-windfalls-in-customers/875386/"
+          "title": "Gas Station Landlords and Other Single-Tenant Owners: $90,000 Across These 3 Net Lease REITs Pays $6,483 a Year",
+          "link": "https://247wallst.com/investing/2026/11/23/gas-station-landlords-and-other-single-tenant-owners-90000-across-these-3-net-lease-reits-pays-6483-a-year/"
         }
       ]
     },
     {
       "t": "SBUX",
       "s": "Consumer Discretionary",
-      "price": 103.13,
-      "day": -1.28,
-      "rsi": 47.9,
+      "price": 106.36,
+      "day": 3.13,
+      "rsi": 54.5,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Chipotle Stock Looks Cheaper On 2027 Profit, If Sales Deliver",
-          "link": "https://www.trefis.com/stock/cmg/articles/627292/chipotle-stock-looks-cheaper-on-2027-profit-if-sales-deliver/2026-11-20"
+          "title": "Jensen Huang Just Got His Nvidia Job Back. When Steve Jobs, Howard Schultz and Bob Iger Came Back, the Stock Rose, and a Year Later 4 of 6 Comebacks Trailed the Market",
+          "link": "https://247wallst.com/investing/2026/11/23/jensen-huang-just-got-his-nvidia-job-back-when-steve-jobs-howard-schultz-and-bob-iger-came-back-the-stock-rose-and-a-year-later-4-of-6-comebacks-trailed-the-market/"
         },
         {
-          "title": "Dutch Bros vs. Starbucks: Which Coffee Stock Has Stronger Prospects?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-vs-starbucks-coffee-143900064.html"
+          "title": "Can Chipotle's AI Rollout Turn Efficiency Into Earnings Growth?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/chipotles-ai-rollout-turn-efficiency-144600061.html"
         }
       ]
     },
     {
       "t": "BKNG",
       "s": "Consumer Discretionary",
-      "price": 144.91,
-      "day": -1.64,
+      "price": 144.94,
+      "day": 0.02,
       "rsi": 34.8,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Can Booking Holdings Stock Jump 40%?",
-          "link": "https://www.trefis.com/stock/bkng/articles/627219/can-booking-holdings-stock-jump-40-2/2026-11-20"
+          "title": "Cathie Wood and 8 Other Big Funds Bought Airbnb Last Quarter. Ken Fisher and 11 Others Sold. Who\u2019s Right?",
+          "link": "https://www.tikr.com/blog/cathie-wood-and-8-other-big-funds-bought-airbnb-last-quarter-ken-fisher-and-11-others-sold-whos-right?ref=yahoofinance&tlnk=yf-261123-49mx45f3"
         },
         {
-          "title": "BI Survey: Budgetary Constraints for 2027 Travel",
-          "link": "https://finance.yahoo.com/video/bi-survey-budgetary-constraints-2027-175209454.html"
+          "title": "Why Expedia and Booking Can Beat the Muse Test\u2014and the Stocks Can Rally",
+          "link": "https://www.barrons.com/articles/expedia-booking-stock-muse-ai-test-e4332be1?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "TGT",
       "s": "Consumer Discretionary",
-      "price": 165.83,
-      "day": -0.97,
-      "rsi": 60.1,
+      "price": 168.19,
+      "day": 1.42,
+      "rsi": 62.7,
       "trend": "golden",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-worst-week-covid-nvidia-anthropic-vix-fear-gauge/?src=A00220&yptr=yahoo"
+          "title": "Target and Best Buy sent thousands of American jobs to India",
+          "link": "https://www.thestreet.com/retail/best-buy-and-target-sent-u-s-jobs-to-india-before-kroger"
         },
         {
-          "title": "Best Buy, Target, and Kohl\u2019s try to change holiday shopping",
-          "link": "https://www.thestreet.com/retail/best-buy-target-and-kohls-try-to-bring-black-friday-back-to-stores"
+          "title": "Tariffs Strike Again: 343 Companies Report $28.5 Billion in Trump Tariff Refunds. Retail Beats Need a Second Look",
+          "link": "https://www.tikr.com/blog/tariffs-strike-again-343-companies-report-28-5-billion-in-trump-tariff-refunds-retail-beats-need-a-second-look?ref=yahoofinance&tlnk=yf-261123-rf9p82g5"
         }
       ]
     },
     {
       "t": "COST",
       "s": "Consumer Staples",
-      "price": 1102.15,
-      "day": 0.76,
-      "rsi": 69.7,
+      "price": 1097.91,
+      "day": -0.38,
+      "rsi": 67.6,
       "trend": "golden",
       "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "From tech glitches to bulk buying: How outages are spurring a wave of Costco sales",
-          "link": "https://finance.yahoo.com/video/from-tech-glitches-to-bulk-buying-how-outages-are-spurring-a-wave-of-costco-sales-183656858.html"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         },
         {
-          "title": "Nasdaq Dives 1,261 Points as Anthropic, AI Stocks Sink: Stock Market Today",
-          "link": "https://www.kiplinger.com/investing/stocks/nasdaq-dives-1-261-points-as-anthropic-ai-stocks-sink-stock-market-today"
+          "title": "Costco Wholesale (COST) Could Be 27% Overvalued After Its $30 Special Dividend",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-cost-could-27-043132200.html"
         }
       ]
     },
     {
       "t": "WMT",
       "s": "Consumer Staples",
-      "price": 127.95,
-      "day": 1.52,
-      "rsi": 64.0,
+      "price": 129.58,
+      "day": 1.27,
+      "rsi": 67.1,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Synchrony Financial Puts Lending Discipline First, Sees Walmart as Growth Opportunity",
-          "link": "https://www.marketbeat.com/instant-alerts/event-synchrony-financial-puts-lending-discipline-first-sees-walmart-as-growth-opportunity-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         },
         {
-          "title": "Walmart has a surprising update on grocery prices",
-          "link": "https://www.thestreet.com/retail/walmart-has-a-surprising-update-on-grocery-prices"
+          "title": "Pudgy Penguins sets key deadlines ahead of major shutdown",
+          "link": "https://www.thestreet.com/crypto/retail/pudgy-penguins-sets-key-deadlines-ahead-of-major-shutdown"
         }
       ]
     },
     {
       "t": "KO",
       "s": "Consumer Staples",
-      "price": 96.99,
-      "day": 0.94,
-      "rsi": 58.0,
+      "price": 95.88,
+      "day": -1.14,
+      "rsi": 53.0,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is Coca-Cola a Millionaire-Maker Stock?",
-          "link": "https://www.fool.com/investing/2026/11/20/is-coca-cola-a-millionaire-maker-stock/"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         },
         {
-          "title": "Top Research Reports for Coca-Cola, Medtronic & Palo Alto Networks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-coca-cola-204200577.html"
+          "title": "BofA spots opportunities in these nine consumer staples stocks for 2027",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-spots-opportunities-nine-consumer-030406689.html"
         }
       ]
     },
     {
       "t": "PG",
       "s": "Consumer Staples",
-      "price": 169.37,
-      "day": 0.91,
-      "rsi": 61.5,
+      "price": 169.6,
+      "day": 0.14,
+      "rsi": 61.9,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Here's How Many Shares of Procter & Gamble You'd Need for $1,000 in Yearly Dividends",
-          "link": "https://www.fool.com/investing/2026/11/20/heres-how-many-shares-of-procter-gamble-youd-need-for-1000-in-yearly-dividends/"
+          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
+          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23"
         },
         {
-          "title": "Week\u2019s Best: Schwab Claims Dividend King Title",
-          "link": "https://www.barrons.com/advisor/articles/weeks-best-schwab-claims-dividend-king-title-2452c0a4?siteid=yhoof2&yptr=yahoo"
+          "title": "PG vs. CL: value, quality, and pair-trade setup compared",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pg-vs-cl-value-quality-211933443.html"
         }
       ]
     },
     {
       "t": "PEP",
       "s": "Consumer Staples",
-      "price": 140.54,
-      "day": 1.11,
-      "rsi": 53.2,
+      "price": 140.21,
+      "day": -0.23,
+      "rsi": 52.5,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is PepsiCo (PEP) Facing A Fresh Challenge In Sports Drinks After Its Poppi Deal?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-facing-fresh-challenge-211210020.html"
+          "title": "5 Blue-Chip Dividend Stocks Built to Keep Paying Through Tough Markets",
+          "link": "https://247wallst.com/investing/2026/11/23/5-blue-chip-dividend-stocks-built-to-keep-paying-through-tough-markets/"
         },
         {
-          "title": "PepsiCo (PEP) Lands Hyatt Deal On A Fair Value Debate",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-lands-hyatt-deal-201401098.html"
+          "title": "PepsiCo (PEP) Stock May Be 49% Undervalued Following Margin Concerns",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-stock-may-49-191121756.html"
         }
       ]
     },
     {
       "t": "PM",
       "s": "Consumer Staples",
-      "price": 184.09,
-      "day": -1.26,
-      "rsi": 32.7,
+      "price": 182.5,
+      "day": -0.86,
+      "rsi": 31.3,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Philip Morris International (PM) Stock Looks Undervalued As Cash Flow Stays Strong",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/philip-morris-international-pm-stock-191155971.html"
+          "title": "Can MO's Basic Brand Benefit From Growing Discount Cigarette Demand?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mos-basic-brand-benefit-growing-151100050.html"
         },
         {
-          "title": "Philip Morris (PM) Down 7.6% Since Last Earnings Report: Can It Rebound?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/philip-morris-pm-down-7-153009129.html"
+          "title": "A $1.5 Billion Fund Just Bought These 3 Stocks",
+          "link": "https://www.tikr.com/blog/a-1-5-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-g6v4gp7x"
         }
       ]
     },
     {
       "t": "MO",
       "s": "Consumer Staples",
-      "price": 74.87,
-      "day": 0.25,
-      "rsi": 47.6,
+      "price": 73.8,
+      "day": -1.43,
+      "rsi": 43.5,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "3 Neglected High-Yield Dividend Stocks Paying 5% or More",
-          "link": "https://247wallst.com/investing/2026/11/20/3-neglected-high-yield-dividend-stocks-paying-5-or-more/"
+          "title": "15 of the Highest-Yielding Dividend Stocks in the S&P 500",
+          "link": "https://www.kiplinger.com/investing/stocks-with-the-highest-dividend-yields-in-the-sandp-500"
         },
         {
-          "title": "Is Altria's 5.6% Dividend Yield Too Good to Be True Heading Into 2027?",
-          "link": "https://www.fool.com/investing/2026/11/20/is-altrias-56-dividend-yield-too-good-to-be-true-heading-into-2027/"
+          "title": "5 Blue-Chip Dividend Stocks Built to Keep Paying Through Tough Markets",
+          "link": "https://247wallst.com/investing/2026/11/23/5-blue-chip-dividend-stocks-built-to-keep-paying-through-tough-markets/"
         }
       ]
     },
     {
       "t": "MDLZ",
       "s": "Consumer Staples",
-      "price": 66.28,
-      "day": 0.9,
-      "rsi": 56.2,
+      "price": 66.25,
+      "day": -0.05,
+      "rsi": 56.0,
       "trend": "golden",
       "macd": "bear",
       "news": null,
@@ -880,368 +880,368 @@
           "link": "https://www.just-food.com/news/out-now-just-foods-digital-magazine-explores-scope-3-ai-and-retail-cyberattacks/"
         },
         {
-          "title": "Can Mondelez's Emerging Markets Fuel Long-Term Growth?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mondelezs-emerging-markets-fuel-long-145000097.html"
+          "title": "Mondelez vs. CVS: Which Dividend Stock Pays You More in 10 Years?",
+          "link": "https://www.tikr.com/blog/mondelez-vs-cvs-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261121-phqvqc7x"
         }
       ]
     },
     {
       "t": "CL",
       "s": "Consumer Staples",
-      "price": 98.71,
-      "day": 1.89,
-      "rsi": 57.9,
+      "price": 97.93,
+      "day": -0.79,
+      "rsi": 55.4,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "UBS flags resilient commodity investment case despite easing oil supply premium",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-flags-resilient-commodity-investment-015801247.html"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         },
         {
-          "title": "Colgate-Palmolive vs. lululemon athletica: Which Consumer Goods Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/20/colgate-palmolive-vs-lululemon-athletica-which-consumer-goods-stock-is-a-better-buy-for-2027/"
+          "title": "Colgate-Palmolive vs. McDonald's: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/23/colgate-palmolive-vs-mcdonalds-which-consumer-goods-stock-is-a-better-buy-for-2027/"
         }
       ]
     },
     {
       "t": "JPM",
       "s": "Financials",
-      "price": 310.53,
-      "day": -3.03,
-      "rsi": 30.7,
+      "price": 316.66,
+      "day": 1.97,
+      "rsi": 36.9,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Exclusive Research: JPMorgan\u2019s AI strategy puts governance to the test",
-          "link": "https://www.americanbanker.com/news/exclusive-research-jpmorgan-s-ai-strategy-puts-governance-to-the-test"
+          "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+          "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html"
         },
         {
-          "title": "Labour\u2019s \u2018unfair\u2019 bank tax will have consequences, warns JP Morgan boss",
-          "link": "https://www.telegraph.co.uk/business/2026/11/20/labour-unfair-bank-tax-consequences-jp-morgan/"
+          "title": "The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?",
+          "link": "https://www.trefis.com/stock/spy/articles/627401/the-10-year-topped-5-for-the-first-time-since-2007-what-happened-next/2026-11-23"
         }
       ]
     },
     {
       "t": "V",
       "s": "Financials",
-      "price": 401.87,
-      "day": -0.09,
-      "rsi": 43.9,
+      "price": 409.4,
+      "day": 1.87,
+      "rsi": 49.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Bill Ackman\u2019s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-top-10-stocks-013227518.html"
+          "title": "A $6.8 Billion Fund Just Bought These 3 Stocks",
+          "link": "https://www.tikr.com/blog/a-6-8-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261123-22mgc93w"
         },
         {
-          "title": "Shopping Till We Drop",
-          "link": "https://www.barrons.com/articles/shopping-till-we-drop-60621077?siteid=yhoof2&yptr=yahoo"
+          "title": "Klarna stock surges on Visa partnership expansion",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/klarna-stock-surges-visa-partnership-155426625.html"
         }
       ]
     },
     {
       "t": "MA",
       "s": "Financials",
-      "price": 625.59,
-      "day": -0.15,
-      "rsi": 45.9,
+      "price": 635.48,
+      "day": 1.58,
+      "rsi": 50.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Bill Ackman\u2019s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-top-10-stocks-013227518.html"
+          "title": "MoonPay seeks bank charter to federally issue stablecoins",
+          "link": "https://www.americanbanker.com/news/moonpay-seeks-bank-charter-to-federally-issue-stablecoins"
         },
         {
-          "title": "Shopping Till We Drop",
-          "link": "https://www.barrons.com/articles/shopping-till-we-drop-60621077?siteid=yhoof2&yptr=yahoo"
+          "title": "Mastercard vs. PayPal: Which Financial Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/23/mastercard-vs-paypal-which-financial-stock-is-a-better-buy-for-2027/"
         }
       ]
     },
     {
       "t": "BAC",
       "s": "Financials",
-      "price": 47.04,
-      "day": -3.15,
-      "rsi": 27.9,
+      "price": 48.14,
+      "day": 2.34,
+      "rsi": 36.3,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Greg Abel Nearly Doubled Berkshire\u2019s Lennar Stake and Added a $689 Million IPO Position",
-          "link": "https://247wallst.com/investing/2026/11/20/greg-abel-nearly-doubled-berkshires-lennar-stake-and-added-a-689-million-ipo-position/"
+          "title": "BofA spots opportunities in these nine consumer staples stocks for 2027",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-spots-opportunities-nine-consumer-030406689.html"
         },
         {
-          "title": "Expeditors International Of Washington (EXPD) Stock Gets Fair Value Bump After Strong Q3 Results",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-washington-expd-stock-191106720.html"
+          "title": "ServiceNow stock: catalysts, technicals, and outlook after the selloff",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-catalysts-technicals-outlook-212029012.html"
         }
       ]
     },
     {
       "t": "WFC",
       "s": "Financials",
-      "price": 78.62,
-      "day": -2.47,
-      "rsi": 33.3,
+      "price": 80.0,
+      "day": 1.76,
+      "rsi": 39.3,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Wells Fargo (WFC) Stock Moves -2.88%: What You Should Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-stock-moves-214502386.html"
+          "title": "Do credit card points expire? Rules by issuer, airline, and hotel program",
+          "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/do-credit-card-points-expire-173012210.html"
         },
         {
-          "title": "Why Is Wells Fargo (WFC) Losing A $1.3 Billion Team While Bitcoin ETF Holdings Grow?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-wells-fargo-wfc-losing-191427098.html"
+          "title": "UBS Set to Revise Capital Targets as Credit Suisse Integration Advances",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-set-revise-capital-targets-171600849.html"
         }
       ]
     },
     {
       "t": "GS",
       "s": "Financials",
-      "price": 790.69,
-      "day": -6.71,
-      "rsi": 29.3,
+      "price": 823.62,
+      "day": 4.16,
+      "rsi": 37.8,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Report: Goldman Sachs Predicts the S&P 500 Will Gain 26% in 12 Months",
-          "link": "https://www.fool.com/investing/2026/11/20/report-goldman-sachs-predicts-the-s-and-p-500-will-gain-26-in-12-months/"
+          "title": "Jensen Huang's return to Nvidia: Long or short accountability?",
+          "link": "https://finance.yahoo.com/video/jensen-huangs-return-to-nvidia-long-or-short-accountability-185949254.html"
         },
         {
-          "title": "Goldman Sachs issues sobering verdict on S&P 500 year-end rally",
-          "link": "https://www.thestreet.com/investing/stocks/goldman-sachs-sp500-outlook"
+          "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+          "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html"
         }
       ]
     },
     {
       "t": "MS",
       "s": "Financials",
-      "price": 165.67,
-      "day": -5.32,
-      "rsi": 30.1,
+      "price": 172.6,
+      "day": 4.18,
+      "rsi": 38.9,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Morgan Stanley Ends Anthropic Stock Support After Just One Day",
-          "link": "https://beincrypto.com/morgan-stanley-anthropic-greenshoe-ipo-price/"
+          "title": "Morgan Stanley (MS) Wealth Narrative Holds Following Preferred Dividend Declaration",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-ms-wealth-narrative-031724058.html"
         },
         {
-          "title": "4 Wall Street Giants That Raised Their Dividends for Income Investors",
-          "link": "https://247wallst.com/investing/2026/11/20/4-wall-street-giants-that-raised-their-dividends-for-income-investors/"
+          "title": "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
+          "link": "https://www.thestreet.com/investing/he-correctly-said-the-s-now-morgan-stanleys-mike-wilson-has-another-gutsy-forecast"
         }
       ]
     },
     {
       "t": "AXP",
       "s": "Financials",
-      "price": 301.7,
-      "day": -3.02,
-      "rsi": 34.3,
+      "price": 306.9,
+      "day": 1.72,
+      "rsi": 40.6,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Weekly Wrap: Crypto Falls As Stocks Struggle",
-          "link": "https://www.cryptoprowl.com/releases/weekly-wrap-crypto-falls-as-stocks-struggle-8016"
+          "title": "Black Friday shopping: Check this credit card perk first",
+          "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/black-friday-shopping-check-this-credit-card-perk-first-195924850.html"
         },
         {
-          "title": "Financial Services Roundup: Market Talk",
-          "link": "https://www.wsj.com/business/financial-services-roundup-market-talk-3af0bea5?siteid=yhoof2&yptr=yahoo"
+          "title": "A $1.9 Billion Fund Just Bought These 3 Stocks",
+          "link": "https://www.tikr.com/blog/a-1-9-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261123-7w8j9wr3"
         }
       ]
     },
     {
       "t": "C",
       "s": "Financials",
-      "price": 110.62,
-      "day": -4.04,
-      "rsi": 28.2,
+      "price": 114.35,
+      "day": 3.37,
+      "rsi": 37.4,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Does Citigroup (C) Risk Error And USDC Pilot Change The Investment Case?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/does-citigroup-c-risk-error-211504056.html"
+          "title": "Is Earnings Rebound Altering The Investment Case For Citigroup (C)?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-rebound-altering-investment-case-011727539.html"
         },
         {
-          "title": "Citi Undercounted $35 Billion in Assets at U.K. Subsidiary",
-          "link": "https://www.wsj.com/finance/banking/citi-undercounted-35-billion-in-assets-at-u-k-subsidiary-f8328559?siteid=yhoof2&yptr=yahoo"
+          "title": "Citi Just Slashed Its Price Target on Salesforce Stock. Here's Why",
+          "link": "https://www.barchart.com/story/news/8971926/citi-just-slashed-its-price-target-on-salesforce-stock-here-s-why"
         }
       ]
     },
     {
       "t": "SCHW",
       "s": "Financials",
-      "price": 90.16,
-      "day": -2.13,
-      "rsi": 41.3,
+      "price": 92.37,
+      "day": 2.45,
+      "rsi": 49.6,
       "trend": "death",
       "macd": "bull",
       "news": null,
       "headlines": [
         {
-          "title": "Week\u2019s Best: Schwab Claims Dividend King Title",
-          "link": "https://www.barrons.com/advisor/articles/weeks-best-schwab-claims-dividend-king-title-2452c0a4?siteid=yhoof2&yptr=yahoo"
+          "title": "2 Brokerage Stocks to Buy That Pulled in More Than $15 Billion of New Money Last Quarter",
+          "link": "https://www.fool.com/investing/2026/11/23/2-brokerage-stocks-to-buy-that-pulled-in-more-than/"
         },
         {
-          "title": "Schwab's Aguilar on ETF Growth, Privates and Prediction Markets",
-          "link": "https://finance.yahoo.com/video/schwabs-aguilar-etf-growth-privates-161840362.html"
+          "title": "Interactive Brokers Stock Trades at a Premium: Is It Still a Buy?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/interactive-brokers-stock-trades-premium-133600743.html"
         }
       ]
     },
     {
       "t": "BLK",
       "s": "Financials",
-      "price": 1101.72,
-      "day": -3.0,
-      "rsi": 38.7,
-      "trend": "mixed",
+      "price": 1144.52,
+      "day": 3.88,
+      "rsi": 47.5,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "BlackRock ETF approaching third anniversary just had its worst day",
-          "link": "https://www.thestreet.com/crypto/markets/blackrock-etf-approaching-third-anniversary-just-had-its-worst-day"
+          "title": "2 Asset Manager Stocks to Buy That Each Oversee More Than $1 Trillion",
+          "link": "https://www.fool.com/investing/2026/11/23/2-asset-manager-stocks-to-buy-that-each-oversee-mo/"
         },
         {
-          "title": "Fear and 'Hot Sauce': Young Investors Want To Catch Up",
-          "link": "https://finance.yahoo.com/video/fear-hot-sauce-young-investors-220908046.html"
+          "title": "BlackRock, Marsh are urging caution on redeploying ANT and SpaceX gains",
+          "link": "https://pitchbook.com/news/articles/blackrock-marsh-are-urging-caution-on-redeploying-ant-and-spacex-gains"
         }
       ]
     },
     {
       "t": "SPGI",
       "s": "Financials",
-      "price": 439.57,
-      "day": -0.7,
-      "rsi": 42.1,
+      "price": 451.96,
+      "day": 2.82,
+      "rsi": 50.2,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "S&P affirms Kuwait\u2019s \u2018AA-\u2019 rating as wealth buffers offset war-driven GDP slump",
-          "link": "https://finance.yahoo.com/economy/policy/articles/p-affirms-kuwait-aa-rating-225336469.html"
+          "title": "S&P downgrades Flowers Foods to \u2018BB\u2019 on earnings pressure and covenant risks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-downgrades-flowers-foods-bb-203623086.html"
         },
         {
-          "title": "S&P upgrades Uzbekistan to \u2019BB+\u2019 on fiscal reforms and stronger external buffers",
-          "link": "https://finance.yahoo.com/economy/policy/articles/p-upgrades-uzbekistan-bb-fiscal-222605781.html"
+          "title": "S&P moves Uzbekistan to one notch below investment grade",
+          "link": "http://www.intellinews.com/sandp-moves-uzbekistan-to-one-notch-below-investment-grade-487382/"
         }
       ]
     },
     {
       "t": "LLY",
       "s": "Health Care",
-      "price": 1347.11,
-      "day": -0.3,
-      "rsi": 49.7,
+      "price": 1364.6,
+      "day": 1.3,
+      "rsi": 52.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Eli Lilly (LLY) After ObesityWeek Is The Stock Still Undervalued",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-lly-obesityweek-stock-201358942.html"
+          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
+          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23"
         },
         {
-          "title": "What Does Eli Lilly Offer That Merck Does Not?",
-          "link": "https://www.trefis.com/stock/mrk/articles/627182/what-does-eli-lilly-offer-that-merck-does-not/2026-11-20"
+          "title": "Lilly executive calls oncology the key growth area after obesity",
+          "link": "https://finance.yahoo.com/healthcare/articles/lilly-executive-calls-oncology-key-203928531.html"
         }
       ]
     },
     {
       "t": "UNH",
       "s": "Health Care",
-      "price": 339.85,
-      "day": 2.84,
-      "rsi": 29.7,
+      "price": 336.08,
+      "day": -1.11,
+      "rsi": 28.8,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "UnitedHealth stock pops on Buy rating, price target raise from TD Cowen",
-          "link": "https://finance.yahoo.com/markets/stocks/article/unitedhealth-stock-pops-on-buy-rating-best-idea-pick-at-td-cowen-153003745.html"
+          "title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That\u2019s a Big Risk for UnitedHealth and Humana",
+          "link": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana?ref=yahoofinance&tlnk=yf-261123-2phpfq43"
         },
         {
-          "title": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-stocks-plunge-as-ai-trade-unwinds/"
+          "title": "Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today\u2019s Market",
+          "link": "https://www.barrons.com/articles/stock-movers-901d6342?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
     {
       "t": "JNJ",
       "s": "Health Care",
-      "price": 270.47,
-      "day": 1.25,
-      "rsi": 48.1,
+      "price": 270.05,
+      "day": -0.16,
+      "rsi": 47.7,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
-          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-210224167.html"
+          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
+          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23"
         },
         {
-          "title": "These 4 Conservative Dow Jones Industrials Dividend Stocks Are Built for Sell-Offs",
-          "link": "https://247wallst.com/investing/2026/11/20/these-4-conservative-dow-jones-industrials-dividend-stocks-are-built-for-sell-offs/"
+          "title": "Here's the 1 Stock I'd Most Want to Buy If the Market Crashes",
+          "link": "https://www.fool.com/investing/2026/11/23/heres-the-1-stock-id-most-want-to-buy-if-the-market-crashes/"
         }
       ]
     },
     {
       "t": "ABBV",
       "s": "Health Care",
-      "price": 286.2,
-      "day": 0.94,
-      "rsi": 49.5,
+      "price": 288.45,
+      "day": 0.79,
+      "rsi": 52.5,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is Solid Tumor Partnership Altering The Investment Case For AbbVie (ABBV)?",
-          "link": "https://finance.yahoo.com/healthcare/articles/solid-tumor-partnership-altering-investment-001236882.html"
+          "title": "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?",
+          "link": "https://beincrypto.com/what-is-kymera-eczema-pill-stock/"
         },
         {
-          "title": "5 High-Yield Healthcare Stocks for a Tax-Free Roth IRA Income Stream",
-          "link": "https://247wallst.com/investing/2026/11/20/5-high-yield-healthcare-stocks-for-a-tax-free-roth-ira-income-stream/"
+          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
+          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23"
         }
       ]
     },
     {
       "t": "MRK",
       "s": "Health Care",
-      "price": 133.72,
-      "day": 0.69,
-      "rsi": 33.8,
+      "price": 135.47,
+      "day": 1.31,
+      "rsi": 37.3,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "What A Cancer Vaccine Stumble Means For Moderna Stock",
-          "link": "https://www.trefis.com/stock/mrna/articles/627287/what-a-cancer-vaccine-stumble-means-for-moderna-stock/2026-11-20"
+          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
+          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23"
         },
         {
-          "title": "What Does Eli Lilly Offer That Merck Does Not?",
-          "link": "https://www.trefis.com/stock/mrk/articles/627182/what-does-eli-lilly-offer-that-merck-does-not/2026-11-20"
+          "title": "Why Exelixis Stock Can Keep Compounding Your Money",
+          "link": "https://www.trefis.com/stock/exel/articles/627580/why-exelixis-stock-can-keep-compounding-your-money/2026-11-23"
         }
       ]
     },
@@ -1249,408 +1249,408 @@
       "t": "PFE",
       "s": "Health Care",
       "price": 27.4,
-      "day": -0.51,
+      "day": 0.0,
       "rsi": 33.8,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "'Very interesting': Trump suggests recent gas price drops are linked to the election",
-          "link": "https://finance.yahoo.com/energy/article/very-interesting-trump-suggests-recent-gas-price-drops-are-linked-to-the-election-193449064.html"
+          "title": "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?",
+          "link": "https://beincrypto.com/what-is-kymera-eczema-pill-stock/"
         },
         {
-          "title": "Pfizer's Launched and Acquired Drugs Grew 32% in Q3 \u2014 and 3 Other Reasons to Buy the Stock Before 2027",
-          "link": "https://www.fool.com/investing/2026/11/20/pfizers-launched-and-acquired-drugs-grew-32-in-q3-and-3-other-reasons-to-buy-the-stock-before-2027/"
+          "title": "What Jacobs Solutions (J) Said on Its Q4 Earnings Call",
+          "link": "https://www.marketbeat.com/instant-alerts/transcript-what-jacobs-solutions-j-said-on-its-q4-earnings-call-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
     {
       "t": "TMO",
       "s": "Health Care",
-      "price": 669.54,
-      "day": -2.79,
-      "rsi": 43.0,
-      "trend": "mixed",
+      "price": 688.08,
+      "day": 2.77,
+      "rsi": 49.9,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Thermo Fisher Scientific (TMO): A Sharp Valuation Shift Prompted the Strategy to Exit the Position",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-scientific-tmo-sharp-155844917.html"
+          "title": "IDEXX Holders Waited 51 Months To Break Even",
+          "link": "https://www.trefis.com/stock/idxx/articles/627672/idexx-holders-waited-51-months-to-break-even/2026-11-23"
         },
         {
-          "title": "Thermo Fisher (TMO) Up 1.8% Since Last Earnings Report: Can It Continue?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-tmo-1-8-153011157.html"
+          "title": "Stanley Druckenmiller and 25 Other Big Funds Sold Thermo Fisher Scientific Last Quarter, While 15 Bought. Who\u2019s Right?",
+          "link": "https://www.tikr.com/blog/stanley-druckenmiller-and-25-other-big-funds-sold-thermo-fisher-scientific-last-quarter-while-15-bought-whos-right?ref=yahoofinance&tlnk=yf-261122-7cr84v6j"
         }
       ]
     },
     {
       "t": "ABT",
       "s": "Health Care",
-      "price": 103.0,
-      "day": -0.84,
-      "rsi": 42.1,
+      "price": 103.32,
+      "day": 0.31,
+      "rsi": 43.1,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Abbott (ABT) Up 1.3% Since Last Earnings Report: Can It Continue?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/abbott-abt-1-3-since-153003763.html"
+          "title": "Becton Dickinson\u2019s 55-Year Dividend Streak Leads 4 Healthcare Income Stocks",
+          "link": "https://247wallst.com/investing/2026/11/23/becton-dickinsons-55-year-dividend-streak-leads-4-healthcare-income-stocks/"
         },
         {
-          "title": "Is Buying Edwards Stock At Its High A Bad Idea?",
-          "link": "https://www.trefis.com/stock/ew/articles/627310/is-buying-edwards-stock-at-its-high-a-bad-idea/2026-11-20"
+          "title": "Cerus (CERS) Stock Is Up 11.6% Today Without Company News",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cerus-cers-stock-11-6-183028336.html"
         }
       ]
     },
     {
       "t": "DHR",
       "s": "Health Care",
-      "price": 220.36,
-      "day": -3.16,
-      "rsi": 41.0,
-      "trend": "mixed",
+      "price": 225.66,
+      "day": 2.41,
+      "rsi": 47.4,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Danaher Corporation (DHR) Raised Its Earnings Guidance as Core Growth Recovered: Is the Turnaround Gaining Momentum?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-corporation-dhr-raised-earnings-172231300.html"
+          "title": "What Microsoft (MSFT)'s Enterprise AI Partnerships Mean For Shareholders",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-enterprise-ai-partnerships-001743463.html"
         },
         {
-          "title": "Danaher (DHR) Down 1% Since Last Earnings Report: Can It Rebound?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-down-1-since-153005610.html"
+          "title": "A $1.7 Billion Fund Dumps These 2 Stocks",
+          "link": "https://www.tikr.com/blog/a-1-7-billion-fund-dumps-these-2-stocks?ref=yahoofinance&tlnk=yf-261123-63rqph6m"
         }
       ]
     },
     {
       "t": "AMGN",
       "s": "Health Care",
-      "price": 435.64,
-      "day": -0.15,
-      "rsi": 42.4,
+      "price": 449.04,
+      "day": 3.08,
+      "rsi": 51.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Investors Heavily Search Amgen Inc. (AMGN): Here is What You Need to Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-amgen-inc-130003432.html"
+          "title": "Why Exelixis Stock Can Keep Compounding Your Money",
+          "link": "https://www.trefis.com/stock/exel/articles/627580/why-exelixis-stock-can-keep-compounding-your-money/2026-11-23"
         },
         {
-          "title": "What SPDR Dow Jones Industrial Avg ETF (DIA) Bought: Goldman Leads on Nov. 18",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-dow-jones-industrial-avg-110357839.html"
+          "title": "Is Regeneron Stock Priced Right Against Its Rivals?",
+          "link": "https://www.trefis.com/stock/regn/articles/627555/is-regeneron-stock-priced-right-against-its-rivals/2026-11-22"
         }
       ]
     },
     {
       "t": "BMY",
       "s": "Health Care",
-      "price": 58.8,
-      "day": 0.79,
-      "rsi": 39.6,
-      "trend": "below_both",
+      "price": 59.84,
+      "day": 1.77,
+      "rsi": 44.3,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Bristol Myers Squibb's Growth Portfolio Just Hit $7.7 Billion. Is This Cheap Pharma Stock a No-Brainer Buy?",
-          "link": "https://www.fool.com/investing/2026/11/20/bristol-myers-squibbs-growth-portfolio-just-hit-77-billion-is-this-cheap-pharma-stock-a-no-brainer-buy/"
+          "title": "Why Exelixis Stock Can Keep Compounding Your Money",
+          "link": "https://www.trefis.com/stock/exel/articles/627580/why-exelixis-stock-can-keep-compounding-your-money/2026-11-23"
         },
         {
-          "title": "Better Dividend Stock for Retirees: General Mills vs. Bristol Myers Squibb",
-          "link": "https://www.tikr.com/blog/better-dividend-stock-for-retirees-general-mills-vs-bristol-myers-squibb?ref=yahoofinancedividend&tlnk=yf-261120-qhff2q53"
+          "title": "Bristol Myers Squibb vs. Johnson & Johnson: Which Healthcare Giant's Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/23/bristol-myers-squibb-vs-johnson-and-johnson-which-healthcare-giant-s-stock-is-a-better-buy-for-2027/"
         }
       ]
     },
     {
       "t": "GILD",
       "s": "Health Care",
-      "price": 166.43,
-      "day": -0.06,
-      "rsi": 54.5,
+      "price": 170.59,
+      "day": 2.5,
+      "rsi": 60.5,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is It Too Early To Buy Insmed Stock?",
-          "link": "https://www.trefis.com/stock/insm/articles/627290/is-it-too-early-to-buy-insmed-stock/2026-11-20"
+          "title": "Why Exelixis Stock Can Keep Compounding Your Money",
+          "link": "https://www.trefis.com/stock/exel/articles/627580/why-exelixis-stock-can-keep-compounding-your-money/2026-11-23"
         },
         {
-          "title": "How Investors Are Reacting To Gilead Sciences (GILD) HIV Prevention Expansion",
-          "link": "https://finance.yahoo.com/healthcare/articles/investors-reacting-gilead-sciences-gild-131232070.html"
+          "title": "Gilead Sciences Has Raised Its Dividend for 11 Straight Years. Here\u2019s Why the Streak Looks Safe.",
+          "link": "https://www.fool.com/investing/2026/11/22/gilead-sciences-has-raised-its-dividend-for-11-straight-years-heres-why-the-streak-looks-safe/"
         }
       ]
     },
     {
       "t": "CAT",
       "s": "Industrials",
-      "price": 510.45,
-      "day": -5.01,
-      "rsi": 24.2,
+      "price": 547.04,
+      "day": 7.17,
+      "rsi": 34.7,
       "trend": "death",
-      "macd": "bear",
+      "macd": "flat",
       "news": null,
       "headlines": [
         {
-          "title": "Why Did The Trade Deficit Nearly Triple To $105 Billion?",
-          "link": "https://www.trefis.com/stock/spy/articles/626528/why-did-the-trade-deficit-nearly-triple-to-105-billion/2026-11-20"
+          "title": "The Midterms Put Data Center Permitting Back in Play. Here Are 2 Industrial Stocks That Win if Power Moves Behind the Meter.",
+          "link": "https://www.fool.com/investing/2026/11/23/the-midterms-put-data-center-permitting-back-in-play-here-are-2-industrial-stocks-that-win-if-power-moves-behind-the-meter-be-cat/"
         },
         {
-          "title": "Caterpillar (CAT) Completes Ultra Low Methane Field Trial For Remote Gas Compression",
-          "link": "https://finance.yahoo.com/energy/articles/caterpillar-cat-completes-ultra-low-190853765.html"
+          "title": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo"
         }
       ]
     },
     {
       "t": "GE",
       "s": "Industrials",
-      "price": 309.62,
-      "day": -2.9,
-      "rsi": 44.0,
-      "trend": "death",
+      "price": 321.26,
+      "day": 3.76,
+      "rsi": 50.9,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Could Honeywell Be The Value Stock For Your Portfolio?",
-          "link": "https://www.trefis.com/stock/hon/articles/627213/could-honeywell-be-the-value-stock-for-your-portfolio/2026-11-20"
+          "title": "GE Aerospace defense unit chief Amy Gowder to step down",
+          "link": "https://finance.yahoo.com/technology/articles/ge-aerospace-defense-unit-chief-221612787.html"
         },
         {
-          "title": "Is Boeing Stock Priced Right Against Its Peers?",
-          "link": "https://www.trefis.com/stock/ba/articles/627222/is-boeing-stock-priced-right-against-its-peers/2026-11-20"
+          "title": "New CFO Appointment Could Be A Key Moment For Victrex (LSE:VCT)",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cfo-appointment-could-key-moment-220629368.html"
         }
       ]
     },
     {
       "t": "BA",
       "s": "Industrials",
-      "price": 155.89,
-      "day": -2.88,
-      "rsi": 24.7,
+      "price": 162.39,
+      "day": 4.17,
+      "rsi": 36.2,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Boeing (BA) Faces Execution Pressure, Is The Stock Fully Valued?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-faces-execution-pressure-181321424.html"
+          "title": "Is Lockheed Martin Stock Ready For A Delayed Jet Contract?",
+          "link": "https://www.trefis.com/stock/lmt/articles/627680/is-lockheed-martin-stock-ready-for-a-delayed-jet-contract/2026-11-23"
         },
         {
-          "title": "Archer Aviation Tumbles 8%, Breaks Below $3 as Air Taxi Rout Rolls On; EHang Slides 6%, Joby Aviation Drops 3%",
-          "link": "https://247wallst.com/investing/2026/11/20/archer-aviation-tumbles-8-breaks-below-3-as-air-taxi-rout-rolls-on-ehang-slides-6-joby-aviation-drops-3/"
+          "title": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo"
         }
       ]
     },
     {
       "t": "HON",
       "s": "Industrials",
-      "price": 212.64,
-      "day": -2.39,
-      "rsi": 42.9,
-      "trend": "death",
+      "price": 221.97,
+      "day": 4.39,
+      "rsi": 53.1,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Could Honeywell Be The Value Stock For Your Portfolio?",
-          "link": "https://www.trefis.com/stock/hon/articles/627213/could-honeywell-be-the-value-stock-for-your-portfolio/2026-11-20"
+          "title": "New CFO Appointment Could Be A Key Moment For Victrex (LSE:VCT)",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cfo-appointment-could-key-moment-220629368.html"
         },
         {
-          "title": "A $12 Billion Fund Dumps These 3 Stocks",
-          "link": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-3-stocks-2?ref=yahoofinance&tlnk=yf-261120-p3fxqc5q"
+          "title": "Investor Warns: Quantum \u201cOne of the Most Overhyped Technologies of Our Time.\u201d IonQ Is Down 25% in a Month",
+          "link": "https://www.tikr.com/blog/investor-warns-quantum-one-of-the-most-overhyped-technologies-of-our-time-ionq-is-down-25-in-a-month?ref=yahoofinance&tlnk=yf-261123-vp9vfhjr"
         }
       ]
     },
     {
       "t": "UPS",
       "s": "Industrials",
-      "price": 106.22,
-      "day": -2.65,
-      "rsi": 50.7,
+      "price": 108.51,
+      "day": 2.16,
+      "rsi": 55.4,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "4 Dividend Stocks Wall Street Gave Up On With Balance Sheets Built to Recover",
-          "link": "https://247wallst.com/investing/2026/11/20/4-dividend-stocks-wall-street-gave-up-on-with-balance-sheets-built-to-recover/"
+          "title": "15 of the Highest-Yielding Dividend Stocks in the S&P 500",
+          "link": "https://www.kiplinger.com/investing/stocks-with-the-highest-dividend-yields-in-the-sandp-500"
         },
         {
-          "title": "What Have UPS Stock Holders Really Earned?",
-          "link": "https://www.trefis.com/stock/ups/articles/627308/what-have-ups-stock-holders-really-earned/2026-11-20"
+          "title": "5 Blue-Chip Dividend Stocks Built to Keep Paying Through Tough Markets",
+          "link": "https://247wallst.com/investing/2026/11/23/5-blue-chip-dividend-stocks-built-to-keep-paying-through-tough-markets/"
         }
       ]
     },
     {
       "t": "RTX",
       "s": "Industrials",
-      "price": 190.17,
-      "day": -1.32,
-      "rsi": 43.8,
-      "trend": "death",
+      "price": 194.77,
+      "day": 2.42,
+      "rsi": 50.1,
+      "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Could Honeywell Be The Value Stock For Your Portfolio?",
-          "link": "https://www.trefis.com/stock/hon/articles/627213/could-honeywell-be-the-value-stock-for-your-portfolio/2026-11-20"
+          "title": "Is Lockheed Martin Stock Ready For A Delayed Jet Contract?",
+          "link": "https://www.trefis.com/stock/lmt/articles/627680/is-lockheed-martin-stock-ready-for-a-delayed-jet-contract/2026-11-23"
         },
         {
-          "title": "Is Boeing Stock Priced Right Against Its Peers?",
-          "link": "https://www.trefis.com/stock/ba/articles/627222/is-boeing-stock-priced-right-against-its-peers/2026-11-20"
+          "title": "How Much RTX Do You Really Get Through 3 ETFs?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/much-rtx-really-3-etfs-180923536.html"
         }
       ]
     },
     {
       "t": "UNP",
       "s": "Industrials",
-      "price": 287.29,
-      "day": -1.15,
-      "rsi": 42.2,
-      "trend": "mixed",
+      "price": 288.89,
+      "day": 0.56,
+      "rsi": 43.9,
+      "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Trump Officials Met Privately With Hedge Funds on Mega Rail Deal",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/trump-officials-met-privately-hedge-163521807.html"
+          "title": "3 Dividend-Paying Stocks From the Railroad Industry You Should Count On",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-paying-stocks-railroad-163000902.html"
         },
         {
-          "title": "Union Pacific\u2013Norfolk Southern merger draws labor support, shipper concerns",
-          "link": "https://finance.yahoo.com/economy/policy/articles/union-pacific-norfolk-southern-merger-161031692.html"
+          "title": "Billionaire Seth Klarman Has 18% of His $5 Billion Stock Portfolio in Amazon",
+          "link": "https://247wallst.com/investing/2026/11/23/billionaire-seth-klarman-has-18-of-his-5-billion-stock-portfolio-in-amazon/"
         }
       ]
     },
     {
       "t": "DE",
       "s": "Industrials",
-      "price": 609.25,
-      "day": -2.5,
-      "rsi": 32.0,
-      "trend": "below_both",
+      "price": 633.03,
+      "day": 3.9,
+      "rsi": 42.5,
+      "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Earnings Calendar and Analysis for This Week",
-          "link": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+          "title": "Key earnings reports to watch this holiday-shortened week",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/key-earnings-reports-watch-holiday-184246842.html"
         },
         {
-          "title": "Caterpillar Sinks 11% in a Week to a New 52-Week Low. Is the Selling Overdone?",
-          "link": "https://www.tikr.com/blog/caterpillar-sinks-11-in-a-week-to-a-new-52-week-low-is-the-selling-overdone?ref=yahoofinance&tlnk=yf-261120-w3r4pmj4"
+          "title": "A $2.7 Billion Fund Bought Deere Last Quarter. Cathie Wood Cut Her Stake 61%. Who\u2019s Right?",
+          "link": "https://www.tikr.com/blog/a-2-7-billion-fund-bought-deere-last-quarter-cathie-wood-cut-her-stake-61-whos-right?ref=yahoofinance&tlnk=yf-261123-25chwvxq"
         }
       ]
     },
     {
       "t": "LMT",
       "s": "Industrials",
-      "price": 565.5,
-      "day": -1.11,
-      "rsi": 43.8,
+      "price": 571.67,
+      "day": 1.09,
+      "rsi": 46.2,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is Boeing Stock Priced Right Against Its Peers?",
-          "link": "https://www.trefis.com/stock/ba/articles/627222/is-boeing-stock-priced-right-against-its-peers/2026-11-20"
+          "title": "Is Lockheed Martin Stock Ready For A Delayed Jet Contract?",
+          "link": "https://www.trefis.com/stock/lmt/articles/627680/is-lockheed-martin-stock-ready-for-a-delayed-jet-contract/2026-11-23"
         },
         {
-          "title": "The Pentagon Keeps Spending. These 4 Defense Stocks Keep Raising Their Dividends",
-          "link": "https://247wallst.com/investing/2026/11/20/the-pentagon-keeps-spending-these-4-defense-stocks-keep-raising-their-dividends-2/"
+          "title": "GE Aerospace defense unit chief Amy Gowder to step down",
+          "link": "https://finance.yahoo.com/technology/articles/ge-aerospace-defense-unit-chief-221612787.html"
         }
       ]
     },
     {
       "t": "GD",
       "s": "Industrials",
-      "price": 341.5,
-      "day": -1.68,
-      "rsi": 37.3,
+      "price": 347.84,
+      "day": 1.86,
+      "rsi": 44.1,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is Boeing Stock Priced Right Against Its Peers?",
-          "link": "https://www.trefis.com/stock/ba/articles/627222/is-boeing-stock-priced-right-against-its-peers/2026-11-20"
+          "title": "Is Lockheed Martin Stock Ready For A Delayed Jet Contract?",
+          "link": "https://www.trefis.com/stock/lmt/articles/627680/is-lockheed-martin-stock-ready-for-a-delayed-jet-contract/2026-11-23"
         },
         {
-          "title": "The Pentagon Keeps Spending. These 4 Defense Stocks Keep Raising Their Dividends",
-          "link": "https://247wallst.com/investing/2026/11/20/the-pentagon-keeps-spending-these-4-defense-stocks-keep-raising-their-dividends-2/"
+          "title": "LMT Gets $740M Awards, GD, RTX Pick Up Missile Contracts \u2013 A Look At This Week\u2019s Defense Deals",
+          "link": "https://stocktwits.com/news-articles/markets/equity/lmt-gets-740m-awards-gd-rtx-pick-up-missile-contracts-a-look-at-this-week-s-defense-deals/cNbmNqAR91F"
         }
       ]
     },
     {
       "t": "XOM",
       "s": "Energy",
-      "price": 159.99,
-      "day": 0.67,
-      "rsi": 37.0,
+      "price": 156.9,
+      "day": -1.93,
+      "rsi": 33.7,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "TechnipFMC (FTI) Stock May Be 43% Undervalued Following Guyana Contract Win",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/technipfmc-fti-stock-may-43-201536728.html"
+          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
+          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23"
         },
         {
-          "title": "Robinhood faces shareholder challenge as SEC loosens proxy oversight",
-          "link": "https://ca.finance.yahoo.com/news/robinhood-faces-shareholder-challenge-sec-110523692.html"
+          "title": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
+          "link": "https://finance.yahoo.com/energy/articles/5-energy-stocks-shrug-off-220000268.html"
         }
       ]
     },
     {
       "t": "CVX",
       "s": "Energy",
-      "price": 208.37,
-      "day": 0.91,
-      "rsi": 41.7,
+      "price": 206.17,
+      "day": -1.06,
+      "rsi": 39.3,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "What Does Chevron (CVX) Greece Offshore Exploration Mean For Investors?",
-          "link": "https://finance.yahoo.com/energy/articles/does-chevron-cvx-greece-offshore-011200339.html"
+          "title": "Venture Global Owes More Than Its Stock Is Worth",
+          "link": "https://www.trefis.com/stock/vg/articles/627660/venture-global-owes-more-than-its-stock-is-worth/2026-11-23"
         },
         {
-          "title": "These 4 Conservative Dow Jones Industrials Dividend Stocks Are Built for Sell-Offs",
-          "link": "https://247wallst.com/investing/2026/11/20/these-4-conservative-dow-jones-industrials-dividend-stocks-are-built-for-sell-offs/"
+          "title": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/23/chevron-vs-occidental-petroleum-which-energy-stock-is-a-better-buy-for-2027/"
         }
       ]
     },
     {
       "t": "COP",
       "s": "Energy",
-      "price": 136.12,
-      "day": 0.84,
-      "rsi": 45.6,
+      "price": 132.19,
+      "day": -2.89,
+      "rsi": 39.9,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
-          "link": "https://finance.yahoo.com/energy/articles/conocophillips-cop-just-drew-fresh-021315113.html"
+          "title": "V\u00e5r Energi (OB:VAR) Agreed A $4.4 Billion North Sea Asset Deal",
+          "link": "https://finance.yahoo.com/energy/articles/v-r-energi-ob-var-021712414.html"
         },
         {
-          "title": "BP Steps Up Deleveraging With Strong Cash Flows and Divestments",
-          "link": "https://finance.yahoo.com/energy/articles/bp-steps-deleveraging-strong-cash-170600771.html"
+          "title": "Why Is ConocoPhillips (COP) Leaving Norway After More Than 50 Years?",
+          "link": "https://finance.yahoo.com/energy/articles/why-conocophillips-cop-leaving-norway-021548496.html"
         }
       ]
     },
     {
       "t": "SLB",
       "s": "Energy",
-      "price": 45.89,
-      "day": -4.2,
-      "rsi": 30.5,
+      "price": 46.16,
+      "day": 0.59,
+      "rsi": 32.1,
       "trend": "death",
       "macd": "bear",
       "news": null,
@@ -1668,300 +1668,300 @@
     {
       "t": "EOG",
       "s": "Energy",
-      "price": 148.6,
-      "day": -0.6,
-      "rsi": 43.4,
+      "price": 145.34,
+      "day": -2.19,
+      "rsi": 39.1,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "E&P stocks outlook: valuations, cash flow, and the OPEC+ wildcard",
-          "link": "https://finance.yahoo.com/energy/articles/e-p-stocks-outlook-valuations-150522308.html"
+          "title": "Can Matador Pay Its $3.1 Billion Spending Bill?",
+          "link": "https://www.trefis.com/stock/mtdr/articles/627674/can-matador-pay-its-3-1-billion-spending-bill/2026-11-23"
         },
         {
-          "title": "Vanguard\u2019s Little-Known Value ETF Skips the Index and Goes Straight for the Cheapest Stocks",
-          "link": "https://247wallst.com/investing/etf/2026/11/19/vanguards-little-known-value-etf-skips-the-index-and-goes-straight-for-the-cheapest-stocks/"
+          "title": "Here's How EOG is Lowering Well Costs to Boost Margins & Cash Flow",
+          "link": "https://finance.yahoo.com/energy/articles/heres-eog-lowering-well-costs-145000312.html"
         }
       ]
     },
     {
       "t": "LIN",
       "s": "Materials",
-      "price": 502.83,
-      "day": -1.45,
-      "rsi": 44.1,
+      "price": 517.0,
+      "day": 2.82,
+      "rsi": 54.8,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Was There Any Sign Solstice Stock Would Run?",
-          "link": "https://www.trefis.com/stock/sols/articles/626807/was-there-any-sign-solstice-stock-would-run/2026-11-19"
+          "title": "What Moved Bloom Energy Stock?",
+          "link": "https://www.trefis.com/stock/be/articles/627709/what-moved-bloom-energy-stock/2026-11-23"
         },
         {
-          "title": "State Street Materials Select Sector SPDR (XLB) Sells Linde and Newmont on Nov. 16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-materials-select-sector-110539884.html"
+          "title": "Was There Any Sign Solstice Stock Would Run?",
+          "link": "https://www.trefis.com/stock/sols/articles/626807/was-there-any-sign-solstice-stock-would-run/2026-11-19"
         }
       ]
     },
     {
       "t": "SHW",
       "s": "Materials",
-      "price": 339.74,
-      "day": -0.03,
-      "rsi": 48.6,
+      "price": 349.47,
+      "day": 2.86,
+      "rsi": 54.8,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Here's Why You Should Hold Onto Sherwin-Williams Stock for Now",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-onto-sherwin-132100381.html"
+          "title": "A $2.9 Billion Fund Just Bought These 3 Stocks",
+          "link": "https://www.tikr.com/blog/a-2-9-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-p39j3cjp"
         },
         {
-          "title": "ETFs Are Net Sellers of Sherwin-Williams (SHW) on Nov. 16",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-sherwin-williams-110321233.html"
+          "title": "Here's Why You Should Hold Onto Sherwin-Williams Stock for Now",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-onto-sherwin-132100381.html"
         }
       ]
     },
     {
       "t": "FCX",
       "s": "Materials",
-      "price": 45.99,
-      "day": -6.37,
-      "rsi": 21.0,
+      "price": 49.71,
+      "day": 8.09,
+      "rsi": 31.3,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Freeport McMoRan (FCX) Stock Looks Like A Bargain After A Sharp Selloff",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/freeport-mcmoran-fcx-stock-looks-101002663.html"
+          "title": "Can Newmont Stock Climb Back To $130?",
+          "link": "https://www.trefis.com/stock/nem/articles/627553/can-newmont-stock-climb-back-to-130/2026-11-23"
         },
         {
-          "title": "Freeport-McMoRan (FCX) Stock Slid, But What Is Drawing Attention Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/freeport-mcmoran-fcx-stock-slid-080849937.html"
+          "title": "Why Did Teck Resources Stock Fall Again?",
+          "link": "https://www.trefis.com/stock/teck/articles/627834/why-did-teck-resources-stock-fall-again/2026-11-23"
         }
       ]
     },
     {
       "t": "NEM",
       "s": "Materials",
-      "price": 94.68,
-      "day": -5.37,
-      "rsi": 29.7,
+      "price": 100.73,
+      "day": 6.39,
+      "rsi": 38.4,
       "trend": "below_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Gold miners near yearly lows as bullion slides below $3,600",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-near-yearly-lows-155220307.html"
+          "title": "Can Agnico Eagle Stock Bounce Off $151 Again?",
+          "link": "https://www.trefis.com/stock/aem/articles/627858/can-agnico-eagle-stock-bounce-off-151-again/2026-11-23"
         },
         {
-          "title": "Stanley Druckenmiller dumps Google stock in a bid to \u2018not lose money\u2019 as the outlook darkens. Here\u2019s what he\u2019s buying",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-dumps-google-stock-121500032.html"
+          "title": "Can Newmont Stock Climb Back To $130?",
+          "link": "https://www.trefis.com/stock/nem/articles/627553/can-newmont-stock-climb-back-to-130/2026-11-23"
         }
       ]
     },
     {
       "t": "APD",
       "s": "Materials",
-      "price": 297.09,
-      "day": -2.22,
-      "rsi": 40.3,
+      "price": 304.18,
+      "day": 2.39,
+      "rsi": 48.4,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Was There Any Sign Solstice Stock Would Run?",
-          "link": "https://www.trefis.com/stock/sols/articles/626807/was-there-any-sign-solstice-stock-would-run/2026-11-19"
+          "title": "Are You Looking for a High-Growth Dividend Stock?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/looking-high-growth-dividend-stock-154502169.html"
         },
         {
-          "title": "Air Products and Chemicals Stock: Is Wall Street Bullish or Bearish?",
-          "link": "https://www.barchart.com/story/news/8913384/air-products-and-chemicals-stock-is-wall-street-bullish-or-bearish"
+          "title": "What Moved Bloom Energy Stock?",
+          "link": "https://www.trefis.com/stock/be/articles/627709/what-moved-bloom-energy-stock/2026-11-23"
         }
       ]
     },
     {
       "t": "NEE",
       "s": "Utilities",
-      "price": 83.45,
-      "day": -0.41,
-      "rsi": 49.1,
+      "price": 83.97,
+      "day": 0.62,
+      "rsi": 51.6,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "What Is Going On With PG&E Stock?",
-          "link": "https://www.trefis.com/stock/pcg/articles/627201/what-is-going-on-with-pge-stock/2026-11-20"
+          "title": "DOJ closes NextEra-Dominion antitrust probe as state hearings continue",
+          "link": "https://www.utilitydive.com/news/doj-closes-nextera-dominion-antitrust-probe-as-state-hearings-continue/875489/"
         },
         {
-          "title": "Is Dominion Energy (D) Stock Cheap After Its 65% Run?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dominion-energy-d-stock-cheap-181009873.html"
+          "title": "Infrastructure ETFs to Buy as AI Data Center Boom Drives $100B Private Funds",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/infrastructure-etfs-buy-ai-data-142900888.html"
         }
       ]
     },
     {
       "t": "DUK",
       "s": "Utilities",
-      "price": 129.78,
-      "day": 0.71,
-      "rsi": 64.1,
+      "price": 129.47,
+      "day": -0.24,
+      "rsi": 62.7,
       "trend": "above_both",
-      "macd": "flat",
+      "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "How Many Shares of Duke Energy, Consolidated Edison or AEP Pay $1,000 a Month in Dividends?",
-          "link": "https://www.tikr.com/blog/how-many-shares-of-duke-energy-consolidated-edison-or-aep-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261120-22xvhx69"
+          "title": "How Much You Really Need Invested to Generate $50,000 a Year in Retirement",
+          "link": "https://247wallst.com/investing/2026/11/23/how-much-you-really-need-invested-to-generate-50000-a-year-in-retirement/"
         },
         {
-          "title": "What Is Going On With PG&E Stock?",
-          "link": "https://www.trefis.com/stock/pcg/articles/627201/what-is-going-on-with-pge-stock/2026-11-20"
+          "title": "$100,000 in These 5 Dividend Stocks Could Pay $4,800 a Year",
+          "link": "https://247wallst.com/investing/2026/11/23/100000-in-these-5-dividend-stocks-could-pay-4800-a-year/"
         }
       ]
     },
     {
       "t": "SO",
       "s": "Utilities",
-      "price": 93.13,
-      "day": -0.17,
-      "rsi": 56.0,
+      "price": 93.11,
+      "day": -0.02,
+      "rsi": 55.9,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "What Is Going On With PG&E Stock?",
-          "link": "https://www.trefis.com/stock/pcg/articles/627201/what-is-going-on-with-pge-stock/2026-11-20"
+          "title": "Cattle Traders Look to React to Bullish Cattle on Feed Report",
+          "link": "https://www.barchart.com/story/news/8964247/cattle-traders-look-to-react-to-bullish-cattle-on-feed-report"
         },
         {
-          "title": "Utility ETFs to Buy as Data Center Electricity Usage Is Set to Double by 2030",
-          "link": "https://finance.yahoo.com/energy/articles/utility-etfs-buy-data-center-165800435.html"
+          "title": "Better Dividend Stock for Retirees: Southern Company vs. American Water Works",
+          "link": "https://www.tikr.com/blog/better-dividend-stock-for-retirees-southern-company-vs-american-water-works?ref=yahoofinancedividend&tlnk=yf-261123-rrh6f338"
         }
       ]
     },
     {
       "t": "D",
       "s": "Utilities",
-      "price": 66.28,
-      "day": -0.56,
-      "rsi": 49.4,
+      "price": 66.79,
+      "day": 0.77,
+      "rsi": 52.5,
       "trend": "above_both",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is Dominion Energy (D) Stock Cheap After Its 65% Run?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dominion-energy-d-stock-cheap-181009873.html"
+          "title": "DOJ closes NextEra-Dominion antitrust probe as state hearings continue",
+          "link": "https://www.utilitydive.com/news/doj-closes-nextera-dominion-antitrust-probe-as-state-hearings-continue/875489/"
         },
         {
-          "title": "Utility ETFs to Buy as Data Center Electricity Usage Is Set to Double by 2030",
-          "link": "https://finance.yahoo.com/energy/articles/utility-etfs-buy-data-center-165800435.html"
+          "title": "What Capital Group Dividend Value ETF (CGDV) Bought: Dominion Leads on Nov. 19",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/capital-group-dividend-value-etf-110356314.html"
         }
       ]
     },
     {
       "t": "PLD",
       "s": "Real Estate",
-      "price": 122.5,
-      "day": -0.7,
-      "rsi": 34.1,
+      "price": 125.14,
+      "day": 2.16,
+      "rsi": 43.1,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "The Industrial REITs Paying Reliable Passive Income From Warehouses and Logistics Hubs",
-          "link": "https://247wallst.com/investing/2026/11/20/the-industrial-reits-paying-reliable-passive-income-from-warehouses-and-logistics-hubs/"
+          "title": "$500,000 in These 4 REITs Could Pay $19,200 a Year. A Roth IRA Changes the Tax Math",
+          "link": "https://247wallst.com/investing/2026/11/23/500000-in-these-4-reits-could-pay-19200-a-year-a-roth-ira-changes-the-tax-math/"
         },
         {
-          "title": "Meet Wall Street\u2019s Dependable High-Yield Dividend Stocks: 4 Companies Still Raising Their Payouts Year After Year",
-          "link": "https://247wallst.com/investing/2026/11/17/meet-wall-streets-dependable-high-yield-dividend-stocks-4-companies-still-raising-their-payouts-year-after-year/"
+          "title": "Prologis Has Gone Nowhere in a Year. Former Visa CEO Alfred Kelly Just Bought $587,000 of Stock",
+          "link": "https://www.tikr.com/blog/prologis-has-gone-nowhere-in-a-year-former-visa-ceo-alfred-kelly-just-bought-587000-of-stock?ref=yahoofinance&tlnk=yf-261121-wp8cjrcr"
         }
       ]
     },
     {
       "t": "AMT",
       "s": "Real Estate",
-      "price": 184.21,
-      "day": 1.69,
-      "rsi": 48.9,
+      "price": 179.31,
+      "day": -2.66,
+      "rsi": 42.6,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Crown Castle vs. American Tower: Higher Yield or Better Dividend Growth",
-          "link": "https://247wallst.com/investing/2026/11/20/crown-castle-vs-american-tower-higher-yield-or-better-dividend-growth/"
+          "title": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink\u2019s 40x Upgrade",
+          "link": "https://www.tikr.com/blog/forget-att-and-verizon-crown-castle-has-more-to-lose-from-starlinks-40x-upgrade?ref=yahoofinance&tlnk=yf-261123-rrg4f5hj"
         },
         {
-          "title": "Deutsche Bank Names Top North America Telecom Services Stock",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-names-top-north-160620334.html"
+          "title": "Why Did Digital Realty Stock Move?",
+          "link": "https://www.trefis.com/stock/dlr/articles/627809/why-did-digital-realty-stock-move/2026-11-23"
         }
       ]
     },
     {
       "t": "EQIX",
       "s": "Real Estate",
-      "price": 968.22,
-      "day": -4.89,
-      "rsi": 40.1,
+      "price": 999.4,
+      "day": 3.22,
+      "rsi": 46.6,
       "trend": "death",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Equinix, Inc. (EQIX): Could Its Nordic Data Center Investment Boost Future Earnings?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equinix-inc-eqix-could-nordic-175457282.html"
+          "title": "Should You Buy Cipher Digital Stock Now Or Wait For February?",
+          "link": "https://www.trefis.com/stock/cifr/articles/627678/should-you-buy-cipher-digital-stock-now-or-wait-for-february/2026-11-23"
         },
         {
-          "title": "Morgan Stanley\u2019s Vintage Values 2027: 5 Stocks Analysts See Climbing Further",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-vintage-values-2027-223235273.html"
+          "title": "AI Boom at Risk as Trump Threatens \u201cTremendous Tax\u201d on Overseas Data Centers While Restrictions Mount at Home",
+          "link": "https://247wallst.com/investing/2026/11/23/ai-boom-at-risk-as-trump-threatens-tremendous-tax-on-overseas-data-centers-while-restrictions-mount-at-home/"
         }
       ]
     },
     {
       "t": "O",
       "s": "Real Estate",
-      "price": 58.03,
-      "day": 0.64,
-      "rsi": 52.2,
+      "price": 58.59,
+      "day": 0.97,
+      "rsi": 56.4,
       "trend": "mixed",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "What Realty Income Stock's Dividend Raise Means For Shareholders",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/realty-income-stocks-dividend-raise-001239117.html"
+          "title": "Better Dividend Stock: Realty Income vs. Iron Mountain",
+          "link": "https://www.tikr.com/blog/better-dividend-stock-realty-income-vs-iron-mountain?ref=yahoofinancedividend&tlnk=yf-261123-7vp2xhhv"
         },
         {
-          "title": "How Retirees Can Turn $750,000 Into Passive Income With These 5 Dividend Stocks",
-          "link": "https://247wallst.com/investing/2026/11/20/how-retirees-can-turn-750000-into-passive-income-with-these-5-dividend-stocks/"
+          "title": "Forget Chasing Double-Digit Yields. These 5 Dividend Stocks Offer Something Better",
+          "link": "https://247wallst.com/investing/2026/11/23/forget-chasing-double-digit-yields-these-5-dividend-stocks-offer-something-better/"
         }
       ]
     },
     {
       "t": "SPG",
       "s": "Real Estate",
-      "price": 224.35,
-      "day": -0.39,
-      "rsi": 53.5,
+      "price": 227.07,
+      "day": 1.21,
+      "rsi": 57.7,
       "trend": "golden",
       "macd": "bear",
       "news": null,
       "headlines": [
         {
-          "title": "Is Wall Street Bullish or Bearish on Simon Property Stock?",
-          "link": "https://www.barchart.com/story/news/8930449/is-wall-street-bullish-or-bearish-on-simon-property-stock"
+          "title": "The Inherited IRA Mistake That Turns a $4,175 Monthly Paycheck Into a Tax Bill",
+          "link": "https://247wallst.com/personal-finance/2026/11/21/the-inherited-ira-mistake-that-turns-a-4175-monthly-paycheck-into-a-tax-bill/"
         },
         {
-          "title": "3 REIT Giants Paying Big Dividends, Led by VICI\u2019s 7.6% Yield",
-          "link": "https://247wallst.com/investing/2026/11/19/3-reit-giants-paying-big-dividends-led-by-vicis-7-6-yield/"
+          "title": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
+          "link": "https://www.tikr.com/blog/how-many-shares-of-realty-income-simon-property-or-nnn-reit-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261121-gg8cxxr6"
         }
       ]
     }
